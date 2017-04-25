@@ -1,0 +1,148 @@
+---
+layout: single
+title:  "Adding  Menu and Buttons to your messenger bot"
+date:   2016/08/25 05:52:03 +0530
+categories: messenger python
+tags: chatbot tutorial
+excerpt_separator: <!--more-->
+---
+
+This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.
+ <!--more-->
+Messenger provides plenty of handy templates to make your bot visually appealing and "app-like" rather that just a text processing and replying script (well, just my opinion, some people would prefer a truly conversational chat-bot but we're still far from achieving this with high accuracy).
+Let's see how to add some of the visual features to any messenger bot
+
+<h2>Adding persistent menu and buttons to Your Messenger Bot</h2>
+
+<h4>What is Persistent Menu?</h4>
+
+The Persistent Menu is a menu that is always available to the user (a 3-caret icon in the bottom-left of the message box). This menu should <!--more Keep on reading!-->contain important actions that users can select at any point. Having a persistent menu quickly communicates the core capabilities of your bot for first-time and returning users.
+
+<h4>How to add Persistent Menu?</h4>
+
+The method of adding Persistent Menu is pretty straightforward. You just have to do it once. It took some time for me to figure it out, so I decided to write a blog post to save your time. The code at your webhook endpoint server has nothing to do with the menu. We can make a separate POST request to our bot with the PAGE_ACCESS_TOKEN to make this it work.
+
+Sample Request
+
+{% highlight bash linenos %}
+curl -X POST -H "Content-Type: application/json" -d '{
+ "setting_type" : "call_to_actions",
+ "thread_state" : "existing_thread",
+ "call_to_actions":[
+ {
+ "type":"postback",
+ "title":"Help",
+ "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_HELP"
+ },
+ {
+ "type":"postback",
+ "title":"Start a New Order",
+ "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_START_ORDER"
+ },
+ {
+ "type":"web_url",
+ "title":"View Website",
+ "url":"http://petersapparel.parseapp.com/"
+ }
+ ]
+ }' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"
+
+{% endhighlight %}
+
+So basically, in the above JSON, call_to_actions contains an array of menu_item objects which are of two types:
+1. web_url
+2. postback
+For web_url buttons, we need to have an URL value in the JSON. This URL is opened in a mobile browser when the button is tapped.
+For postback buttons instead of URL, we have payloads. The payload contains data useful to that menu button. For postback buttons, this data will be sent back to you via webhook.
+You can have a maximum of 5 buttons in the persistent menu.
+
+So, How does Facebook determine which bot we are referring to? Its given by the value PAGE_ACCESS_TOKEN parameter in the URL to which we are making this post request.
+
+To delete the Persistent Menu send a DELETE request:
+
+{% highlight bash linenos %}
+ curl -X DELETE -H "Content-Type: application/json" -d '{
+ "setting_type":"call_to_actions",
+ "thread_state":"existing_thread"
+ }' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"
+
+{% endhighlight %}
+
+&nbsp;
+
+And to update or change the Persistent Menu options, simply send another POST request.
+
+<h2>Adding a "GET STARTED" Button to your messenger bot</h2>
+
+<h4>What is a GET STARTED button in Messenger?</h4>
+
+The Welcome Screen can display a Get Started button. When this button is tapped, a postback received callback is triggered along with the person's page-scoped ID (PSID). You can then present a personalized message to greet the user or present buttons to prompt him or her to take action.
+The process is very much similar, but here you're not allowed any 'title' attribute in the JSON. The button will always be named as 'GET STARTED'.
+
+{% highlight bash linenos %}
+curl -X POST -H "Content-Type: application/json" -d '{
+                       "setting_type":"call_to_actions",
+                       "thread_state":"new_thread",
+                       "call_to_actions":[
+                                             { }
+]
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN" 
+
+{% endhighlight %} 
+
+<h2>Adding Greeting Text to your messenger bot</h2>
+
+One common way is to combine "GREETING TEXTS" with "GETTING STARTED" button. You can set a greeting for new conversations. This can be used to communicate your bot's functionality.
+
+{% highlight bash linenos %}
+curl -X POST -H "Content-Type: application/json" -d '{
+                       "setting_type":"greeting",
+                       "greeting":{
+                                     "text":"Welcome to My Company!"
+                             }
+}' "https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"
+
+{% endhighlight %} 
+
+<h2>Making your messenger bot perform an action when the button is pressed?</h2>
+
+Well, now we have the menu. Let's see how to make the buttons "do something" when invoked by the users.
+
+<h3>Handling POSTBACK requests from Persistent Menu buttons in messenger</h3>
+
+We'll have to look for the POSTBACK event in the request that we're receiving at our webhook endpoint. For example, here's how you'll handle it in python
+
+{% highlight python linenos %}
+@app.route('/', methods=['POST'])
+def webook():
+	# endpoint for processing incoming messaging events
+	data = request.get_json()
+
+	if data["object"] == "page":
+		for entry in data["entry"]:
+			for messaging_event in entry["messaging"]:
+				if messaging_event.get("postback"):
+					# user clicked/tapped "postback" button in earlier message
+					message_text = messaging_event["postback"]["payload"]
+					
+					# the button's payload
+					message_text = message_text.lower()
+					sender_id = messaging_event["sender"]["id"]
+					if (message_text == "SOME_PAYLOAD_WE_DEFINED"):
+						send_message(sender_id, "Yay! This button works!")
+{% endhighlight %} 
+
+So basically, in request JSON, we look for
+
+{% highlight python linenos %}
+request["object"]["page"]["entry"]["messaging"]["postback"]
+{% endhighlight %} 
+
+If it exists, then a button has been tapped, and then we can handle it whatever way we want to.
+
+All of the above POST requests I covered are one-time requests, i.e., you don't need to send them over and over again. But for interactive buttons in the messages, you'll have to dynamically generate similar POST request depending on the user's input from your webhook endpoint (You'll have to handle this on your server).
+Similar to buttons there are predefined templates provided by Facebook like 'Generic Template,' 'Receipt Template,' 'Airline Template,' etc.
+
+For more details, It'd be easier for you to now check out and follow along Facebook's documentation for <a href="https://developers.facebook.com/docs/messenger-platform/send-api-reference">Send API</a> in messenger for all the available choices and all the customization that you can do with the templates.
+
+PS: I'm currently working on developing a Python-SDK for messenger platform that would simplify the development process of messenger bots to a great extent. If you'd like to collaborate or have any ideas, please ping me.

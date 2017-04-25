@@ -1,0 +1,106 @@
+---
+layout: single
+title:  "Python practices for efficient and optimized code"
+date:   2016/12/27 06:51:36 +0530
+categories: python optimization efficency
+excerpt_separator: <!--more-->
+---
+
+In this blog post,  I will try to cover common techniques to write more efficient and optimized code in Python. By efficient and optimized I mean - <!--more--> A code that requires minimum memory, executes faster, looks clean, is properly documented and makes it easy for other developers to collaborate. This might help you while contributing to an Open Source organization, submitting a solution to an Online Judge, working on large data processing problems like Machine Learning or while making your own project.
+
+So let's get started!
+
+<h2>Don't blow off the memory</h2>
+
+Unlike C/C++, Python's memory management is performed by the interpreter and the
+<!--more Keep on reading!-->
+users have no control over it. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the <em>Python memory manager</em>. So you just create an object and the Python Virtual Machine handles the memory needed and where it shall be placed in the memory layout. However, a deep insight of how the things work and different ways to do them can help you minimize memory usage of your program.
+
+<ul>
+    <li>Use generators for calculating large sets of results. Generators give you lazy evaluation. You use them by iterating over them, either explicitly with 'for' or implicitly by passing it to any function or construct that iterates. You can think of generators as returning multiple items, as if they return a list, but instead of returning them all at once they return them one-by-one, and the generator function is paused until the next item is requested. Read more about Python Generators from <a href="https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/" target="_blank">here</a>.</li>
+</ul>
+
+<ul>
+    <li>For large number/data crunching, you can use libraries like <a href="http://www.numpy.org/">Numpy</a> which handle memory management gracefully.</li>
+</ul>
+
+<ul>
+    <li>Track your memory usage at object level by using inbuilt modules like <a href="https://docs.python.org/2/library/resource.html">resource </a>and <a href="https://mg.pov.lt/objgraph/" target="_blank">objgraph</a>.</li>
+</ul>
+
+<ul>
+    <li>Managing memory leaks in Python can be a tough job but luckily there are tools like <a href="https://pypi.python.org/pypi/guppy/" target="_blank">heapy</a> for debugging memory leaks. <em>heapy</em> can be used along with <em>objgraph</em> to watch allocation growth of diff objects over time. <em>heapy</em> can show which objects are holding the most memory etc.<em> objgraph</em> can help in finding the backreferences to understand exactly why they cannot be freed. You can read more about diagnosing memory leaks in Python from <a href="http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html">here</a>.</li>
+</ul>
+
+<ul>
+    <li>Use format instead of ‘+’ for generating strings -  In Python,  <code>str</code> is immutable, so the left and right string have to be copied into the new string for every pair of concatenation. If you concatenate four strings of length 10, you will be copying (10+10) + ((10+10)+10) + (((10+10)+10)+10) = 90 characters, instead of just 40 characters. And things gets quadratically worse as the number and size of the string increases. Java optimizes this case some of the times by transforming the series of concatenation to use <code>StringBuilder</code>, but CPython doesn't. So it is advised to use .format or % syntax. If you can't decide which one to choose among .format and %, check <a href="http://stackoverflow.com/questions/5082452/python-string-formatting-vs-format">this</a> interesting Stackoverflow thread.</li>
+</ul>
+
+<ul>
+    <li>Use <em>__slots__</em> when defining a Python class. You can tell Python not to use a dynamic <em>dict</em>, and only allocate space for a fixed set of attributes eliminating the overhead of one dict for every object by settings <code>__slots__</code> on the class to a fixed list of attribute names. Read more about <em>slots</em> from <a href="http://stackoverflow.com/questions/472000/usage-of-slots">here</a>.</li>
+</ul>
+
+You can read a bit in detail about memory management in Python by the developers of Theano from <a href="http://deeplearning.net/software/theano/tutorial/python-memory-management.html">here</a>.
+
+<h2>Python 2 or Python 3? Both!</h2>
+
+When starting a new Python project or even starting with Python altogether you may have found yourself in the dilemma of choosing Python 2 or Python 3. This is a widely discussed topic with many opinions and good explanations on the internet. However, it is actually possible to write code in a way that works on both Python 2 and Python 3 interpreters. The most common way to achieve this use packages like <em>future, builtins</em>, and six to maintain a single, clean Python 3.x-compatible codebase and support both Python 2 and Python 3 with minimal overhead.
+
+<code><span class="pre">python-future</span></code> is the missing compatibility layer between Python 2 and Python 3.It provides <code><span class="pre">future</span></code> and <code><span class="pre">past</span></code> packages with backports and forward ports of features from Python 3 and 2. It also comes with <code><span class="pre">futurize</span></code> and <code><span class="pre">pasteurize</span></code>, customized 2to3-based scripts that help you to convert either Py2 or Py3 code easily to support both Python 2 and 3 in a single clean Py3-style codebase, module by module.
+
+Please do check the awesome <strong>Cheat Sheet</strong> for writing Python 2-3 compatible code by Ed Schofield. And if you're more into watching videos than reading then you may find his talk at PyCon AU 2014, “<a href="http://www.youtube.com/watch?v=KOqk8j11aAI&amp;t=10m14s">Writing 2/3 compatible code</a>” helpful.
+
+<h2>The first impression is the last impression</h2>
+
+Sharing code is a rewarding endeavor.  Whatever the motivation, your good intentions may not have the desired outcome if people find your code hard to use or understand. Almost every organization follows style guidelines that developers have to follow for consistency, easy debugging, and ease of collaboration. The <a href="https://www.python.org/dev/peps/pep-0020/">Zen of Python</a> is like a mini style and design guide for Python. Following are some of the popular style guidelines for Python:
+
+<ol>
+    <li><a href="https://www.python.org/dev/peps/pep-0008/">PEP-8 style guide</a></li>
+    <li><a href="https://www.memonic.com/user/pneff/folder/python/id/1bufp">Python Idioms and efficiency</a></li>
+    <li><a href="https://google.github.io/styleguide/pyguide.html">Google Python Style Guide</a></li>
+</ol>
+
+These guidelines discuss how to use whitespace, using commas and braces, how to, object naming guidelines, etc.Though they may be conflicting each other at some situation but all of them really have the same objective - Clean, Readable, and Debuggable standard for code. So just stick to one, or follow your own guide but don't try to follow something drastically different from widely accepted standards.
+
+<h3>Using pylint</h3>
+
+<a class="reference external" href="http://www.logilab.org/857">Pylint</a> is a Python tool that checks a module for coding standards. <em>Pylint</em> can be a quick and easy way of seeing if your code has captured the essence of PEP-8 and is therefore ‘friendly’ to other potential users. It also provides you reports with insightful metrics and statistics that may help you judge the quality of code. You can also customize it by creating your own <em>.pylintrc</em> file and using it.
+
+Pylint is not the only choice, there are other tools like <em>PyChecker, PyFlakes,</em> and packages like <em>pep8 and flakes8</em>.
+
+<h2>Reports and analysis</h2>
+
+It is often helpful to analyze your code for coverage, quality, and performance. For evaluating performance, Python comes with the <a href="https://docs.python.org/2/library/profile.html#module-cProfile" target="_blank">cProfile</a> module. It not only gives the total running time, but also times each function separately, and tells you how many times each function was called, making it easy to determine where you should make optimizations. Here's how a sample analysis by <em>cProfile</em> look like
+
+<img class="alignnone size-full wp-image-574" src="https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-26-17-34-10.png" alt="screenshot-from-2016-12-26-17-34-10" width="719" height="233" />
+
+<a href="https://github.com/fabianp/memory_profiler" target="_blank"><strong>memory_profiler</strong></a> :  It's a python module for monitoring memory consumption of a process as well as line-by-line analysis of memory consumption for python programs.
+
+<strong> <a href="http://mg.pov.lt/objgraph/">objgraph</a></strong> : It allows you to show the top N objects occupying our python program’s memory, show what objects have been deleted or added over a period of time and show all references to a given object in your script.
+
+<a href="https://docs.python.org/2/library/resource.html" target="_blank"><strong>resource</strong></a> : This module provides basic mechanisms for measuring and controlling system resources utilized by a program. Two prime uses include limiting the allocation of resource and getting information about the current usage of the resource.
+
+<h2>Multiprocess, not Multi-thread</h2>
+
+When it comes to improving the execution time of your multiple-task code, you may want to utilize multiple cores in the CPU to execute several tasks simultaneously. Intuitively, it may come to your mind to spawn several threads and let them execute concurrently, but due to Global Interpreter Lock in Python, all you're doing is making your threads execute on the same core turn by turn.
+
+To achieve actual parallelization in Python, you might have a use <a href="https://docs.python.org/2/library/multiprocessing.html">multiprocessing </a>module of Python. Another solution might be outsourcing the tasks to:-
+
+<ol>
+    <li>The operating system (by doing multi-processing)</li>
+    <li>Some external application that calls your Python code (eg, Spark or Hadoop)</li>
+    <li>Some code that your Python code calls (eg: you could have your Python code call a C function that does the expensive multi-threaded stuff).</li>
+</ol>
+
+<h2>Test often</h2>
+
+It is a good practice to write unit and if you think that writing tests is not worth the effort take a look at <a href="http://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort" target="_blank">this</a> Stackoverflow thread. Test-driven development is about <em>development</em> (and design), specifically improving the quality and design of code.Also, it's better to write your tests before or during coding. Python provides <a href="https://docs.python.org/2/library/unittest.html" target="_blank">unittest</a> module to write unit tests for your functions and classes. There are alternatives like:
+
+<p style="padding-left:30px;"><strong><a href="http://pythontesting.net/framework/nose/nose-introduction/">nose</a></strong> - can run <em>unittest</em> tests, and has less boilerplate.
+<strong><a href="http://pythontesting.net/framework/pytest/pytest-introduction/">pytest</a></strong> - also runs <em>unittest</em> tests, has less boilerplate, better reporting, lots of cool extra features.</p>
+
+<p style="padding-left:30px;">To get a good comparison of all of these, read through the introductions to each <a href="http://pythontesting.net/start-here" target="_blank">here</a>.</p>
+
+<a href="https://coverage.readthedocs.io/en/coverage-4.2/" target="_blank">coverage</a> is a tool for measuring code coverage of Python programs. It monitors your program, noting which parts of the code have been executed, then analyzes the source to identify code that could have been executed but was not. Coverage measurement is typically used to gauge the effectiveness of tests. It can show which parts of your code are being exercised by tests, and which are not.
+
+That's how much I know for now, and I'll try to add more topics and stuff to this post as I discover them in my journey as a Python developer. Thanks for reading!

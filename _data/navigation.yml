@@ -2,6 +2,10 @@
 main:
   - title: "Website"
     url: http://www.satwikkansal.xyz
+  - title: "About Me"
+    url: /about
+  - title: "Posts"
+    url: /tags/
   - title: "Projects"
     url: https://github.com/satwikkansal
   - title: "CV"

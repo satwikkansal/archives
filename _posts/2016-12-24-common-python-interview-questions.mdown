@@ -1,0 +1,310 @@
+---
+layout: single
+title:  "Popular Python Interview Questions"
+date:   2016/12/24 09:09:06 +0530
+categories: [python, interview, questions]
+excerpt_separator: <!--more-->
+---
+
+This blog post will cover some of the typical Python questions asked in Interviews when you're  applying for a Python related job. <!--more--> I assume that you've basic knowledge of Python and can write programs in python easily.
+
+I would try to put all the content and links in this post that I've gathered from various sources on the internet including Stack Overflow, Code Mentor, Learn python the Hard Way and many other resources.
+
+So without wasting much time, Let's dive in!
+
+<!--more Keep on reading!-->
+
+<h2>How is Python different from other languages like C++, Java, etc?</h2>
+
+Python is an interpreted language. That means that, unlike languages like <i>C</i> and its variants, Python does not need to be compiled before it is run. Other interpreted languages include <i>PHP</i> and <i>Ruby</i>.
+
+<ul>
+    <li>Python is dynamically typed, this means that you don't need to state the types of variables when you declare them or anything like that. You can do things like x=111 and then x="I'm a string" without error</li>
+    <li>Python is well suited to object orientated programming in that it allows the definition of classes along with composition and inheritance. Python does not have access specifiers (like C++'s public, private), the justification for this point is given as "we are all adults here"</li>
+    <li>In Python, functions are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects</li>
+    <li>Writing Python code is quick but running it is often slower than compiled languages. Fortunately， Python allows the inclusion of C-based extensions so bottlenecks can be optimized away and often are. The numpy package is a good example of this, it's really quite quick because a lot of the number crunching it does isn't actually done by Python</li>
+    <li>Python finds use in many spheres - web applications, automation, scientific modeling, big data applications and much more. It's also often used as "glue" code to get other languages and components to play nice.</li>
+    <li>Python makes difficult things easy so programmers can focus on overriding algorithms and structures rather than nitty-gritty low-level details.</li>
+</ul>
+
+Python has five standard data types −
+
+<ul>
+    <li>Numbers</li>
+    <li>String</li>
+    <li>List</li>
+    <li>Tuple</li>
+    <li>Dictionary</li>
+</ul>
+
+<h2>How is Python 2 different from Python 3?</h2>
+
+Definitely, Python 3.x is an improvement over Python 2.x, but there are reasons to continue to use Python 2.x or to write code in such a way that it's compatible with both the versions because most of the third-party libraries and frameworks that are still written for Python 2.x.
+
+Please go through <a href="http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html">this</a> wonderful comparison blog post by Sebastian Raschka as this question is often asked in the interviews related to Python.
+
+<h2>How does multithreading works in Python?</h2>
+
+Python doesn't allow multi-threading in the truest sense of the word. It has a<a href="https://docs.python.org/2/library/threading.html"> multi-threading package</a> (threading.py) but if you want to multi-thread to speed your code up, then it's usually not a good idea to use it. Python has a construct called the <b>Global Interpreter Lock (GIL).</b> The GIL makes sure that <i>only one of your 'threads' can execute at any one time.</i> A thread acquires the GIL, does a little work, then passes the GIL onto the next thread. This happens very quickly so to the human eye it may seem like <b>your threads are</b> executing in parallel, but they are really just <b>taking turns using the same CPU core</b>. All this GIL passing <b>adds overhead to execution</b>. This means that if you want to make your code run faster then using the threading package often isn't a good idea.
+
+There are reasons to use Python's threading package. <i>If you want to run some things simultaneously, and efficiency is not a concern, then it's totally fine and convenient</i>. Or if you are running code that needs to wait for something (like some IO) then it could make a lot of sense. <b>But the threading library won't let you use extra CPU cores.</b>
+
+Multi-threading <b>can be outsourced</b> to:-
+
+<ol>
+    <li>The operating system (by doing multi-processing)</li>
+    <li>Some external application that calls your Python code (eg, Spark or Hadoop)</li>
+    <li>Some code that your Python code calls (eg: you could have your Python code call a C function that does the expensive multi-threaded stuff).</li>
+</ol>
+
+To achieve actual parallelization in Python, you might have a look at <a href="https://docs.python.org/2/library/multiprocessing.html">multiprocessing </a>module of Python. A few snaps from Stackoverflow regarding this:-
+
+<img class="alignnone size-full wp-image-227" src="https://satwikkansal.files.wordpress.com/2016/12/image05.png" alt="image05" width="1323" height="403" /><img class="alignnone size-full wp-image-228" src="https://satwikkansal.files.wordpress.com/2016/12/image00.png" alt="image00" width="1014" height="920" />
+
+Also, it's good to know difference detailed difference between Multithreading and Multiprocessing.
+
+<img class="alignnone size-full wp-image-233" src="https://satwikkansal.files.wordpress.com/2016/12/threading_vs_processing.png" alt="threading_vs_processing.png" width="726" height="966" />
+
+<h2>How does call by reference or call by value work in Python?</h2>
+
+When asked whether Python function calling model is "call-by-value" or "call-by-reference", the correct answer is: **neither**. Instead, in Python arguments are <a href="http://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference" rel="nofollow noreferrer">passed by assignment</a>. The rationale behind this is twofold:
+
+<ol>
+    <li>the parameter passed in is actually a <em>reference</em> to an object (but the reference is passed by value)</li>
+    <li>some data types are mutable, but others aren't</li>
+</ol>
+
+So:
+
+<ul>
+    <li>If you pass a <em>mutable</em> object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.</li>
+    <li>If you pass an <em>immutable</em> object to a method, you still can't rebind the outer reference, and you can't even mutate the object.</li>
+</ul>
+
+If you still don't get this, Please check <a href="https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/">this</a> blog-post by Jeff Knupp.
+
+Here's a small demonstration by code
+
+{% highlight python linenos %}
+
+l_mem = []
+
+l = l_mem           # the first call
+for i in range(2):
+    l.append(i*i)
+
+print(l)            # [0, 1]
+
+l = [3,2,1]         # the second call
+for i in range(3):
+    l.append(i*i)
+
+print(l)            # [3, 2, 1, 0, 1, 4]
+
+l = l_mem           # the third call
+for i in range(3):
+     l.append(i*i)
+
+print(l)            # [0, 1, 0, 1, 4]
+
+{% endhighlight %}
+
+The first function call should be fairly obvious, the loop appends 0 and then 1 to the empty list, l. l is a name for a variable that points to a list stored in memory. The second call starts off by creating a new list in a new block of memory. l then refers to this new list. It then appends 0, 1 and 4 to this new list. So that's great.
+
+The third function call is the weird one. It uses the original list stored in the original memory block. That is why it starts off with 0 and 1.
+
+A cool "Balloon analogy" that I found on some Stackoverflow thread can be helpful:
+
+<img class="alignnone size-full wp-image-253" src="https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-13-14-51.png" alt="screenshot-from-2016-12-24-13-14-51" width="1151" height="513" /><img class="alignnone size-full wp-image-252" src="https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-13-15-07.png" alt="screenshot-from-2016-12-24-13-15-07" width="1095" height="904" />
+
+<h2>How does Inheritance works in Python?</h2>
+
+Being an Object Oriented Language, Python supports Inheritance and Multi-Inheritance as well. You must read this very good Chapter on Inheritance by Zed Shaw, author of the famous book "Learn Python the Hard way". It advises you to avoid Multiple Inheritance at all costs and use Composition instead.
+
+<h2>Decorators in Python</h2>
+
+A decorator is a special kind of function that either takes a function and returns a function or takes a class and returns a class. The `@` symbol is just syntactic sugar that allows you to decorate something in a way that's easy to read.
+
+{% highlight python linenos %}
+
+@my_decorator
+def my_func(stuff):
+     do_things
+
+##Is equivalent to
+
+def my_func(stuff):
+     do_things
+
+my_func = my_decorator(my_func)
+
+{% endhighlight %}
+
+Decorators are tough to understand initially, but the effort is worth it. There are various concepts like passing arguments, nesting, etc that can be the topics for advanced Python questions. You can find a tutorial on how decorators in general work<a href="https://www.codementor.io/python/tutorial/introduction-to-decorators"> here.</a>
+
+Also, you must be aware of `@classmethod` and `@staticmethod` decorators in Python.
+
+<div class="post-text">
+
+<code>@classmethod</code> means: when this method is called, we pass the class as the first argument instead of the instance of that class (as we normally do with methods). This means you can use the class and its properties inside that method rather than a particular instance.
+
+<code>@staticmethod</code> means: when this method is called, we don't pass an instance of the class to it (as we normally do with methods). This means you can put a function inside a class but you can't access the instance of that class (this is useful when your method does not use the instance). This demonstration in Stackoverflow may be helpful to you
+
+<img class="alignnone size-full wp-image-341" src="https://satwikkansal.files.wordpress.com/2016/12/staticvsclass.png" alt="staticvsclass.png" width="756" height="1700" />
+
+Also, there is `@property`  which is the pythonic way of using getters and setters. If interested, you can read about it from <a href="https://www.programiz.com/python-programming/property">here</a>.
+<h2>List comprehension</h2>
+If you've some experience with Python you may find it pretty straightforward but it's generally a common topic for interviewers to ask for. Make sure you understand the reasoning behind all of the below statements and their expected output.
+
+<img class="alignnone size-full wp-image-379" src="https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-18-21-22.png" alt="screenshot-from-2016-12-24-18-21-22" width="1123" height="276" />
+
+<img class="alignnone size-full wp-image-378" src="https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-18-21-38.png" alt="screenshot-from-2016-12-24-18-21-38" width="1108" height="311" />
+<h2>Using *args, **kwargs and default parameters</h2>
+The names and<code>*args</code> <code>**kwargs</code> are only by convention but there's no hard requirement to use them. You would use <code>*args</code> when you're not sure how many arguments might be passed to your function, i.e. it allows you pass an arbitrary number of arguments to your function. For example:
+
+{% highlight bash linenos %}
+>>> def print_everything(*args):
+        for count, thing in enumerate(args):
+...         print '{0}. {1}'.format(count, thing)
+...
+>>> print_everything('apple', 'banana', 'cabbage')
+0. apple
+1. banana
+2. cabbage
+{% endhighlight %}
+
+Similarly, <code>**kwargs</code> allows you to handle named arguments that you have not defined in advance:
+
+{% highlight bash linenos %}
+>>> def table_things(**kwargs):
+...     for name, value in kwargs.items():
+...         print '{0} = {1}'.format(name, value)
+...
+>>> table_things(apple = 'fruit', cabbage = 'vegetable')
+cabbage = vegetable
+apple = fruit
+{% endhighlight %}
+
+You can use these along with named arguments too. The explicit arguments get values first and then everything else is passed to <code>*args</code> and <code>**kwargs</code>. The named arguments come first in the list. For example:
+
+{% highlight bash linenos %}
+def table_things(titlestring, **kwargs)
+{% endhighlight %}
+
+You can also use both in the same function definition but <code>*args</code> must occur before <code>**kwargs</code>.
+
+{% highlight bash linenos %}
+You can also use the <code>*</code> and <code>**</code> syntax when calling a function. For example:
+>>> def print_three_things(a, b, c):
+...     print 'a = {0}, b = {1}, c = {2}'.format(a,b,c)
+...
+>>> mylist = ['aardvark', 'baboon', 'cat']
+>>> print_three_things(*mylist)
+a = aardvark, b = baboon, c = cat
+{% endhighlight %}
+
+As you can see in this case it takes the list (or tuple) of items and unpacks it. By this, it matches them to the arguments in the function. Of course, you could have a <code>*</code> both in the function definition and in the function call.
+
+Make sure you understand all the statements below before moving forward.
+
+<img class="alignnone size-full wp-image-377" src="https://satwikkansal.files.wordpress.com/2016/12/image08.png" alt="image08" width="975" height="582" />
+
+<img class="alignnone size-full wp-image-376" src="https://satwikkansal.files.wordpress.com/2016/12/image01.png" alt="image01" width="982" height="421" />
+
+</div>
+
+<h2>The OS module</h2>
+
+The OS module can come in very handy time to time, it often helps to go through some of the most commonly use cases of this module. For example, for accessing directory contents in python :
+
+<img class="alignnone size-full wp-image-273" src="https://satwikkansal.files.wordpress.com/2016/12/image04.png" alt="image04.png" width="1283" height="941" />
+
+Check <a href="http://www.thomas-cokelaer.info/tutorials/python/module_os.html">this</a> blog post by Thomas Cokelaer for detailed functionalities of the OS module in Python.
+
+<h2>Why do we use `if  __name__ == "__main__"` ?</h2>
+
+When the Python interpreter reads a source file (due to import or due to commands from terminals), it executes all of the code found in it.
+
+Before executing the code, it will define a few special variables. For example, if the python interpreter is running that module (the source file) as the main program, it sets the special `name` variable to have a value `main`. If this file is being imported from another module, `name` will be set to the module's name.
+
+In the case of your script, let's assume that it's executing as the main function, e.g. you said something like
+
+{% highlight bash linenos %}
+
+python example.py
+
+{% endhighlight %}
+
+on the command line.
+
+After setting up the special variables, it will execute the import statement and load those modules. It will then evaluate the def block, creating a function object and creating a variable called myfunction that points to the function object. It will then read the if statement and see that `name` does equal `main`, so it will execute the block shown there.
+
+One of the reasons for doing this is that sometimes you write a module (a .py file) where it can be executed directly. Alternatively, it can also be imported and used in another module. By doing the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.
+
+<h2>Generators and the `yield` keyword</h2>
+
+Generators may seem complicated at once but they are very easy and useful. Please read <a href="https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/">this</a> awesome blog post by Jeff Knupp to understand the concept in depth.
+
+<h2>Something about PEP</h2>
+
+PEP stands for Python Enhancement Proposal. A PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment. The PEP should provide a concise technical specification of the feature and a rationale for the feature. PEPs are intended to be the primary mechanisms for proposing major new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Python. The PEP author is responsible for building consensus within the community and documenting dissenting opinions. Some popular PEPs are:
+
+<ol>
+    <li><a href="https://www.google.co.in/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwjrotTosYzRAhWIv48KHejlCtAQFggbMAA&amp;url=https%3A%2F%2Fwww.python.org%2Fdev%2Fpeps%2Fpep-0008%2F&amp;usg=AFQjCNEQyknQxbzAV5m487Aq_waOwGNgag&amp;sig2=YOKznIETqWWFNRaFsEVnoQ">PEP 8</a>,  Python's style guide. It's a set of rules for how to format your Python code to maximize its readability. Writing code to a specification helps to make large code bases, with lots of writers, more uniform and predictable, too.</li>
+    <li><a href="http://www.python.org/dev/peps/pep-0020/">Pep 20</a>: The Zen of Python</li>
+</ol>
+
+<h2>Package management in Python</h2>
+
+Although the interviewer doesn't expect you to know nitty-gritty details of the Package management mechanism of Python, but it's a good chance to show how much you care about the trends and development in the language. Here's the timeline of how the Packaging in Python is evolved over time.
+
+<ul>
+    <li><b>Distutils</b> is still the standard tool for packaging in Python. It is included in the standard library (Python 2 and Python 3.0 to 3.4). It is useful for simple Python distributions but lacks features. It introduces the distutils Python package that can be imported in your setup.py script.</li>
+</ul>
+
+<ul>
+    <li><b>Setuptools</b> was developed to overcome Distutils' limitations and is not included in the standard library. It introduced a command-line utility called <code>easy_install</code>. It also introduced the setuptools Python package that can be imported in your setup.py script, and the pkg_resources Python package that can be imported in your code to locate data files installed with a distribution. One of its gotchas is that it monkey-patches the distutils Python package. It should work well with pip.</li>
+</ul>
+
+<ul>
+    <li><b>Distribute</b> was a fork of Setuptools. It shared the same namespace, so if you had Distribute installed, import setuptools would actually import the package distributed with Distribute. <b><i>Distribute was merged back into Setuptools 0.7</i></b>, so you don't need to use Distribute any more. In fact, the version on PyPI is just a compatibility layer that installs Setuptools</li>
+</ul>
+
+Packages built and distributed using setuptools look to the user like ordinary Python packages based on the distutils. Your users don’t need to install or even know about setuptools in order to use them, and you don’t have to include the entire setuptools package in your distributions. By including just a single<a href="https://bootstrap.pypa.io/ez_setup.py"> bootstrap module</a> (a 12K .py file), your package will automatically download and install setuptools if the user is building your package from source and doesn’t have a suitable version already installed.
+
+<code>easy_install</code> was released in 2004, as part of<a href="https://packaging.python.org/key_projects/#setuptools"> setuptools</a>. It was notable at the time for installing<a href="https://packaging.python.org/glossary/#term-distribution-package"> packages</a> from<a href="https://packaging.python.org/glossary/#term-python-package-index-pypi"> PyPI</a> using requirement specifiers, and automatically installing dependencies.
+
+`pip` was originally written to improve on <code>easy_install</code> in the following ways:
+
+<ul>
+    <li>All packages are downloaded before installation. Partially-completed installation doesn’t occur as a result.</li>`
+    <li>Care is taken to present useful output on the console.</li>
+    <li>The reasons for actions are kept track of. For instance, if a package is being installed, pip keeps track of why that package was required.</li>
+</ul>
+
+<ul>
+    <li>Error messages should be useful.</li>
+    <li>The code is relatively concise and cohesive, making it easier to use programmatically.</li>
+    <li>Packages don’t have to be installed as egg archives, they can be installed flat (while keeping the egg metadata).</li>
+    <li>Native support for other version control systems (Git, Mercurial, and Bazaar)</li>
+    <li>Uninstallation of packages.</li>
+    <li>Simple to define fixed sets of requirements and reliably reproduce a set of packages.</li>
+</ul>
+
+**The current state of things:**
+
+<ul>
+    <li>Binary packages are now distributed as wheels (`.whl` files)—not just on PyPI, but in third-party repositories like<a href="http://www.lfd.uci.edu/%7Egohlke/pythonlibs/"> Christoph Gohlke's Extension Packages for Windows</a>. pip can handle wheels; <code>easy_install</code> cannot.</li>
+    <li>Virtual environments (which come built-in with 3.4, or can be added to 2.6+/3.1+ with<a href="https://pypi.python.org/pypi/virtualenv"> virtualenv</a>) have become a very important and prominent tool (and recommended in<a href="https://docs.python.org/3/installing/index.html"> the official docs</a>); they include pip out of the box, but don't even work properly with <code>easy_install</code>.</li>
+    <li>The distribute package that included <code>easy_install</code> is no longer maintained. Its improvements over setuptools got merged back into setuptools. Trying to install distribute will just install setuptools instead.</li>
+    <li><code>easy_install</code> itself is only quasi-maintained.</li>
+    <li>pip comes with the official Python 2.7 and 3.4+ packages from python.org, and a pip bootstrap is included by default if you build from source.</li>
+    <li>The various incomplete bits of documentation on installing, using, and building packages have been replaced by the<a href="https://packaging.pypa.io/"> Python Packaging User Guide</a>. Python's own documentation on<a href="https://docs.python.org/3/installing/index.html"> Installing Python Modules</a> now defers to this user guide, and explicitly calls out pip as "the preferred installer program".</li>
+    <li>Other new features have been added to pip over the years that will never be in <code>easy_install</code>. For example, pip makes it easy to clone your site-packages by building a requirements file and then installing it with a single command on each side. Or to convert your requirements file to a local repo to use for in-house development. And so on.</li>
+</ul>
+
+<h2>References</h2>
+
+I'm very thankful to the authors of the resources that I've mentioned in this blog post so far and I don't claim any ownership of the content. My only intention was to provide access to all these wonderful resources at a single to place to make it easy for others to learn and prepare themselves.
+
+I've tried to cover a lot of Python-related topics that are commonly discussed in interviews. If I've skipped something important please do mention in the comments.

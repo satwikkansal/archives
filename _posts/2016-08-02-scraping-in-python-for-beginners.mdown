@@ -1,0 +1,107 @@
+---
+layout: single
+title:  "Scraping in Python for beginners"
+date:   2016/08/02 18:53:53 +0530
+categories: python scraping
+tags: BeautifulSoup python-requests
+excerpt_separator: <!--more-->
+---
+
+In this post, I'll try to cover basic concepts required to scrape content from website in Python using `BeautifulSoup` and `python-requests`.
+ <!--more-->
+
+### What exactly is Web Scraping?
+
+Web scraping is a technique to extract data from websites whereby the data is extracted and saved to a local file on your computer. The data can be used for several purposes like displaying on your own website and application, performing data analysis or for any other reason. 
+
+### Why scrape instead of using APIs?
+
+First of all, not every site has an API and secondly if the site does have an API, then the API may not provide the information you seek. 
+
+### How Web Scraping is done?
+
+Broadly speaking, it's a Three Step Process 
+
+  1. Getting the content (in most cases HTML)
+  2. Parsing the response.
+  3. Optimizing/Improving the process and preserving the data.Problem Statement
+
+We are going to fetch the title, author, and upvotes for all the proposals for [Pycon India 2016. ](https://in.pycon.org/cfp/2016/proposals/)Here you can see the proposals list is ordered by the date they were added. We'd like to see the proposals sorted on the basis of upvotes. As you can see there's no way to do this on the website. So we'll scrape the proposals and store them in a python list and then sort that list on the basis of the number of upvotes for each proposal. 
+
+### Getting the content
+
+Most of the times you will be only interested in getting the HTML content. In python, provided the link, you can use `urllib2` to get the HTML contents of the page but this turns out to be a lot of code which is kind of fragile in typical cases. So I'd suggest you use the wonderful library [Requests](http://docs.python-requests.org/en/master/) which in fact is "HTTP for humans". Have a look at [this](https://gist.github.com/kennethreitz/973705) simple example. We are going to use Requests to do a GET or POST request to the server and store the response received in return. Here's the code snippet for it 
+
+{% highlight python linenos %}
+import requests
+response = requests.get("https://in.pycon.org/cfp/2016/proposals/")
+if response.status_code == 200
+print "Fetched the page sucessfully"
+html_doc = response.text
+{% endhighlight %} 
+
+### Parsing the response
+
+Now that we have the response, we need a way to extract the information we need. The `response.text` will be a string and we can find all the required content from HTML using regular expressions and basic python but that's very complex. Instead, we will use third party libraries. Some of the popular libraries are `BeautifulSoup4`, `lxml`, and `HTMLParser`. These libraries employ different techniques of parsing underneath, so they differ in performance and ease. We'll be using `BeautifulSoup` here as it is more popular and user-friendly among the three. Creating the soup object 
+
+{% highlight python linenos %}
+from bs4 import BeautifulSoup 
+soup = BeautifulSoup(html_doc, 'html.parser')
+print(soup.prettify()) 
+{% endhighlight %}
+
+So let's see what is going on in these three lines. First of all, we import the Beautiful soup module in the first line. Then we create a soup object passing in the response we received and then we specify which parser to use (html.parser is the default parser anyway). You can also use lxml here. A parser offers an interface for programmers to easily access and modify various parts of the HTML string code. [ Here's ](http://www.ianbicking.org/blog/2008/03/python-html-parser-performance.html) a link to a popular blog post comparing various parsers' performance Another useful link in Beautiful Soup documentation). In the last line, we are printing out the HTML. `soup.prettify()` is just a way for formatting the HTML in human readable form before printing. 
+
+### Finding the content required
+
+Now that we have the soup object we can call various methods on it and easily extract the data we want from the HTML. In general, there are three ways of going at this 
+
+  1. Specifying elements
+  2. Matching attributes of elements (class, id, etc)
+  3. Using Xpath
+
+The first two ways are achieved with the help of [CSS Selectors](http://www.w3schools.com/cssref/css_selectors.asp). The other way around is using `Xpath`. Note that beautifulsoup does not support xpath so we'll have to stick with CSS Selector syntax. There are libraries like `Scrapy` and `Selenium` which support Xpath. Let's just quickly brush through some common useful stuff that we can perform on our `soup` object. BeautifulSoup already has very awesome[ Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start), so please go through just the "Quick Start" section once before moving ahead. 
+
+### Observing the page structure
+
+Now comes the important part. You've to understand the HTML page structure in order to get the desired content. We are interested in getting the following for values for all the proposals on the page of the site of Pycon India 2016: 
+
+  1. The number of votes. 
+  2. The number of comments. 
+  3. Title 
+  4. Link to the description 
+  5. The author of the proposal
+
+Here's how we proceed Looking at the HTML structure we come to know that every proposal is contained within a `div` of class `user-proposals` So first of all, we'd want to get all the `div` with class `user-proposals ` 
+
+{% highlight python linenos %}
+proposal_divs = soup.find_all("a", class_="user-proposals") 
+{% endhighlight %}
+
+![scrape-1](https://satwikkansal.files.wordpress.com/2016/04/scrape-1.png)
+
+Now we know locate where the required data is stored inside this `user-proposal` div. A quick way to do this is to simply go to the element and click on `Inspect element`. For example, If I am looking for the element containing author then I simply right-click over any author name and select 'Inspect element' on it. 
+
+![Screenshot from 2016-06-18 23-05-55-1](https://satwikkansal.files.wordpress.com/2016/04/screenshot-from-2016-06-18-23-05-55-1.png)
+
+Careful observation leads us to the following useful conclusions:
+
+  1. `Number of votes` are placed in the only html tag of the div with the class panel-body. 
+  2. `Number of comments` are placed in the only span tag just after the i tag with class fa fa-comments-o. `Note` : It could also have been the only span tag   of the div with the class space-on-top. But I'm just trying to cover different possible ways. 
+  3. `Title` of the proposal is placed in the a tag with class proposal--title. 
+  4. `Link` to the description of the proposal is placed inside the href attribute of the a tag with class proposal--title. So now just take a look at the code to extract all of this. 
+
+{% highlight python linenos %}
+proposal_divs = soup.find_all("div", class_="user-proposals")
+print 'No. of proposals',len(proposal_divs)
+results = []
+for proposal_div in proposal_divs:
+	#Initialize an empty dictionary to store all the data
+	proposal_dict = {}
+	#Using CSS Selectors to get the Number of votes
+	proposal_dict['votes'] = int(proposal_div.select('.panel-body &gt; h4')[0].get_text())
+	#Using chained find methods to get the number of comments
+	proposal_dict['comments'] = proposal_div.find('div', class_='space-on-top').find('span').get_text()
+	# We can also pass other attributes to the find method inside a dictionary
+	proposal_dict['name'] = proposal_div.find('h3', {'class': 'proposal--title'}).find('a').get_text()
+{% endhighlight %}
