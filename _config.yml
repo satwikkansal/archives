@@ -194,7 +194,6 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-archives
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
