@@ -213,9 +213,9 @@ whitelist:
 # tag_archive:
 #   type: jekyll-archives
 #   path: /tags/
-category_archive:
-  type: jekyll-archives
-  path: /categories/
+# category_archive:
+#   type: jekyll-archives
+#   path: /categories/
 # # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled: all
@@ -228,25 +228,24 @@ category_archive:
 #     category: /categories/:name/
 #     tag: /tag/:name/
 #     year: /year/:year/
-# category_archive:
-#   type: jekyll-archives
-#   path: /categories/
+category_archive:
+  type: jekyll-archives
+  path: /categories/
 tag_archive:
   type: jekyll-archives
   path: /tags/
 jekyll-archives:
   enabled:
-    # - categories
+    - categories
     - tags
   layout: archive-taxonomy
   layouts:
-    # category: archive-taxonomy
+    category: archive-taxonomy
     tag: archive-taxonomy
   permalinks:
-    # category: /categories/:name/
+    category: /categories/:name/
     tag: /tags/:name/
     year: /year-archive/:year
-
 
 
 
