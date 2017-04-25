@@ -2,7 +2,7 @@
 layout: single
 title:  "Python practices for efficient and optimized code"
 date:   2016/12/27 06:51:36 +0530
-categories: python optimization efficency
+tags: python optimization efficency
 excerpt_separator: <!--more-->
 ---
 

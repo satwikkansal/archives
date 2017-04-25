@@ -2,8 +2,7 @@
 layout: single
 title:  "7 things I learnt from coala"
 date:   2016/12/27 06:51:36 +0530
-categories: python oss
-tags: coala
+tags: python oss coala
 excerpt_separator: <!--more-->
 ---
 
