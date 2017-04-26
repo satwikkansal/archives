@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+--><html lang="en" class="no-js">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Adding  Menu and Buttons to your messenger bot - Satwik Kansal’s blog</title>
+
+
+
+
+<meta name="description" content="This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.">
+
+
+
+
+<meta name="author" content="Satwik Kansal">
+
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Satwik Kansal's blog">
+<meta property="og:title" content="Adding  Menu and Buttons to your messenger bot">
+
+
+  <link rel="canonical" href="http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/">
+  <meta property="og:url" content="http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/">
+
+
+
+  <meta property="og:description" content="This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.">
+
+
+
+  <meta name="twitter:site" content="@satwikkansal">
+  <meta name="twitter:title" content="Adding  Menu and Buttons to your messenger bot">
+  <meta name="twitter:description" content="This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.">
+  <meta name="twitter:url" content="http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@Satwik Kansal">
+  
+
+
+
+  
+
+  
+    <meta property="fb:app_id" content="296348977464170">
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-08-25T05:52:03+05:30">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Satwik Kansal",
+      "url" : "http://localhost:4000",
+      "sameAs" : ["https://www.linkedin.com/in/satwikkansal","https://www.facebook.com/satwikkansal","https://plus.google.com/u/0/100516829514193489870"]
+    }
+  </script>
+
+
+
+  <meta name="google-site-verification" content="IoC_F49PVEB-g10hvzr5RTmjxW1LIYldwrNcAKrFiPA">
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Satwik Kansal's blog Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Satwik Kansal's blog</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://www.satwikkansal.xyz">Website</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">About Me</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/categories/">Posts</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://github.com/satwikkansal">Projects</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://bit.ly/cvsatwik">CV</a></li>
+          
+        </ul>
+        <button class="visible"><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="https://www.gravatar.com/avatar/763a2074e6b54615855a13656f2cb717" alt="Satwik Kansal" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name" itemprop="name">Satwik Kansal</h3>
+    
+      <p class="author__bio" itemprop="description">
+        A Freelance Software Developer actively involved in Open Source,  experienced in Data Science and Web Development.
+
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">New Delhi, India</span>
+        </li>
+      
+
+      
+        <li>
+          <a href="http://satwikkansal.xyz" itemprop="url">
+            <i class="fa fa-fw fa-chain" aria-hidden="true"></i> Website
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="mailto:satwikkansal@gmail.com">
+            <meta itemprop="email" content="satwikkansal@gmail.com">
+            <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> Email
+          </a>
+        </li>
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/satwikkansal" itemprop="sameAs">
+            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+      
+      
+        <li>
+          <a href="https://github.com/satwikkansal" itemprop="sameAs">
+            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      <!-- 
+        <li>
+          <a href="https://www.facebook.com/https://www.facebook.com/satwikkansal" itemprop="sameAs">
+            <i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
+       -->
+
+     <!--  
+        <li>
+          <a href="https://twitter.com/satwikkansal" itemprop="sameAs">
+            <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+       -->
+
+      
+
+      
+
+      
+
+      
+
+      <!-- 
+        <li>
+          <a href="https://www.quora.com/profile/Satwik-Kansal-1" itemprop="sameAs">
+            <i class="fa fa-fw fa-quora" aria-hidden="true"></i> Quora
+          </a>
+        </li>
+       -->
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Adding  Menu and Buttons to your messenger bot">
+    <meta itemprop="description" content="This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.">
+    <meta itemprop="datePublished" content="August 25, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Adding  Menu and Buttons to your messenger bot
+</h1>
+          
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p>This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.
+ <!--more-->
+Messenger provides plenty of handy templates to make your bot visually appealing and “app-like” rather that just a text processing and replying script (well, just my opinion, some people would prefer a truly conversational chat-bot but we’re still far from achieving this with high accuracy).
+Let’s see how to add some of the visual features to any messenger bot</p>
+
+<h2>Adding persistent menu and buttons to Your Messenger Bot</h2>
+
+<h4>What is Persistent Menu?</h4>
+
+<p>The Persistent Menu is a menu that is always available to the user (a 3-caret icon in the bottom-left of the message box). This menu should <!--more Keep on reading!-->contain important actions that users can select at any point. Having a persistent menu quickly communicates the core capabilities of your bot for first-time and returning users.</p>
+
+<h4>How to add Persistent Menu?</h4>
+
+<p>The method of adding Persistent Menu is pretty straightforward. You just have to do it once. It took some time for me to figure it out, so I decided to write a blog post to save your time. The code at your webhook endpoint server has nothing to do with the menu. We can make a separate POST request to our bot with the PAGE_ACCESS_TOKEN to make this it work.</p>
+
+<p>Sample Request</p>
+
+<figure class="highlight">
+  <pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21</pre></td>
+<td class="code"><pre>curl -X POST -H <span class="s2">"Content-Type: application/json"</span> -d <span class="s1">'{
+ "setting_type" : "call_to_actions",
+ "thread_state" : "existing_thread",
+ "call_to_actions":[
+ {
+ "type":"postback",
+ "title":"Help",
+ "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_HELP"
+ },
+ {
+ "type":"postback",
+ "title":"Start a New Order",
+ "payload":"DEVELOPER_DEFINED_PAYLOAD_FOR_START_ORDER"
+ },
+ {
+ "type":"web_url",
+ "title":"View Website",
+ "url":"http://petersapparel.parseapp.com/"
+ }
+ ]
+ }'</span> <span class="s2">"https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre>
+</figure>
+
+<p>So basically, in the above JSON, call_to_actions contains an array of menu_item objects which are of two types:</p>
+<ol>
+  <li>web_url</li>
+  <li>postback
+For web_url buttons, we need to have an URL value in the JSON. This URL is opened in a mobile browser when the button is tapped.
+For postback buttons instead of URL, we have payloads. The payload contains data useful to that menu button. For postback buttons, this data will be sent back to you via webhook.
+You can have a maximum of 5 buttons in the persistent menu.</li>
+</ol>
+
+<p>So, How does Facebook determine which bot we are referring to? Its given by the value PAGE_ACCESS_TOKEN parameter in the URL to which we are making this post request.</p>
+
+<p>To delete the Persistent Menu send a DELETE request:</p>
+
+<figure class="highlight">
+  <pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4</pre></td>
+<td class="code"><pre> curl -X DELETE -H <span class="s2">"Content-Type: application/json"</span> -d <span class="s1">'{
+ "setting_type":"call_to_actions",
+ "thread_state":"existing_thread"
+ }'</span> <span class="s2">"https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre>
+</figure>
+
+<p> </p>
+
+<p>And to update or change the Persistent Menu options, simply send another POST request.</p>
+
+<h2>Adding a “GET STARTED” Button to your messenger bot</h2>
+
+<h4>What is a GET STARTED button in Messenger?</h4>
+
+<p>The Welcome Screen can display a Get Started button. When this button is tapped, a postback received callback is triggered along with the person’s page-scoped ID (PSID). You can then present a personalized message to greet the user or present buttons to prompt him or her to take action.
+The process is very much similar, but here you’re not allowed any ‘title’ attribute in the JSON. The button will always be named as ‘GET STARTED’.</p>
+
+<figure class="highlight">
+  <pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7</pre></td>
+<td class="code"><pre>curl -X POST -H <span class="s2">"Content-Type: application/json"</span> -d <span class="s1">'{
+                       "setting_type":"call_to_actions",
+                       "thread_state":"new_thread",
+                       "call_to_actions":[
+                                             { }
+]
+}'</span> <span class="s2">"https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"</span> <span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre>
+</figure>
+
+<h2>Adding Greeting Text to your messenger bot</h2>
+
+<p>One common way is to combine “GREETING TEXTS” with “GETTING STARTED” button. You can set a greeting for new conversations. This can be used to communicate your bot’s functionality.</p>
+
+<figure class="highlight">
+  <pre><code class="language-bash" data-lang="bash"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6</pre></td>
+<td class="code"><pre>curl -X POST -H <span class="s2">"Content-Type: application/json"</span> -d <span class="s1">'{
+                       "setting_type":"greeting",
+                       "greeting":{
+                                     "text":"Welcome to My Company!"
+                             }
+}'</span> <span class="s2">"https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN"</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre>
+</figure>
+
+<h2>Making your messenger bot perform an action when the button is pressed?</h2>
+
+<p>Well, now we have the menu. Let’s see how to make the buttons “do something” when invoked by the users.</p>
+
+<h3>Handling POSTBACK requests from Persistent Menu buttons in messenger</h3>
+
+<p>We’ll have to look for the POSTBACK event in the request that we’re receiving at our webhook endpoint. For example, here’s how you’ll handle it in python</p>
+
+<figure class="highlight">
+  <pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17</pre></td>
+<td class="code"><pre><span class="nd">@app.route</span><span class="p">(</span><span class="s">'/'</span><span class="p">,</span> <span class="n">methods</span><span class="o">=</span><span class="p">[</span><span class="s">'POST'</span><span class="p">])</span>
+<span class="k">def</span> <span class="nf">webook</span><span class="p">():</span>
+	<span class="c"># endpoint for processing incoming messaging events</span>
+	<span class="n">data</span> <span class="o">=</span> <span class="n">request</span><span class="o">.</span><span class="n">get_json</span><span class="p">()</span>
+
+	<span class="k">if</span> <span class="n">data</span><span class="p">[</span><span class="s">"object"</span><span class="p">]</span> <span class="o">==</span> <span class="s">"page"</span><span class="p">:</span>
+		<span class="k">for</span> <span class="n">entry</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s">"entry"</span><span class="p">]:</span>
+			<span class="k">for</span> <span class="n">messaging_event</span> <span class="ow">in</span> <span class="n">entry</span><span class="p">[</span><span class="s">"messaging"</span><span class="p">]:</span>
+				<span class="k">if</span> <span class="n">messaging_event</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">"postback"</span><span class="p">):</span>
+					<span class="c"># user clicked/tapped "postback" button in earlier message</span>
+					<span class="n">message_text</span> <span class="o">=</span> <span class="n">messaging_event</span><span class="p">[</span><span class="s">"postback"</span><span class="p">][</span><span class="s">"payload"</span><span class="p">]</span>
+					
+					<span class="c"># the button's payload</span>
+					<span class="n">message_text</span> <span class="o">=</span> <span class="n">message_text</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
+					<span class="n">sender_id</span> <span class="o">=</span> <span class="n">messaging_event</span><span class="p">[</span><span class="s">"sender"</span><span class="p">][</span><span class="s">"id"</span><span class="p">]</span>
+					<span class="k">if</span> <span class="p">(</span><span class="n">message_text</span> <span class="o">==</span> <span class="s">"SOME_PAYLOAD_WE_DEFINED"</span><span class="p">):</span>
+						<span class="n">send_message</span><span class="p">(</span><span class="n">sender_id</span><span class="p">,</span> <span class="s">"Yay! This button works!"</span><span class="p">)</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre>
+</figure>
+
+<p>So basically, in request JSON, we look for</p>
+
+<figure class="highlight">
+  <pre><code class="language-python" data-lang="python"><table style="border-spacing: 0"><tbody><tr>
+<td class="gutter gl" style="text-align: right"><pre class="lineno">1</pre></td>
+<td class="code"><pre><span class="n">request</span><span class="p">[</span><span class="s">"object"</span><span class="p">][</span><span class="s">"page"</span><span class="p">][</span><span class="s">"entry"</span><span class="p">][</span><span class="s">"messaging"</span><span class="p">][</span><span class="s">"postback"</span><span class="p">]</span><span class="w">
+</span></pre></td>
+</tr></tbody></table></code></pre>
+</figure>
+
+<p>If it exists, then a button has been tapped, and then we can handle it whatever way we want to.</p>
+
+<p>All of the above POST requests I covered are one-time requests, i.e., you don’t need to send them over and over again. But for interactive buttons in the messages, you’ll have to dynamically generate similar POST request depending on the user’s input from your webhook endpoint (You’ll have to handle this on your server).
+Similar to buttons there are predefined templates provided by Facebook like ‘Generic Template,’ ‘Receipt Template,’ ‘Airline Template,’ etc.</p>
+
+<p>For more details, It’d be easier for you to now check out and follow along Facebook’s documentation for <a href="https://developers.facebook.com/docs/messenger-platform/send-api-reference">Send API</a> in messenger for all the available choices and all the customization that you can do with the templates.</p>
+
+<p>PS: I’m currently working on developing a Python-SDK for messenger platform that would simplify the development process of messenger bots to a great extent. If you’d like to collaborate or have any ideas, please ping me.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#chatbot" class="page__taxonomy-item" rel="tag">chatbot</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#messenger" class="page__taxonomy-item" rel="tag">messenger</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#python" class="page__taxonomy-item" rel="tag">python</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#tutorial" class="page__taxonomy-item" rel="tag">tutorial</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/categories/#messenger" class="page__taxonomy-item" rel="tag">messenger</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2016-08-25T05:52:03+05:30">August 25, 2016</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=satwikkansal&amp;text=Adding%20%20Menu%20and%20Buttons%20to%20your%20messenger%20bot%20http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/" class="btn btn--twitter" title="Share on Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/" class="btn btn--facebook" title="Share on Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/" class="btn btn--google-plus" title="Share on Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="http://localhost:4000/posts/python/scraping-in-python-for-beginners/" class="pagination--pager" title="Scraping in Python for beginners
+">Previous</a>
+    
+    
+      <a href="http://localhost:4000/posts/python/common-python-interview-questions/" class="pagination--pager" title="Popular Python Interview Questions
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+  
+    <h4 class="page__comments-title">Leave a Comment</h4>
+    <section id="disqus_thread"></section>
+  
+</div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/satwikkansal"><i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+      <li><a href="https://facebook.com/satwikkansal"><i class="fa fa-fw fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+    
+    
+      <li><a href="http://github.com/satwikkansal"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+        <li>
+          <a href="https://www.quora.com/profile/" itemprop="sameAs">
+            <i class="fa fa-fw fa-quora" aria-hidden="true"></i> Quora
+          </a>
+        </li>
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright"> <b> © 2017 Satwik Kansal.</b> Maintained with <img class="emoji" title=":heart:" alt=":heart:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2764.png" height="20" width="20" align="absmiddle"> and no <img class="emoji" title=":coffee:" alt=":coffee:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/2615.png" height="20" width="20" align="absmiddle"> </div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-69269552-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+
+  
+  <script type="text/javascript">
+  	/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+  	var disqus_shortname = 'satwik';
+
+  	/* * * DON'T EDIT BELOW THIS LINE * * */
+  	(function() {
+  		var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+  		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  	})();
+
+  	/* * * DON'T EDIT BELOW THIS LINE * * */
+  	(function () {
+  		var s = document.createElement('script'); s.async = true;
+  		s.type = 'text/javascript';
+  		s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+  		(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+  	}());
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
+
+
+
+
+
+  </body>
+</html>

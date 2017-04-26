@@ -3,9 +3,9 @@ main:
   - title: "Website"
     url: http://www.satwikkansal.xyz
   - title: "About Me"
-    url: /about
+    url: /about/
   - title: "Posts"
-    url: /tags/
+    url: /categories/
   - title: "Projects"
     url: https://github.com/satwikkansal
   - title: "CV"

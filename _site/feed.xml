@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-26T19:14:56+05:30</updated><id>http://localhost:4000/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">7 things I learnt from coala</title><link href="http://localhost:4000/posts/oss/7-things-i-learned-from-coala/" rel="alternate" type="text/html" title="7 things I learnt from coala" /><published>2016-12-27T06:51:36+05:30</published><updated>2016-12-27T06:51:36+05:30</updated><id>http://localhost:4000/posts/oss/7-things-i-learned-from-coala</id><content type="html" xml:base="http://localhost:4000/posts/oss/7-things-i-learned-from-coala/">&lt;p&gt;So this New Year, I started seriously contributing to Open Source. After going through tons of organizations I shortlisted a few of 3-5 based on my interests, skills, and several other factors (I like some maths and analysis!). But I soon discovered keeping up with several organizations is more pain and less gain for me. So now I’m down to only 1 organization that I’d put my best efforts into. coala is a user-friendly language independent code analysis tool built mostly using Python. It’s been exactly 2 weeks contributing to coala. Following are some of the things that I found interesting about coala:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;coala starts with a lower case ‘c’ and not ‘C’.&lt;/li&gt;
+  &lt;li&gt;coala is vast! There are many coala projects on Gitlab as well. There are around 10 gitter rooms, and tons of other communication channels for coala apart from Gitter. Check &lt;a href=&quot;https://github.com/coala/coala/wiki/Communication-Channels&quot;&gt;this&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;People here are fun. Well at least much more fun than other organizations I’ve tried to contribute and failed (I guess that’s the reason I decided to just stick this time)&lt;/li&gt;
+  &lt;li&gt;Try using coala in your projects as well. It’s fun and made me realize how badly I disregarded &lt;code class=&quot;highlighter-rouge&quot;&gt;PEP8&lt;/code&gt; earlier :P Contributing to Coala is helping me be more disciplined as a programmer like writing cleaner code, good commit practices and much more.&lt;/li&gt;
+  &lt;li&gt;Don’t tag &lt;strong&gt;@sils&lt;/strong&gt; unnecessarily in gitter. Yeah, this topic often comes up in the channel. He’s a nice guy but he has other works as well. Other maintainers like &lt;strong&gt;@jayvdb&lt;/strong&gt;, &lt;strong&gt;@udayan&lt;/strong&gt;, &lt;strong&gt;@makman2&lt;/strong&gt;, &lt;strong&gt;@fneu&lt;/strong&gt;, &lt;strong&gt;@adrianzatreanu&lt;/strong&gt;, &lt;strong&gt;@mixih&lt;/strong&gt;, &lt;strong&gt;@adtac&lt;/strong&gt; and many quality developers there to help out if one get’s stuck.&lt;/li&gt;
+  &lt;li&gt;Review other people’s code, or at least try to see how they approached solving the issue. Code reviewing is as important as creating a Pull Request. I’m now trying to improve my capabilities to find functionality related bugs in the code.&lt;/li&gt;
+  &lt;li&gt;Don’t ask for help on the channel before trying to help yourself. coalians are not dependent on someone else, they solve their problems on their own. I mean we should do some research on our end before posting a question/error. I realized that a simple mistake on my end could waste a lot of valuable time of someone else.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And if you didn’t noticed that I spelled coala with an Uppercase ‘C’ in the 4th point, it’s okay! Next time you’ll never miss this. Have fun :)&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="oss" /><category term="coala" /><summary type="html">So this New Year, I started seriously contributing to Open Source. After going through tons of organizations I shortlisted a few of 3-5 based on my interests, skills, and several other factors (I like some maths and analysis!). But I soon discovered keeping up with several organizations is more pain and less gain for me. So now I’m down to only 1 organization that I’d put my best efforts into. coala is a user-friendly language independent code analysis tool built mostly using Python. It’s been exactly 2 weeks contributing to coala. Following are some of the things that I found interesting about coala: coala starts with a lower case ‘c’ and not ‘C’. coala is vast! There are many coala projects on Gitlab as well. There are around 10 gitter rooms, and tons of other communication channels for coala apart from Gitter. Check this People here are fun. Well at least much more fun than other organizations I’ve tried to contribute and failed (I guess that’s the reason I decided to just stick this time) Try using coala in your projects as well. It’s fun and made me realize how badly I disregarded PEP8 earlier :P Contributing to Coala is helping me be more disciplined as a programmer like writing cleaner code, good commit practices and much more. Don’t tag @sils unnecessarily in gitter. Yeah, this topic often comes up in the channel. He’s a nice guy but he has other works as well. Other maintainers like @jayvdb, @udayan, @makman2, @fneu, @adrianzatreanu, @mixih, @adtac and many quality developers there to help out if one get’s stuck. Review other people’s code, or at least try to see how they approached solving the issue. Code reviewing is as important as creating a Pull Request. I’m now trying to improve my capabilities to find functionality related bugs in the code. Don’t ask for help on the channel before trying to help yourself. coalians are not dependent on someone else, they solve their problems on their own. I mean we should do some research on our end before posting a question/error. I realized that a simple mistake on my end could waste a lot of valuable time of someone else. And if you didn’t noticed that I spelled coala with an Uppercase ‘C’ in the 4th point, it’s okay! Next time you’ll never miss this. Have fun :)</summary></entry><entry><title type="html">Python practices for efficient and optimized code</title><link href="http://localhost:4000/posts/python/python-programming-practices-for-efficient-and-optimized-code/" rel="alternate" type="text/html" title="Python practices for efficient and optimized code" /><published>2016-12-27T06:51:36+05:30</published><updated>2016-12-27T06:51:36+05:30</updated><id>http://localhost:4000/posts/python/python-programming-practices-for-efficient-and-optimized-code</id><content type="html" xml:base="http://localhost:4000/posts/python/python-programming-practices-for-efficient-and-optimized-code/">&lt;p&gt;In this blog post,  I will try to cover common techniques to write more efficient and optimized code in Python. By efficient and optimized I mean - &lt;!--more--&gt; A code that requires minimum memory, executes faster, looks clean, is properly documented and makes it easy for other developers to collaborate. This might help you while contributing to an Open Source organization, submitting a solution to an Online Judge, working on large data processing problems like Machine Learning or while making your own project.&lt;/p&gt;
+
+&lt;p&gt;So let’s get started!&lt;/p&gt;
+
+&lt;h2&gt;Don’t blow off the memory&lt;/h2&gt;
+
+&lt;p&gt;Unlike C/C++, Python’s memory management is performed by the interpreter and the
+&lt;!--more Keep on reading!--&gt;
+users have no control over it. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the &lt;em&gt;Python memory manager&lt;/em&gt;. So you just create an object and the Python Virtual Machine handles the memory needed and where it shall be placed in the memory layout. However, a deep insight of how the things work and different ways to do them can help you minimize memory usage of your program.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Use generators for calculating large sets of results. Generators give you lazy evaluation. You use them by iterating over them, either explicitly with 'for' or implicitly by passing it to any function or construct that iterates. You can think of generators as returning multiple items, as if they return a list, but instead of returning them all at once they return them one-by-one, and the generator function is paused until the next item is requested. Read more about Python Generators from &lt;a href=&quot;https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;For large number/data crunching, you can use libraries like &lt;a href=&quot;http://www.numpy.org/&quot;&gt;Numpy&lt;/a&gt; which handle memory management gracefully.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Track your memory usage at object level by using inbuilt modules like &lt;a href=&quot;https://docs.python.org/2/library/resource.html&quot;&gt;resource &lt;/a&gt;and &lt;a href=&quot;https://mg.pov.lt/objgraph/&quot; target=&quot;_blank&quot;&gt;objgraph&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Managing memory leaks in Python can be a tough job but luckily there are tools like &lt;a href=&quot;https://pypi.python.org/pypi/guppy/&quot; target=&quot;_blank&quot;&gt;heapy&lt;/a&gt; for debugging memory leaks. &lt;em&gt;heapy&lt;/em&gt; can be used along with &lt;em&gt;objgraph&lt;/em&gt; to watch allocation growth of diff objects over time. &lt;em&gt;heapy&lt;/em&gt; can show which objects are holding the most memory etc.&lt;em&gt; objgraph&lt;/em&gt; can help in finding the backreferences to understand exactly why they cannot be freed. You can read more about diagnosing memory leaks in Python from &lt;a href=&quot;http://chase-seibert.github.io/blog/2013/08/03/diagnosing-memory-leaks-python.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Use format instead of ‘+’ for generating strings -  In Python,  &lt;code&gt;str&lt;/code&gt; is immutable, so the left and right string have to be copied into the new string for every pair of concatenation. If you concatenate four strings of length 10, you will be copying (10+10) + ((10+10)+10) + (((10+10)+10)+10) = 90 characters, instead of just 40 characters. And things gets quadratically worse as the number and size of the string increases. Java optimizes this case some of the times by transforming the series of concatenation to use &lt;code&gt;StringBuilder&lt;/code&gt;, but CPython doesn't. So it is advised to use .format or % syntax. If you can't decide which one to choose among .format and %, check &lt;a href=&quot;http://stackoverflow.com/questions/5082452/python-string-formatting-vs-format&quot;&gt;this&lt;/a&gt; interesting Stackoverflow thread.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Use &lt;em&gt;__slots__&lt;/em&gt; when defining a Python class. You can tell Python not to use a dynamic &lt;em&gt;dict&lt;/em&gt;, and only allocate space for a fixed set of attributes eliminating the overhead of one dict for every object by settings &lt;code&gt;__slots__&lt;/code&gt; on the class to a fixed list of attribute names. Read more about &lt;em&gt;slots&lt;/em&gt; from &lt;a href=&quot;http://stackoverflow.com/questions/472000/usage-of-slots&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can read a bit in detail about memory management in Python by the developers of Theano from &lt;a href=&quot;http://deeplearning.net/software/theano/tutorial/python-memory-management.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Python 2 or Python 3? Both!&lt;/h2&gt;
+
+&lt;p&gt;When starting a new Python project or even starting with Python altogether you may have found yourself in the dilemma of choosing Python 2 or Python 3. This is a widely discussed topic with many opinions and good explanations on the internet. However, it is actually possible to write code in a way that works on both Python 2 and Python 3 interpreters. The most common way to achieve this use packages like &lt;em&gt;future, builtins&lt;/em&gt;, and six to maintain a single, clean Python 3.x-compatible codebase and support both Python 2 and Python 3 with minimal overhead.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&lt;span class=&quot;pre&quot;&gt;python-future&lt;/span&gt;&lt;/code&gt; is the missing compatibility layer between Python 2 and Python 3.It provides &lt;code&gt;&lt;span class=&quot;pre&quot;&gt;future&lt;/span&gt;&lt;/code&gt; and &lt;code&gt;&lt;span class=&quot;pre&quot;&gt;past&lt;/span&gt;&lt;/code&gt; packages with backports and forward ports of features from Python 3 and 2. It also comes with &lt;code&gt;&lt;span class=&quot;pre&quot;&gt;futurize&lt;/span&gt;&lt;/code&gt; and &lt;code&gt;&lt;span class=&quot;pre&quot;&gt;pasteurize&lt;/span&gt;&lt;/code&gt;, customized 2to3-based scripts that help you to convert either Py2 or Py3 code easily to support both Python 2 and 3 in a single clean Py3-style codebase, module by module.&lt;/p&gt;
+
+&lt;p&gt;Please do check the awesome &lt;strong&gt;Cheat Sheet&lt;/strong&gt; for writing Python 2-3 compatible code by Ed Schofield. And if you’re more into watching videos than reading then you may find his talk at PyCon AU 2014, “&lt;a href=&quot;http://www.youtube.com/watch?v=KOqk8j11aAI&amp;amp;t=10m14s&quot;&gt;Writing 2/3 compatible code&lt;/a&gt;” helpful.&lt;/p&gt;
+
+&lt;h2&gt;The first impression is the last impression&lt;/h2&gt;
+
+&lt;p&gt;Sharing code is a rewarding endeavor.  Whatever the motivation, your good intentions may not have the desired outcome if people find your code hard to use or understand. Almost every organization follows style guidelines that developers have to follow for consistency, easy debugging, and ease of collaboration. The &lt;a href=&quot;https://www.python.org/dev/peps/pep-0020/&quot;&gt;Zen of Python&lt;/a&gt; is like a mini style and design guide for Python. Following are some of the popular style guidelines for Python:&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.python.org/dev/peps/pep-0008/&quot;&gt;PEP-8 style guide&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.memonic.com/user/pneff/folder/python/id/1bufp&quot;&gt;Python Idioms and efficiency&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://google.github.io/styleguide/pyguide.html&quot;&gt;Google Python Style Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These guidelines discuss how to use whitespace, using commas and braces, how to, object naming guidelines, etc.Though they may be conflicting each other at some situation but all of them really have the same objective - Clean, Readable, and Debuggable standard for code. So just stick to one, or follow your own guide but don’t try to follow something drastically different from widely accepted standards.&lt;/p&gt;
+
+&lt;h3&gt;Using pylint&lt;/h3&gt;
+
+&lt;p&gt;&lt;a class=&quot;reference external&quot; href=&quot;http://www.logilab.org/857&quot;&gt;Pylint&lt;/a&gt; is a Python tool that checks a module for coding standards. &lt;em&gt;Pylint&lt;/em&gt; can be a quick and easy way of seeing if your code has captured the essence of PEP-8 and is therefore ‘friendly’ to other potential users. It also provides you reports with insightful metrics and statistics that may help you judge the quality of code. You can also customize it by creating your own &lt;em&gt;.pylintrc&lt;/em&gt; file and using it.&lt;/p&gt;
+
+&lt;p&gt;Pylint is not the only choice, there are other tools like &lt;em&gt;PyChecker, PyFlakes,&lt;/em&gt; and packages like &lt;em&gt;pep8 and flakes8&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2&gt;Reports and analysis&lt;/h2&gt;
+
+&lt;p&gt;It is often helpful to analyze your code for coverage, quality, and performance. For evaluating performance, Python comes with the &lt;a href=&quot;https://docs.python.org/2/library/profile.html#module-cProfile&quot; target=&quot;_blank&quot;&gt;cProfile&lt;/a&gt; module. It not only gives the total running time, but also times each function separately, and tells you how many times each function was called, making it easy to determine where you should make optimizations. Here’s how a sample analysis by &lt;em&gt;cProfile&lt;/em&gt; look like&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-574&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-26-17-34-10.png&quot; alt=&quot;screenshot-from-2016-12-26-17-34-10&quot; width=&quot;719&quot; height=&quot;233&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/fabianp/memory_profiler&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;memory_profiler&lt;/strong&gt;&lt;/a&gt; :  It’s a python module for monitoring memory consumption of a process as well as line-by-line analysis of memory consumption for python programs.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt; &lt;a href=&quot;http://mg.pov.lt/objgraph/&quot;&gt;objgraph&lt;/a&gt;&lt;/strong&gt; : It allows you to show the top N objects occupying our python program’s memory, show what objects have been deleted or added over a period of time and show all references to a given object in your script.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://docs.python.org/2/library/resource.html&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;resource&lt;/strong&gt;&lt;/a&gt; : This module provides basic mechanisms for measuring and controlling system resources utilized by a program. Two prime uses include limiting the allocation of resource and getting information about the current usage of the resource.&lt;/p&gt;
+
+&lt;h2&gt;Multiprocess, not Multi-thread&lt;/h2&gt;
+
+&lt;p&gt;When it comes to improving the execution time of your multiple-task code, you may want to utilize multiple cores in the CPU to execute several tasks simultaneously. Intuitively, it may come to your mind to spawn several threads and let them execute concurrently, but due to Global Interpreter Lock in Python, all you’re doing is making your threads execute on the same core turn by turn.&lt;/p&gt;
+
+&lt;p&gt;To achieve actual parallelization in Python, you might have a use &lt;a href=&quot;https://docs.python.org/2/library/multiprocessing.html&quot;&gt;multiprocessing &lt;/a&gt;module of Python. Another solution might be outsourcing the tasks to:-&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;The operating system (by doing multi-processing)&lt;/li&gt;
+    &lt;li&gt;Some external application that calls your Python code (eg, Spark or Hadoop)&lt;/li&gt;
+    &lt;li&gt;Some code that your Python code calls (eg: you could have your Python code call a C function that does the expensive multi-threaded stuff).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Test often&lt;/h2&gt;
+
+&lt;p&gt;It is a good practice to write unit and if you think that writing tests is not worth the effort take a look at &lt;a href=&quot;http://stackoverflow.com/questions/67299/is-unit-testing-worth-the-effort&quot; target=&quot;_blank&quot;&gt;this&lt;/a&gt; Stackoverflow thread. Test-driven development is about &lt;em&gt;development&lt;/em&gt; (and design), specifically improving the quality and design of code.Also, it’s better to write your tests before or during coding. Python provides &lt;a href=&quot;https://docs.python.org/2/library/unittest.html&quot; target=&quot;_blank&quot;&gt;unittest&lt;/a&gt; module to write unit tests for your functions and classes. There are alternatives like:&lt;/p&gt;
+
+&lt;p style=&quot;padding-left:30px;&quot;&gt;&lt;strong&gt;&lt;a href=&quot;http://pythontesting.net/framework/nose/nose-introduction/&quot;&gt;nose&lt;/a&gt;&lt;/strong&gt; - can run &lt;em&gt;unittest&lt;/em&gt; tests, and has less boilerplate.
+&lt;strong&gt;&lt;a href=&quot;http://pythontesting.net/framework/pytest/pytest-introduction/&quot;&gt;pytest&lt;/a&gt;&lt;/strong&gt; - also runs &lt;em&gt;unittest&lt;/em&gt; tests, has less boilerplate, better reporting, lots of cool extra features.&lt;/p&gt;
+
+&lt;p style=&quot;padding-left:30px;&quot;&gt;To get a good comparison of all of these, read through the introductions to each &lt;a href=&quot;http://pythontesting.net/start-here&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://coverage.readthedocs.io/en/coverage-4.2/&quot; target=&quot;_blank&quot;&gt;coverage&lt;/a&gt; is a tool for measuring code coverage of Python programs. It monitors your program, noting which parts of the code have been executed, then analyzes the source to identify code that could have been executed but was not. Coverage measurement is typically used to gauge the effectiveness of tests. It can show which parts of your code are being exercised by tests, and which are not.&lt;/p&gt;
+
+&lt;p&gt;That’s how much I know for now, and I’ll try to add more topics and stuff to this post as I discover them in my journey as a Python developer. Thanks for reading!&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="optimization" /><category term="efficency" /><summary type="html">In this blog post,  I will try to cover common techniques to write more efficient and optimized code in Python. By efficient and optimized I mean -</summary></entry><entry><title type="html">Popular Python Interview Questions</title><link href="http://localhost:4000/posts/python/common-python-interview-questions/" rel="alternate" type="text/html" title="Popular Python Interview Questions" /><published>2016-12-24T09:09:06+05:30</published><updated>2016-12-24T09:09:06+05:30</updated><id>http://localhost:4000/posts/python/common-python-interview-questions</id><content type="html" xml:base="http://localhost:4000/posts/python/common-python-interview-questions/">&lt;p&gt;This blog post will cover some of the typical Python questions asked in Interviews when you’re  applying for a Python related job. &lt;!--more--&gt; I assume that you’ve basic knowledge of Python and can write programs in python easily.&lt;/p&gt;
+
+&lt;p&gt;I would try to put all the content and links in this post that I’ve gathered from various sources on the internet including Stack Overflow, Code Mentor, Learn python the Hard Way and many other resources.&lt;/p&gt;
+
+&lt;p&gt;So without wasting much time, Let’s dive in!&lt;/p&gt;
+
+&lt;!--more Keep on reading!--&gt;
+
+&lt;h2&gt;How is Python different from other languages like C++, Java, etc?&lt;/h2&gt;
+
+&lt;p&gt;Python is an interpreted language. That means that, unlike languages like &lt;i&gt;C&lt;/i&gt; and its variants, Python does not need to be compiled before it is run. Other interpreted languages include &lt;i&gt;PHP&lt;/i&gt; and &lt;i&gt;Ruby&lt;/i&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Python is dynamically typed, this means that you don't need to state the types of variables when you declare them or anything like that. You can do things like x=111 and then x=&quot;I'm a string&quot; without error&lt;/li&gt;
+    &lt;li&gt;Python is well suited to object orientated programming in that it allows the definition of classes along with composition and inheritance. Python does not have access specifiers (like C++'s public, private), the justification for this point is given as &quot;we are all adults here&quot;&lt;/li&gt;
+    &lt;li&gt;In Python, functions are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects&lt;/li&gt;
+    &lt;li&gt;Writing Python code is quick but running it is often slower than compiled languages. Fortunately， Python allows the inclusion of C-based extensions so bottlenecks can be optimized away and often are. The numpy package is a good example of this, it's really quite quick because a lot of the number crunching it does isn't actually done by Python&lt;/li&gt;
+    &lt;li&gt;Python finds use in many spheres - web applications, automation, scientific modeling, big data applications and much more. It's also often used as &quot;glue&quot; code to get other languages and components to play nice.&lt;/li&gt;
+    &lt;li&gt;Python makes difficult things easy so programmers can focus on overriding algorithms and structures rather than nitty-gritty low-level details.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Python has five standard data types −&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Numbers&lt;/li&gt;
+    &lt;li&gt;String&lt;/li&gt;
+    &lt;li&gt;List&lt;/li&gt;
+    &lt;li&gt;Tuple&lt;/li&gt;
+    &lt;li&gt;Dictionary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;How is Python 2 different from Python 3?&lt;/h2&gt;
+
+&lt;p&gt;Definitely, Python 3.x is an improvement over Python 2.x, but there are reasons to continue to use Python 2.x or to write code in such a way that it’s compatible with both the versions because most of the third-party libraries and frameworks that are still written for Python 2.x.&lt;/p&gt;
+
+&lt;p&gt;Please go through &lt;a href=&quot;http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html&quot;&gt;this&lt;/a&gt; wonderful comparison blog post by Sebastian Raschka as this question is often asked in the interviews related to Python.&lt;/p&gt;
+
+&lt;h2&gt;How does multithreading works in Python?&lt;/h2&gt;
+
+&lt;p&gt;Python doesn’t allow multi-threading in the truest sense of the word. It has a&lt;a href=&quot;https://docs.python.org/2/library/threading.html&quot;&gt; multi-threading package&lt;/a&gt; (threading.py) but if you want to multi-thread to speed your code up, then it’s usually not a good idea to use it. Python has a construct called the &lt;b&gt;Global Interpreter Lock (GIL).&lt;/b&gt; The GIL makes sure that &lt;i&gt;only one of your ‘threads’ can execute at any one time.&lt;/i&gt; A thread acquires the GIL, does a little work, then passes the GIL onto the next thread. This happens very quickly so to the human eye it may seem like &lt;b&gt;your threads are&lt;/b&gt; executing in parallel, but they are really just &lt;b&gt;taking turns using the same CPU core&lt;/b&gt;. All this GIL passing &lt;b&gt;adds overhead to execution&lt;/b&gt;. This means that if you want to make your code run faster then using the threading package often isn’t a good idea.&lt;/p&gt;
+
+&lt;p&gt;There are reasons to use Python’s threading package. &lt;i&gt;If you want to run some things simultaneously, and efficiency is not a concern, then it’s totally fine and convenient&lt;/i&gt;. Or if you are running code that needs to wait for something (like some IO) then it could make a lot of sense. &lt;b&gt;But the threading library won’t let you use extra CPU cores.&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;Multi-threading &lt;b&gt;can be outsourced&lt;/b&gt; to:-&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;The operating system (by doing multi-processing)&lt;/li&gt;
+    &lt;li&gt;Some external application that calls your Python code (eg, Spark or Hadoop)&lt;/li&gt;
+    &lt;li&gt;Some code that your Python code calls (eg: you could have your Python code call a C function that does the expensive multi-threaded stuff).&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To achieve actual parallelization in Python, you might have a look at &lt;a href=&quot;https://docs.python.org/2/library/multiprocessing.html&quot;&gt;multiprocessing &lt;/a&gt;module of Python. A few snaps from Stackoverflow regarding this:-&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-227&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image05.png&quot; alt=&quot;image05&quot; width=&quot;1323&quot; height=&quot;403&quot; /&gt;&lt;img class=&quot;alignnone size-full wp-image-228&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image00.png&quot; alt=&quot;image00&quot; width=&quot;1014&quot; height=&quot;920&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, it’s good to know difference detailed difference between Multithreading and Multiprocessing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-233&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/threading_vs_processing.png&quot; alt=&quot;threading_vs_processing.png&quot; width=&quot;726&quot; height=&quot;966&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;How does call by reference or call by value work in Python?&lt;/h2&gt;
+
+&lt;p&gt;When asked whether Python function calling model is “call-by-value” or “call-by-reference”, the correct answer is: &lt;strong&gt;neither&lt;/strong&gt;. Instead, in Python arguments are &lt;a href=&quot;http://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference&quot; rel=&quot;nofollow noreferrer&quot;&gt;passed by assignment&lt;/a&gt;. The rationale behind this is twofold:&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;the parameter passed in is actually a &lt;em&gt;reference&lt;/em&gt; to an object (but the reference is passed by value)&lt;/li&gt;
+    &lt;li&gt;some data types are mutable, but others aren't&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;If you pass a &lt;em&gt;mutable&lt;/em&gt; object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.&lt;/li&gt;
+    &lt;li&gt;If you pass an &lt;em&gt;immutable&lt;/em&gt; object to a method, you still can't rebind the outer reference, and you can't even mutate the object.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you still don’t get this, Please check &lt;a href=&quot;https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/&quot;&gt;this&lt;/a&gt; blog-post by Jeff Knupp.&lt;/p&gt;
+
+&lt;p&gt;Here’s a small demonstration by code&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;l_mem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l_mem&lt;/span&gt;           &lt;span class=&quot;c&quot;&gt;# the first call&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;            &lt;span class=&quot;c&quot;&gt;# [0, 1]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;         &lt;span class=&quot;c&quot;&gt;# the second call&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;            &lt;span class=&quot;c&quot;&gt;# [3, 2, 1, 0, 1, 4]&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l_mem&lt;/span&gt;           &lt;span class=&quot;c&quot;&gt;# the third call&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;            &lt;span class=&quot;c&quot;&gt;# [0, 1, 0, 1, 4]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The first function call should be fairly obvious, the loop appends 0 and then 1 to the empty list, l. l is a name for a variable that points to a list stored in memory. The second call starts off by creating a new list in a new block of memory. l then refers to this new list. It then appends 0, 1 and 4 to this new list. So that’s great.&lt;/p&gt;
+
+&lt;p&gt;The third function call is the weird one. It uses the original list stored in the original memory block. That is why it starts off with 0 and 1.&lt;/p&gt;
+
+&lt;p&gt;A cool “Balloon analogy” that I found on some Stackoverflow thread can be helpful:&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-253&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-13-14-51.png&quot; alt=&quot;screenshot-from-2016-12-24-13-14-51&quot; width=&quot;1151&quot; height=&quot;513&quot; /&gt;&lt;img class=&quot;alignnone size-full wp-image-252&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-13-15-07.png&quot; alt=&quot;screenshot-from-2016-12-24-13-15-07&quot; width=&quot;1095&quot; height=&quot;904&quot; /&gt;&lt;/p&gt;
+
+&lt;h2&gt;How does Inheritance works in Python?&lt;/h2&gt;
+
+&lt;p&gt;Being an Object Oriented Language, Python supports Inheritance and Multi-Inheritance as well. You must read this very good Chapter on Inheritance by Zed Shaw, author of the famous book “Learn Python the Hard way”. It advises you to avoid Multiple Inheritance at all costs and use Composition instead.&lt;/p&gt;
+
+&lt;h2&gt;Decorators in Python&lt;/h2&gt;
+
+&lt;p&gt;A decorator is a special kind of function that either takes a function and returns a function or takes a class and returns a class. The &lt;code class=&quot;highlighter-rouge&quot;&gt;@&lt;/code&gt; symbol is just syntactic sugar that allows you to decorate something in a way that’s easy to read.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nd&quot;&gt;@my_decorator&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;my_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;do_things&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;##Is equivalent to&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;my_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+     &lt;span class=&quot;n&quot;&gt;do_things&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;my_func&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_decorator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Decorators are tough to understand initially, but the effort is worth it. There are various concepts like passing arguments, nesting, etc that can be the topics for advanced Python questions. You can find a tutorial on how decorators in general work&lt;a href=&quot;https://www.codementor.io/python/tutorial/introduction-to-decorators&quot;&gt; here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, you must be aware of &lt;code class=&quot;highlighter-rouge&quot;&gt;@classmethod&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;@staticmethod&lt;/code&gt; decorators in Python.&lt;/p&gt;
+
+&lt;div class=&quot;post-text&quot;&gt;
+
+  &lt;p&gt;&lt;code&gt;@classmethod&lt;/code&gt; means: when this method is called, we pass the class as the first argument instead of the instance of that class (as we normally do with methods). This means you can use the class and its properties inside that method rather than a particular instance.&lt;/p&gt;
+
+  &lt;p&gt;&lt;code&gt;@staticmethod&lt;/code&gt; means: when this method is called, we don’t pass an instance of the class to it (as we normally do with methods). This means you can put a function inside a class but you can’t access the instance of that class (this is useful when your method does not use the instance). This demonstration in Stackoverflow may be helpful to you&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-341&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/staticvsclass.png&quot; alt=&quot;staticvsclass.png&quot; width=&quot;756&quot; height=&quot;1700&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;Also, there is &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt;&lt;/code&gt;  which is the pythonic way of using getters and setters. If interested, you can read about it from &lt;a href=&quot;https://www.programiz.com/python-programming/property&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+  &lt;h2&gt;List comprehension&lt;/h2&gt;
+  &lt;p&gt;If you’ve some experience with Python you may find it pretty straightforward but it’s generally a common topic for interviewers to ask for. Make sure you understand the reasoning behind all of the below statements and their expected output.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-379&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-18-21-22.png&quot; alt=&quot;screenshot-from-2016-12-24-18-21-22&quot; width=&quot;1123&quot; height=&quot;276&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-378&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-18-21-38.png&quot; alt=&quot;screenshot-from-2016-12-24-18-21-38&quot; width=&quot;1108&quot; height=&quot;311&quot; /&gt;&lt;/p&gt;
+  &lt;h2&gt;Using *args, **kwargs and default parameters&lt;/h2&gt;
+  &lt;p&gt;The names and&lt;code&gt;*args&lt;/code&gt; &lt;code&gt;**kwargs&lt;/code&gt; are only by convention but there’s no hard requirement to use them. You would use &lt;code&gt;*args&lt;/code&gt; when you’re not sure how many arguments might be passed to your function, i.e. it allows you pass an arbitrary number of arguments to your function. For example:&lt;/p&gt;
+
+  &lt;figure class=&quot;highlight&quot;&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;def print_everything&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;args&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+        &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;count, thing &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;enumerate&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;args&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+...         print &lt;span class=&quot;s1&quot;&gt;'{0}. {1}'&lt;/span&gt;.format&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;count, thing&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+...
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;print_everything&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'apple'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'banana'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'cabbage'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+0. apple
+1. banana
+2. cabbage&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+  &lt;/figure&gt;
+
+  &lt;p&gt;Similarly, &lt;code&gt;**kwargs&lt;/code&gt; allows you to handle named arguments that you have not defined in advance:&lt;/p&gt;
+
+  &lt;figure class=&quot;highlight&quot;&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;def table_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+...     &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;name, value &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;kwargs.items&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;:
+...         print &lt;span class=&quot;s1&quot;&gt;'{0} = {1}'&lt;/span&gt;.format&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;name, value&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+...
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;table_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;apple &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'fruit'&lt;/span&gt;, cabbage &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'vegetable'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+cabbage &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; vegetable
+apple &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; fruit&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+  &lt;/figure&gt;
+
+  &lt;p&gt;You can use these along with named arguments too. The explicit arguments get values first and then everything else is passed to &lt;code&gt;*args&lt;/code&gt; and &lt;code&gt;**kwargs&lt;/code&gt;. The named arguments come first in the list. For example:&lt;/p&gt;
+
+  &lt;figure class=&quot;highlight&quot;&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;def table_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;titlestring, &lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+  &lt;/figure&gt;
+
+  &lt;p&gt;You can also use both in the same function definition but &lt;code&gt;*args&lt;/code&gt; must occur before &lt;code&gt;**kwargs&lt;/code&gt;.&lt;/p&gt;
+
+  &lt;figure class=&quot;highlight&quot;&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;You can also use the &amp;lt;code&amp;gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;&lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;&amp;lt;/code&amp;gt; syntax when calling a &lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;. For example:
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;def print_three_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;a, b, c&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+...     print &lt;span class=&quot;s1&quot;&gt;'a = {0}, b = {1}, c = {2}'&lt;/span&gt;.format&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;a,b,c&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+...
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;mylist &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'aardvark'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'baboon'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'cat'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;print_three_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;mylist&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+a &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; aardvark, b &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; baboon, c &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; cat&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+  &lt;/figure&gt;
+
+  &lt;p&gt;As you can see in this case it takes the list (or tuple) of items and unpacks it. By this, it matches them to the arguments in the function. Of course, you could have a &lt;code&gt;*&lt;/code&gt; both in the function definition and in the function call.&lt;/p&gt;
+
+  &lt;p&gt;Make sure you understand all the statements below before moving forward.&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-377&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image08.png&quot; alt=&quot;image08&quot; width=&quot;975&quot; height=&quot;582&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-376&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image01.png&quot; alt=&quot;image01&quot; width=&quot;982&quot; height=&quot;421&quot; /&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h2&gt;The OS module&lt;/h2&gt;
+
+&lt;p&gt;The OS module can come in very handy time to time, it often helps to go through some of the most commonly use cases of this module. For example, for accessing directory contents in python :&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-273&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image04.png&quot; alt=&quot;image04.png&quot; width=&quot;1283&quot; height=&quot;941&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check &lt;a href=&quot;http://www.thomas-cokelaer.info/tutorials/python/module_os.html&quot;&gt;this&lt;/a&gt; blog post by Thomas Cokelaer for detailed functionalities of the OS module in Python.&lt;/p&gt;
+
+&lt;h2&gt;Why do we use &lt;code class=&quot;highlighter-rouge&quot;&gt;if  __name__ == &quot;__main__&quot;&lt;/code&gt; ?&lt;/h2&gt;
+
+&lt;p&gt;When the Python interpreter reads a source file (due to import or due to commands from terminals), it executes all of the code found in it.&lt;/p&gt;
+
+&lt;p&gt;Before executing the code, it will define a few special variables. For example, if the python interpreter is running that module (the source file) as the main program, it sets the special &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; variable to have a value &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;. If this file is being imported from another module, &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; will be set to the module’s name.&lt;/p&gt;
+
+&lt;p&gt;In the case of your script, let’s assume that it’s executing as the main function, e.g. you said something like&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;python example.py&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;on the command line.&lt;/p&gt;
+
+&lt;p&gt;After setting up the special variables, it will execute the import statement and load those modules. It will then evaluate the def block, creating a function object and creating a variable called myfunction that points to the function object. It will then read the if statement and see that &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; does equal &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;, so it will execute the block shown there.&lt;/p&gt;
+
+&lt;p&gt;One of the reasons for doing this is that sometimes you write a module (a .py file) where it can be executed directly. Alternatively, it can also be imported and used in another module. By doing the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.&lt;/p&gt;
+
+&lt;h2&gt;Generators and the &lt;code class=&quot;highlighter-rouge&quot;&gt;yield&lt;/code&gt; keyword&lt;/h2&gt;
+
+&lt;p&gt;Generators may seem complicated at once but they are very easy and useful. Please read &lt;a href=&quot;https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/&quot;&gt;this&lt;/a&gt; awesome blog post by Jeff Knupp to understand the concept in depth.&lt;/p&gt;
+
+&lt;h2&gt;Something about PEP&lt;/h2&gt;
+
+&lt;p&gt;PEP stands for Python Enhancement Proposal. A PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment. The PEP should provide a concise technical specification of the feature and a rationale for the feature. PEPs are intended to be the primary mechanisms for proposing major new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Python. The PEP author is responsible for building consensus within the community and documenting dissenting opinions. Some popular PEPs are:&lt;/p&gt;
+
+&lt;ol&gt;
+    &lt;li&gt;&lt;a href=&quot;https://www.google.co.in/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0ahUKEwjrotTosYzRAhWIv48KHejlCtAQFggbMAA&amp;amp;url=https%3A%2F%2Fwww.python.org%2Fdev%2Fpeps%2Fpep-0008%2F&amp;amp;usg=AFQjCNEQyknQxbzAV5m487Aq_waOwGNgag&amp;amp;sig2=YOKznIETqWWFNRaFsEVnoQ&quot;&gt;PEP 8&lt;/a&gt;,  Python's style guide. It's a set of rules for how to format your Python code to maximize its readability. Writing code to a specification helps to make large code bases, with lots of writers, more uniform and predictable, too.&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;http://www.python.org/dev/peps/pep-0020/&quot;&gt;Pep 20&lt;/a&gt;: The Zen of Python&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Package management in Python&lt;/h2&gt;
+
+&lt;p&gt;Although the interviewer doesn’t expect you to know nitty-gritty details of the Package management mechanism of Python, but it’s a good chance to show how much you care about the trends and development in the language. Here’s the timeline of how the Packaging in Python is evolved over time.&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Distutils&lt;/b&gt; is still the standard tool for packaging in Python. It is included in the standard library (Python 2 and Python 3.0 to 3.4). It is useful for simple Python distributions but lacks features. It introduces the distutils Python package that can be imported in your setup.py script.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Setuptools&lt;/b&gt; was developed to overcome Distutils' limitations and is not included in the standard library. It introduced a command-line utility called &lt;code&gt;easy_install&lt;/code&gt;. It also introduced the setuptools Python package that can be imported in your setup.py script, and the pkg_resources Python package that can be imported in your code to locate data files installed with a distribution. One of its gotchas is that it monkey-patches the distutils Python package. It should work well with pip.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;b&gt;Distribute&lt;/b&gt; was a fork of Setuptools. It shared the same namespace, so if you had Distribute installed, import setuptools would actually import the package distributed with Distribute. &lt;b&gt;&lt;i&gt;Distribute was merged back into Setuptools 0.7&lt;/i&gt;&lt;/b&gt;, so you don't need to use Distribute any more. In fact, the version on PyPI is just a compatibility layer that installs Setuptools&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Packages built and distributed using setuptools look to the user like ordinary Python packages based on the distutils. Your users don’t need to install or even know about setuptools in order to use them, and you don’t have to include the entire setuptools package in your distributions. By including just a single&lt;a href=&quot;https://bootstrap.pypa.io/ez_setup.py&quot;&gt; bootstrap module&lt;/a&gt; (a 12K .py file), your package will automatically download and install setuptools if the user is building your package from source and doesn’t have a suitable version already installed.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;easy_install&lt;/code&gt; was released in 2004, as part of&lt;a href=&quot;https://packaging.python.org/key_projects/#setuptools&quot;&gt; setuptools&lt;/a&gt;. It was notable at the time for installing&lt;a href=&quot;https://packaging.python.org/glossary/#term-distribution-package&quot;&gt; packages&lt;/a&gt; from&lt;a href=&quot;https://packaging.python.org/glossary/#term-python-package-index-pypi&quot;&gt; PyPI&lt;/a&gt; using requirement specifiers, and automatically installing dependencies.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt; was originally written to improve on &lt;code&gt;easy_install&lt;/code&gt; in the following ways:&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;All packages are downloaded before installation. Partially-completed installation doesn’t occur as a result.&lt;/li&gt;`
+    &lt;li&gt;Care is taken to present useful output on the console.&lt;/li&gt;
+    &lt;li&gt;The reasons for actions are kept track of. For instance, if a package is being installed, pip keeps track of why that package was required.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Error messages should be useful.&lt;/li&gt;
+    &lt;li&gt;The code is relatively concise and cohesive, making it easier to use programmatically.&lt;/li&gt;
+    &lt;li&gt;Packages don’t have to be installed as egg archives, they can be installed flat (while keeping the egg metadata).&lt;/li&gt;
+    &lt;li&gt;Native support for other version control systems (Git, Mercurial, and Bazaar)&lt;/li&gt;
+    &lt;li&gt;Uninstallation of packages.&lt;/li&gt;
+    &lt;li&gt;Simple to define fixed sets of requirements and reliably reproduce a set of packages.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;The current state of things:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;Binary packages are now distributed as wheels (`.whl` files)—not just on PyPI, but in third-party repositories like&lt;a href=&quot;http://www.lfd.uci.edu/%7Egohlke/pythonlibs/&quot;&gt; Christoph Gohlke's Extension Packages for Windows&lt;/a&gt;. pip can handle wheels; &lt;code&gt;easy_install&lt;/code&gt; cannot.&lt;/li&gt;
+    &lt;li&gt;Virtual environments (which come built-in with 3.4, or can be added to 2.6+/3.1+ with&lt;a href=&quot;https://pypi.python.org/pypi/virtualenv&quot;&gt; virtualenv&lt;/a&gt;) have become a very important and prominent tool (and recommended in&lt;a href=&quot;https://docs.python.org/3/installing/index.html&quot;&gt; the official docs&lt;/a&gt;); they include pip out of the box, but don't even work properly with &lt;code&gt;easy_install&lt;/code&gt;.&lt;/li&gt;
+    &lt;li&gt;The distribute package that included &lt;code&gt;easy_install&lt;/code&gt; is no longer maintained. Its improvements over setuptools got merged back into setuptools. Trying to install distribute will just install setuptools instead.&lt;/li&gt;
+    &lt;li&gt;&lt;code&gt;easy_install&lt;/code&gt; itself is only quasi-maintained.&lt;/li&gt;
+    &lt;li&gt;pip comes with the official Python 2.7 and 3.4+ packages from python.org, and a pip bootstrap is included by default if you build from source.&lt;/li&gt;
+    &lt;li&gt;The various incomplete bits of documentation on installing, using, and building packages have been replaced by the&lt;a href=&quot;https://packaging.pypa.io/&quot;&gt; Python Packaging User Guide&lt;/a&gt;. Python's own documentation on&lt;a href=&quot;https://docs.python.org/3/installing/index.html&quot;&gt; Installing Python Modules&lt;/a&gt; now defers to this user guide, and explicitly calls out pip as &quot;the preferred installer program&quot;.&lt;/li&gt;
+    &lt;li&gt;Other new features have been added to pip over the years that will never be in &lt;code&gt;easy_install&lt;/code&gt;. For example, pip makes it easy to clone your site-packages by building a requirements file and then installing it with a single command on each side. Or to convert your requirements file to a local repo to use for in-house development. And so on.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;References&lt;/h2&gt;
+
+&lt;p&gt;I’m very thankful to the authors of the resources that I’ve mentioned in this blog post so far and I don’t claim any ownership of the content. My only intention was to provide access to all these wonderful resources at a single to place to make it easy for others to learn and prepare themselves.&lt;/p&gt;
+
+&lt;p&gt;I’ve tried to cover a lot of Python-related topics that are commonly discussed in interviews. If I’ve skipped something important please do mention in the comments.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="interview" /><category term="questions" /><summary type="html">This blog post will cover some of the typical Python questions asked in Interviews when you’re  applying for a Python related job.</summary></entry><entry><title type="html">Adding Menu and Buttons to your messenger bot</title><link href="http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/" rel="alternate" type="text/html" title="Adding  Menu and Buttons to your messenger bot" /><published>2016-08-25T05:52:03+05:30</published><updated>2016-08-25T05:52:03+05:30</updated><id>http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot</id><content type="html" xml:base="http://localhost:4000/posts/messenger/adding-menu-buttons-to-your-messenger-bot/">&lt;p&gt;This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.
+ &lt;!--more--&gt;
+Messenger provides plenty of handy templates to make your bot visually appealing and “app-like” rather that just a text processing and replying script (well, just my opinion, some people would prefer a truly conversational chat-bot but we’re still far from achieving this with high accuracy).
+Let’s see how to add some of the visual features to any messenger bot&lt;/p&gt;
+
+&lt;h2&gt;Adding persistent menu and buttons to Your Messenger Bot&lt;/h2&gt;
+
+&lt;h4&gt;What is Persistent Menu?&lt;/h4&gt;
+
+&lt;p&gt;The Persistent Menu is a menu that is always available to the user (a 3-caret icon in the bottom-left of the message box). This menu should &lt;!--more Keep on reading!--&gt;contain important actions that users can select at any point. Having a persistent menu quickly communicates the core capabilities of your bot for first-time and returning users.&lt;/p&gt;
+
+&lt;h4&gt;How to add Persistent Menu?&lt;/h4&gt;
+
+&lt;p&gt;The method of adding Persistent Menu is pretty straightforward. You just have to do it once. It took some time for me to figure it out, so I decided to write a blog post to save your time. The code at your webhook endpoint server has nothing to do with the menu. We can make a separate POST request to our bot with the PAGE_ACCESS_TOKEN to make this it work.&lt;/p&gt;
+
+&lt;p&gt;Sample Request&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;curl -X POST -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
+ &quot;setting_type&quot; : &quot;call_to_actions&quot;,
+ &quot;thread_state&quot; : &quot;existing_thread&quot;,
+ &quot;call_to_actions&quot;:[
+ {
+ &quot;type&quot;:&quot;postback&quot;,
+ &quot;title&quot;:&quot;Help&quot;,
+ &quot;payload&quot;:&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_HELP&quot;
+ },
+ {
+ &quot;type&quot;:&quot;postback&quot;,
+ &quot;title&quot;:&quot;Start a New Order&quot;,
+ &quot;payload&quot;:&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_START_ORDER&quot;
+ },
+ {
+ &quot;type&quot;:&quot;web_url&quot;,
+ &quot;title&quot;:&quot;View Website&quot;,
+ &quot;url&quot;:&quot;http://petersapparel.parseapp.com/&quot;
+ }
+ ]
+ }'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So basically, in the above JSON, call_to_actions contains an array of menu_item objects which are of two types:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;web_url&lt;/li&gt;
+  &lt;li&gt;postback
+For web_url buttons, we need to have an URL value in the JSON. This URL is opened in a mobile browser when the button is tapped.
+For postback buttons instead of URL, we have payloads. The payload contains data useful to that menu button. For postback buttons, this data will be sent back to you via webhook.
+You can have a maximum of 5 buttons in the persistent menu.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, How does Facebook determine which bot we are referring to? Its given by the value PAGE_ACCESS_TOKEN parameter in the URL to which we are making this post request.&lt;/p&gt;
+
+&lt;p&gt;To delete the Persistent Menu send a DELETE request:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt; curl -X DELETE -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
+ &quot;setting_type&quot;:&quot;call_to_actions&quot;,
+ &quot;thread_state&quot;:&quot;existing_thread&quot;
+ }'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+&lt;p&gt;And to update or change the Persistent Menu options, simply send another POST request.&lt;/p&gt;
+
+&lt;h2&gt;Adding a “GET STARTED” Button to your messenger bot&lt;/h2&gt;
+
+&lt;h4&gt;What is a GET STARTED button in Messenger?&lt;/h4&gt;
+
+&lt;p&gt;The Welcome Screen can display a Get Started button. When this button is tapped, a postback received callback is triggered along with the person’s page-scoped ID (PSID). You can then present a personalized message to greet the user or present buttons to prompt him or her to take action.
+The process is very much similar, but here you’re not allowed any ‘title’ attribute in the JSON. The button will always be named as ‘GET STARTED’.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;curl -X POST -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
+                       &quot;setting_type&quot;:&quot;call_to_actions&quot;,
+                       &quot;thread_state&quot;:&quot;new_thread&quot;,
+                       &quot;call_to_actions&quot;:[
+                                             { }
+]
+}'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt; &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Adding Greeting Text to your messenger bot&lt;/h2&gt;
+
+&lt;p&gt;One common way is to combine “GREETING TEXTS” with “GETTING STARTED” button. You can set a greeting for new conversations. This can be used to communicate your bot’s functionality.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;curl -X POST -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
+                       &quot;setting_type&quot;:&quot;greeting&quot;,
+                       &quot;greeting&quot;:{
+                                     &quot;text&quot;:&quot;Welcome to My Company!&quot;
+                             }
+}'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;h2&gt;Making your messenger bot perform an action when the button is pressed?&lt;/h2&gt;
+
+&lt;p&gt;Well, now we have the menu. Let’s see how to make the buttons “do something” when invoked by the users.&lt;/p&gt;
+
+&lt;h3&gt;Handling POSTBACK requests from Persistent Menu buttons in messenger&lt;/h3&gt;
+
+&lt;p&gt;We’ll have to look for the POSTBACK event in the request that we’re receiving at our webhook endpoint. For example, here’s how you’ll handle it in python&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nd&quot;&gt;@app.route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'/'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;webook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# endpoint for processing incoming messaging events&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+
+	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;page&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;entry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+			&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;messaging&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
+				&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;postback&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+					&lt;span class=&quot;c&quot;&gt;# user clicked/tapped &quot;postback&quot; button in earlier message&lt;/span&gt;
+					&lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;postback&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;payload&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+					
+					&lt;span class=&quot;c&quot;&gt;# the button's payload&lt;/span&gt;
+					&lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+					&lt;span class=&quot;n&quot;&gt;sender_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sender&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SOME_PAYLOAD_WE_DEFINED&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+						&lt;span class=&quot;n&quot;&gt;send_message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sender_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Yay! This button works!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So basically, in request JSON, we look for&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;entry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;messaging&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;postback&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;If it exists, then a button has been tapped, and then we can handle it whatever way we want to.&lt;/p&gt;
+
+&lt;p&gt;All of the above POST requests I covered are one-time requests, i.e., you don’t need to send them over and over again. But for interactive buttons in the messages, you’ll have to dynamically generate similar POST request depending on the user’s input from your webhook endpoint (You’ll have to handle this on your server).
+Similar to buttons there are predefined templates provided by Facebook like ‘Generic Template,’ ‘Receipt Template,’ ‘Airline Template,’ etc.&lt;/p&gt;
+
+&lt;p&gt;For more details, It’d be easier for you to now check out and follow along Facebook’s documentation for &lt;a href=&quot;https://developers.facebook.com/docs/messenger-platform/send-api-reference&quot;&gt;Send API&lt;/a&gt; in messenger for all the available choices and all the customization that you can do with the templates.&lt;/p&gt;
+
+&lt;p&gt;PS: I’m currently working on developing a Python-SDK for messenger platform that would simplify the development process of messenger bots to a great extent. If you’d like to collaborate or have any ideas, please ping me.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="messenger" /><category term="python" /><category term="chatbot" /><category term="tutorial" /><summary type="html">This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.</summary></entry><entry><title type="html">Scraping in Python for beginners</title><link href="http://localhost:4000/posts/python/scraping-in-python-for-beginners/" rel="alternate" type="text/html" title="Scraping in Python for beginners" /><published>2016-08-02T18:53:53+05:30</published><updated>2016-08-02T18:53:53+05:30</updated><id>http://localhost:4000/posts/python/scraping-in-python-for-beginners</id><content type="html" xml:base="http://localhost:4000/posts/python/scraping-in-python-for-beginners/">&lt;p&gt;In this post, I’ll try to cover basic concepts required to scrape content from website in Python using &lt;code class=&quot;highlighter-rouge&quot;&gt;BeautifulSoup&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;python-requests&lt;/code&gt;.
+ &lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;what-exactly-is-web-scraping&quot;&gt;What exactly is Web Scraping?&lt;/h3&gt;
+
+&lt;p&gt;Web scraping is a technique to extract data from websites whereby the data is extracted and saved to a local file on your computer. The data can be used for several purposes like displaying on your own website and application, performing data analysis or for any other reason.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-scrape-instead-of-using-apis&quot;&gt;Why scrape instead of using APIs?&lt;/h3&gt;
+
+&lt;p&gt;First of all, not every site has an API and secondly if the site does have an API, then the API may not provide the information you seek.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-web-scraping-is-done&quot;&gt;How Web Scraping is done?&lt;/h3&gt;
+
+&lt;p&gt;Broadly speaking, it’s a Three Step Process&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Getting the content (in most cases HTML)&lt;/li&gt;
+  &lt;li&gt;Parsing the response.&lt;/li&gt;
+  &lt;li&gt;Optimizing/Improving the process and preserving the data.Problem Statement&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;We are going to fetch the title, author, and upvotes for all the proposals for &lt;a href=&quot;https://in.pycon.org/cfp/2016/proposals/&quot;&gt;Pycon India 2016. &lt;/a&gt;Here you can see the proposals list is ordered by the date they were added. We’d like to see the proposals sorted on the basis of upvotes. As you can see there’s no way to do this on the website. So we’ll scrape the proposals and store them in a python list and then sort that list on the basis of the number of upvotes for each proposal.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-the-content&quot;&gt;Getting the content&lt;/h3&gt;
+
+&lt;p&gt;Most of the times you will be only interested in getting the HTML content. In python, provided the link, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;urllib2&lt;/code&gt; to get the HTML contents of the page but this turns out to be a lot of code which is kind of fragile in typical cases. So I’d suggest you use the wonderful library &lt;a href=&quot;http://docs.python-requests.org/en/master/&quot;&gt;Requests&lt;/a&gt; which in fact is “HTTP for humans”. Have a look at &lt;a href=&quot;https://gist.github.com/kennethreitz/973705&quot;&gt;this&lt;/a&gt; simple example. We are going to use Requests to do a GET or POST request to the server and store the response received in return. Here’s the code snippet for it&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;requests&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://in.pycon.org/cfp/2016/proposals/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fetched the page sucessfully&quot;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;html_doc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;parsing-the-response&quot;&gt;Parsing the response&lt;/h3&gt;
+
+&lt;p&gt;Now that we have the response, we need a way to extract the information we need. The &lt;code class=&quot;highlighter-rouge&quot;&gt;response.text&lt;/code&gt; will be a string and we can find all the required content from HTML using regular expressions and basic python but that’s very complex. Instead, we will use third party libraries. Some of the popular libraries are &lt;code class=&quot;highlighter-rouge&quot;&gt;BeautifulSoup4&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;lxml&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;HTMLParser&lt;/code&gt;. These libraries employ different techniques of parsing underneath, so they differ in performance and ease. We’ll be using &lt;code class=&quot;highlighter-rouge&quot;&gt;BeautifulSoup&lt;/code&gt; here as it is more popular and user-friendly among the three. Creating the soup object&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt; 
+&lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html_doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'html.parser'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prettify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So let’s see what is going on in these three lines. First of all, we import the Beautiful soup module in the first line. Then we create a soup object passing in the response we received and then we specify which parser to use (html.parser is the default parser anyway). You can also use lxml here. A parser offers an interface for programmers to easily access and modify various parts of the HTML string code. &lt;a href=&quot;http://www.ianbicking.org/blog/2008/03/python-html-parser-performance.html&quot;&gt; Here’s &lt;/a&gt; a link to a popular blog post comparing various parsers’ performance Another useful link in Beautiful Soup documentation). In the last line, we are printing out the HTML. &lt;code class=&quot;highlighter-rouge&quot;&gt;soup.prettify()&lt;/code&gt; is just a way for formatting the HTML in human readable form before printing.&lt;/p&gt;
+
+&lt;h3 id=&quot;finding-the-content-required&quot;&gt;Finding the content required&lt;/h3&gt;
+
+&lt;p&gt;Now that we have the soup object we can call various methods on it and easily extract the data we want from the HTML. In general, there are three ways of going at this&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Specifying elements&lt;/li&gt;
+  &lt;li&gt;Matching attributes of elements (class, id, etc)&lt;/li&gt;
+  &lt;li&gt;Using Xpath&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first two ways are achieved with the help of &lt;a href=&quot;http://www.w3schools.com/cssref/css_selectors.asp&quot;&gt;CSS Selectors&lt;/a&gt;. The other way around is using &lt;code class=&quot;highlighter-rouge&quot;&gt;Xpath&lt;/code&gt;. Note that beautifulsoup does not support xpath so we’ll have to stick with CSS Selector syntax. There are libraries like &lt;code class=&quot;highlighter-rouge&quot;&gt;Scrapy&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Selenium&lt;/code&gt; which support Xpath. Let’s just quickly brush through some common useful stuff that we can perform on our &lt;code class=&quot;highlighter-rouge&quot;&gt;soup&lt;/code&gt; object. BeautifulSoup already has very awesome&lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start&quot;&gt; Documentation&lt;/a&gt;, so please go through just the “Quick Start” section once before moving ahead.&lt;/p&gt;
+
+&lt;h3 id=&quot;observing-the-page-structure&quot;&gt;Observing the page structure&lt;/h3&gt;
+
+&lt;p&gt;Now comes the important part. You’ve to understand the HTML page structure in order to get the desired content. We are interested in getting the following for values for all the proposals on the page of the site of Pycon India 2016:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;The number of votes.&lt;/li&gt;
+  &lt;li&gt;The number of comments.&lt;/li&gt;
+  &lt;li&gt;Title&lt;/li&gt;
+  &lt;li&gt;Link to the description&lt;/li&gt;
+  &lt;li&gt;The author of the proposal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here’s how we proceed Looking at the HTML structure we come to know that every proposal is contained within a &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; of class &lt;code class=&quot;highlighter-rouge&quot;&gt;user-proposals&lt;/code&gt; So first of all, we’d want to get all the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; with class &lt;code class=&quot;highlighter-rouge&quot;&gt;user-proposals &lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user-proposals&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://satwikkansal.files.wordpress.com/2016/04/scrape-1.png&quot; alt=&quot;scrape-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now we know locate where the required data is stored inside this &lt;code class=&quot;highlighter-rouge&quot;&gt;user-proposal&lt;/code&gt; div. A quick way to do this is to simply go to the element and click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Inspect element&lt;/code&gt;. For example, If I am looking for the element containing author then I simply right-click over any author name and select ‘Inspect element’ on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://satwikkansal.files.wordpress.com/2016/04/screenshot-from-2016-06-18-23-05-55-1.png&quot; alt=&quot;Screenshot from 2016-06-18 23-05-55-1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Careful observation leads us to the following useful conclusions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Number of votes&lt;/code&gt; are placed in the only html tag of the div with the class panel-body.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Number of comments&lt;/code&gt; are placed in the only span tag just after the i tag with class fa fa-comments-o. &lt;code class=&quot;highlighter-rouge&quot;&gt;Note&lt;/code&gt; : It could also have been the only span tag   of the div with the class space-on-top. But I’m just trying to cover different possible ways.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Title&lt;/code&gt; of the proposal is placed in the a tag with class proposal–title.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Link&lt;/code&gt; to the description of the proposal is placed inside the href attribute of the a tag with class proposal–title. So now just take a look at the code to extract all of this.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;
+  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;div&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user-proposals&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'No. of proposals'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;#Initialize an empty dictionary to store all the data&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;#Using CSS Selectors to get the Number of votes&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'votes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.panel-body &amp;amp;gt; h4'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;#Using chained find methods to get the number of comments&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'comments'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'div'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'space-on-top'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'span'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+	&lt;span class=&quot;c&quot;&gt;# We can also pass other attributes to the find method inside a dictionary&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'h3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'class'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'proposal--title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;/figure&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="scraping" /><category term="BeautifulSoup" /><category term="python-requests" /><summary type="html">In this post, I’ll try to cover basic concepts required to scrape content from website in Python using BeautifulSoup and python-requests.</summary></entry></feed>
