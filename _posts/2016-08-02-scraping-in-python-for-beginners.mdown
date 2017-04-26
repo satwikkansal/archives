@@ -3,6 +3,7 @@ layout: single
 title:  "Scraping in Python for beginners"
 date:   2016/08/02 18:53:53 +0530
 tags: python scraping BeautifulSoup python-requests
+categories: python
 excerpt_separator: <!--more-->
 ---
 

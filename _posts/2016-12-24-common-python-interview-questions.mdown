@@ -3,6 +3,7 @@ layout: single
 title:  "Popular Python Interview Questions"
 date:   2016/12/24 09:09:06 +0530
 tags: [python, interview, questions]
+categories: python
 excerpt_separator: <!--more-->
 ---
 

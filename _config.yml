@@ -210,42 +210,37 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-# tag_archive:
-#   type: jekyll-archives
-#   path: /tags/
-# category_archive:
-#   type: jekyll-archives
-#   path: /categories/
-# # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled: all
-#   layout: archive-taxonomy
-#   # layouts:
-#   #   category_home: category-archive
-#   #   category: archive-taxonomy
-#   # tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tag/:name/
-#     year: /year/:year/
+tag_archive:
+  type: liquid
+  path: /tags/
 category_archive:
   type: jekyll-archives
-  path: /categories/
-tag_archive:
-  type: jekyll-archives
-  path: /tags/
+  path: /
+# # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
-    - tags
   layout: archive-taxonomy
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
   permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
-    year: /year-archive/:year
+    category: /:name/
+# category_archive:
+#   type: jekyll-archives
+#   path: /categories/
+# tag_archive:
+#   type: jekyll-archives
+#   path: /tags/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layout: archive-taxonomy
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+#     year: /year-archive/:year
 
 
 
