@@ -1,83 +1,63 @@
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
----
-title: Satwik Kansal's blog
-timezone: Asia/Kolkata
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: true
-    share: true
-    related: true
-locale: en
-title_separator: "-"
-name: Satwik Kansal
-description: 'Freelance Software Developer and Open Source enthusiast experienced
-  in Data Science and Web Development.
-
-'
-url: http://blog.satwikkansal.xyz
-baseurl: 
-repository: satwikkansal/satwikkansal.github.io
-teaser: 
-words_per_minute: 200
+# Site Settings
+locale                   : "en"
+title                    : "Satwik Kansal's blog"
+title_separator          : "-"
+name                     : &my_name "Satwik Kansal"
+description              : >
+  Freelance Software Developer and Open Source enthusiast
+  experienced in Data Science and Web Development.
+url                      : "http://blog.satwikkansal.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : "satwikkansal/satwikkansal.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+# breadcrumbs            : false # true, false (default)
+words_per_minute         : 200
 comments:
-  provider: disqus
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
-    shortname: satwik
+    shortname            : "satwik" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
-    server: 
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
-    appid: 
-    num_posts: 
-    colorscheme: 
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields:
-  - name
-  - email
-  - url
-  - message
-  branch: gh-pages
-  commitMessage: New comment.
-  filename: comment-{@timestamp}
-  format: yml
-  moderation: false
-  path: _data/comments/{options.slug}
-  requiredFields:
-  - name
-  - email
-  - message
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : false #TODO: set to true after blog has become popular enough
+  path                   : "_data/comments/{options.slug}" # "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email: md5
+    email                : "md5"
   generatedFields:
     date:
-      type: date
+      type               : "date"
       options:
-        format: iso8601
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  path: 
-google_site_verification: IoC_F49PVEB-g10hvzr5RTmjxW1LIYldwrNcAKrFiPA
-bing_site_verification: 
-alexa_site_verification: 
-yandex_site_verification: 
+  path                   : # blank (default) uses feed.xml
+
+# SEO Related
+google_site_verification : "IoC_F49PVEB-g10hvzr5RTmjxW1LIYldwrNcAKrFiPA"
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
 twitter:
-  username: satwikkansal
+  username               : "satwikkansal"
 facebook:
-  username: satwikkansal
-  app_id: '296348977464170'
-  publisher: 
-og_image: 
+  username               : "satwikkansal"
+  app_id                 : "296348977464170"
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
@@ -88,81 +68,92 @@ social:
 
 # Analytics
 analytics:
-  provider: google
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: UA-69269552-4
-author:
-  name: Satwik Kansal
-  avatar: https://www.gravatar.com/avatar/763a2074e6b54615855a13656f2cb717
-  bio: 'A Freelance Software Developer actively involved in Open Source,  experienced
-    in Data Science and Web Development.
+    tracking_id          : "UA-69269552-4"
 
-'
-  location: New Delhi, India
-  email: satwikkansal@gmail.com
-  uri: http://satwikkansal.xyz
-  bitbucket: 
-  codepen: 
-  dribbble: 
-  flickr: 
-  facebook: https://www.facebook.com/satwikkansal
-  foursquare: 
-  github: satwikkansal
-  google_plus: 
-  keybase: 
-  instagram: 
-  lastfm: 
-  linkedin: https://www.linkedin.com/in/satwikkansal
-  pinterest: 
-  soundcloud: 
-  stackoverflow: 
-  steam: 
-  tumblr: 
-  twitter: satwikkansal
-  vine: 
-  weibo: 
-  xing: 
-  youtube: 
-  quora: Satwik-Kansal-1
+
+# Site Author
+author:
+  name             : *my_name
+  avatar           : "https://www.gravatar.com/avatar/763a2074e6b54615855a13656f2cb717" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              :  >
+    A Freelance Software Developer actively involved in Open Source, 
+    experienced in Data Science and Web Development.
+  location         : "New Delhi, India"
+  email            : "satwikkansal@gmail.com"
+  uri              : "http://satwikkansal.xyz"
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         : "https://www.facebook.com/satwikkansal"
+  foursquare       :
+  github           : "satwikkansal"
+  google_plus      :
+  keybase          :
+  instagram        : 
+  lastfm           :
+  linkedin         : "https://www.linkedin.com/in/satwikkansal"
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  steam            :
+  tumblr           :
+  twitter          : "satwikkansal"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  quora            : "Satwik-Kansal-1"
+
+
+# Reading Files
 include:
-- ".htaccess"
-- _pages
+  - .htaccess
+  - _pages
 exclude:
-- "*.sublime-project"
-- "*.sublime-workspace"
-- vendor
-- ".asset-cache"
-- ".bundle"
-- ".jekyll-assets-cache"
-- ".sass-cache"
-- assets/js/plugins
-- assets/js/_main.js
-- assets/js/vendor
-- Capfile
-- CHANGELOG
-- config
-- Gemfile
-- Gruntfile.js
-- gulpfile.js
-- LICENSE
-- log
-- node_modules
-- package.json
-- Rakefile
-- README
-- tmp
-- "/docs"
-- "/test"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
-- ".git"
-- ".svn"
-encoding: utf-8
-markdown_ext: markdown,mkdown,mkdn,mkd,md,mdown
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,mdown"
+
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -173,31 +164,77 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true
+
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
-permalink: "/posts/:categories/:title/"
-paginate: 4
-paginate_path: "/page:num/"
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /posts/:categories/:title/
+paginate: 4  # amount of posts to show
+paginate_path: /page:num/
+timezone: "Asia/Kolkata" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
 gems:
-- jekyll-paginate
-- jekyll-archives
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
+  - jekyll-paginate
+  - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# mimic GitHub Pages with --safe
 whitelist:
-- jekyll-paginate
-- jekyll-sitemap
-- jekyll-gist
-- jekyll-feed
-- jemoji
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+
+# tag_archive:
+#   type: liquid
+#   path: /tags/
+# category_archive:
+#   type: liquid
+#   path: /categories/
+
 tag_archive:
-  type: liquid
-  path: "/tags/"
+  type: jekyll-archives
+  path: /tags/
 category_archive:
-  type: liquid
-  path: "/categories/"
+  type: jekyll-archives
+  path: /
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /:name/
+    tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
@@ -215,4 +252,4 @@ defaults:
       read_time: true
       comments: true
       share: true
-related: true
+      related: true
