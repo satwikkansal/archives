@@ -79,12 +79,14 @@ facebook:
   publisher: 
 og_image: 
 social:
-  type: 
-  name: 
-  links:
-  - https://www.linkedin.com/in/satwikkansal
-  - https://www.facebook.com/satwikkansal
-  - https://plus.google.com/u/0/100516829514193489870
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to  social media profiles
+    - "https://www.linkedin.com/in/satwikkansal"
+    - "https://www.facebook.com/satwikkansal"
+    - "https://plus.google.com/u/0/100516829514193489870"
+
+# Analytics
 analytics:
   provider: google
   google:
