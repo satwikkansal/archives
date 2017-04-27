@@ -1,10 +1,14 @@
 ---
+title: Popular Python Interview Questions
+date: 2016-12-24 09:09:06 +05:30
+categories:
+- python
+tags:
+- python
+- interview
+- questions
 layout: single
-title:  "Popular Python Interview Questions"
-date:   2016/12/24 09:09:06 +0530
-tags: [python, interview, questions]
-categories: python
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 This blog post will cover some of the typical Python questions asked in Interviews when you're  applying for a Python related job. <!--more--> I assume that you've basic knowledge of Python and can write programs in python easily.

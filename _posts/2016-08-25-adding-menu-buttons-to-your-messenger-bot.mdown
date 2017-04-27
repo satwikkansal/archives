@@ -1,10 +1,15 @@
 ---
+title: Adding  Menu and Buttons to your messenger bot
+date: 2016-08-25 05:52:03 +05:30
+categories:
+- messenger
+tags:
+- messenger
+- python
+- chatbot
+- tutorial
 layout: single
-title:  "Adding  Menu and Buttons to your messenger bot"
-date:   2016/08/25 05:52:03 +0530
-tags: messenger python chatbot tutorial
-categories: messenger
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.

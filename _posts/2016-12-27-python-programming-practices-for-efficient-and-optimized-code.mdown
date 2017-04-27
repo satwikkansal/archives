@@ -1,10 +1,14 @@
 ---
+title: Python practices for efficient and optimized code
+date: 2016-12-27 06:51:36 +05:30
+categories:
+- python
+tags:
+- python
+- optimization
+- efficency
 layout: single
-title:  "Python practices for efficient and optimized code"
-date:   2016/12/27 06:51:36 +0530
-tags: python optimization efficency
-categories: python
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In this blog post,  I will try to cover common techniques to write more efficient and optimized code in Python. By efficient and optimized I mean - <!--more--> A code that requires minimum memory, executes faster, looks clean, is properly documented and makes it easy for other developers to collaborate. This might help you while contributing to an Open Source organization, submitting a solution to an Online Judge, working on large data processing problems like Machine Learning or while making your own project.

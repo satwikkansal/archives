@@ -1,10 +1,14 @@
 ---
+title: 7 things I learnt from coala
+date: 2016-12-27 06:51:36 +05:30
+categories:
+- oss
+tags:
+- python
+- oss
+- coala
 layout: single
-title:  "7 things I learnt from coala"
-date:   2016/12/27 06:51:36 +0530
-tags: python oss coala
-categories: oss
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 So this New Year, I started seriously contributing to Open Source. After going through tons of organizations I shortlisted a few of 3-5 based on my interests, skills, and several other factors (I like some maths and analysis!). But I soon discovered keeping up with several organizations is more pain and less gain for me. So now I'm down to only 1 organization that I'd put my best efforts into. coala is a user-friendly language independent code analysis tool built mostly using Python. It's been exactly 2 weeks contributing to coala. Following are some of the things that I found interesting about coala: 
