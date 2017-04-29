@@ -7,7 +7,7 @@ description              : >
   Freelance Software Developer and Open Source enthusiast
   experienced in Data Science and Web Development.
 url                      : "http://blog.satwikkansal.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
 repository               : "satwikkansal/satwikkansal.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
