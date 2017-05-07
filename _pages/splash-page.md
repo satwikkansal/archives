@@ -47,7 +47,7 @@ feature_row3:
   excerpt: This is some sample content that goes here with **Markdown** formatting.
     Right aligned with `type="right"`
   url: "#test-link"
-  btn_label: Read More
+  btn_label: Read Moresplash-page/
   btn_class: btn--inverse
 feature_row4:
 - image_path: "/assets/images/unsplash-gallery-image-2-th.jpg"

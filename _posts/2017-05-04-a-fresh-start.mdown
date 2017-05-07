@@ -1,0 +1,23 @@
+---
+title: A fresh start with my little web-space
+date: 2017-05-02 06:51:36 +05:30
+categories:
+- personal
+tags:
+- website
+- goals
+layout: single
+excerpt_separator: "<!--more-->"
+---
+After mashing up 3-4 jekyll themes and doing few modifications over the past month, I ended up with the new design of my [website](http://www.satwikkansal.xyz) ,shifted my blog from [wordpress](https://www.satwikkansal.wordpress.com) to [jekyll](http://satwikkansal.xyz/blog), and created a [portfolio](http://satwikkansal.xyz/projects) to share my projects. All of this was a long overdue (and still a lot of stuff to implement) but I think the basic structure is ready right now. 
+
+The reason I called this post a "Fresh Beginning" is <!--more--> there are lots of things that I'm planning to do (**strictly** :sweat_smile:) from next month onwards. Few of them are:
+
+- **Blog often** : I don't have any followers though, but blogging actually is a good practice to understand things in detail and present them in the simplest way possible. Also, it would help me to track my progress so far as a developer.
+
+- **Try different platforms**: Would like to spend more time on Twitter, Medium, Reddit and Quora and stay as away as I could from Facebook. Facebook is all messed up these days, even the messenger app is bloated with all kinds of messaging-app features that exist on earth. 
+
+- **Work on serious projects**: I've few good ideas to implement which I'd like to focus on and pursue till the completion (making something that is usable by others). Would also try to find some new "collaborator-friends" who have similar skillset as mine to work on large but cool projects.
+
+- **Try and explore more technologies:** Augmented Reality and few Machine Learning fields (Genrative Adversarial Networks, Reinforcement Learning) are on my list. Let's see if I'm able to come up with some interesting applications of these technologies.
+
