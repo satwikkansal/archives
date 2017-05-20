@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-05-21T00:59:04+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-05-21T01:05:30+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
 </subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">Two weeks into Community Bonding</title><link href="http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding/" rel="alternate" type="text/html" title="Two weeks into Community Bonding" /><published>2017-05-20T05:51:36+05:30</published><updated>2017-05-20T05:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding/">&lt;p&gt;So it’s been more than two weeks into the Community bonding period, my examinations are about to get over (finally:sweat_smile:) and I’ve planned out my milestones with my mentors. Looks like I’ll be all set to code after 1 week.&lt;/p&gt;
 
 &lt;p&gt;Here’s what I was upto past two weeks:&lt;/p&gt;
@@ -15,16 +15,16 @@
 &lt;p&gt;&lt;strong&gt;Some nice links:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;My post in mailing list - https://groups.google.com/forum/#!topic/coala-devel/0A_Wz3pyWgk&lt;/li&gt;
+  &lt;li&gt;My post in mailing list - &lt;a href=&quot;https://groups.google.com/forum/#!topic/coala-devel/0A_Wz3pyWgk&quot;&gt;https://groups.google.com/forum/#!topic/coala-devel/0A_Wz3pyWgk&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The cEP I proposed - &lt;a href=&quot;https://github.com/satwikkansal/cEPs/blob/f5f7ac61d263de759be47414fe6a210fae1c84c0/cEP-0009.md&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Description of my project - http://projects.coala.io/#/projects?project=enhance_coala-quickstart&lt;/li&gt;
+  &lt;li&gt;Description of my project - &lt;a href=&quot;http://projects.coala.io/#/projects?project=enhance_coala-quickstart&quot;&gt;http://projects.coala.io/#/projects?project=enhance_coala-quickstart&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;My project milestones -
     &lt;ul&gt;
-      &lt;li&gt;[BONDING] https://gitlab.com/coala/GSoC-2017/milestones/6&lt;/li&gt;
-      &lt;li&gt;[PHASE 1] https://gitlab.com/coala/GSoC-2017/milestones/20&lt;/li&gt;
-      &lt;li&gt;[PHASE 2] https://gitlab.com/coala/GSoC-2017/milestones/21&lt;/li&gt;
-      &lt;li&gt;[PHASE 3] https://gitlab.com/coala/GSoC-2017/milestones/22&lt;/li&gt;
-      &lt;li&gt;[STRETCH GOALS] https://gitlab.com/coala/GSoC-2017/milestones/41&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/6&quot;&gt;BONDING&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/20&quot;&gt;PHASE 1&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/21&quot;&gt;PHASE 2&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/22&quot;&gt;PHASE 3&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://gitlab.com/coala/GSoC-2017/milestones/41&quot;&gt;STRETCH GOALS&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">So it’s been more than two weeks into the Community bonding period, my examinations are about to get over (finally:sweat_smile:) and I’ve planned out my milestones with my mentors. Looks like I’ll be all set to code after 1 week.</summary></entry><entry><title type="html">My GSoC story begins</title><link href="http://localhost:4000/blog/posts/personal/gsoc/my-gsoc-story-begins/" rel="alternate" type="text/html" title="My GSoC story begins" /><published>2017-05-02T06:51:36+05:30</published><updated>2017-05-02T06:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/my-gsoc-story-begins</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/my-gsoc-story-begins/">&lt;p&gt;&lt;img src=&quot;https://image.ibb.co/gqKL1Q/gsoc2.png&quot; alt=&quot;GSoC&quot; /&gt;&lt;/p&gt;
