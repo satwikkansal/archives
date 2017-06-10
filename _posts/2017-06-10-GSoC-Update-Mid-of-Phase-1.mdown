@@ -1,0 +1,50 @@
+---
+title: GSoC Update- Mid of Phase 1
+date: 2017-06-10 05:51:36 +05:30
+categories:
+- personal
+- gsoc
+tags:
+- coala
+layout: single
+---
+
+Hey folks, hope everyone is doing great in this summer vaccation season. I saw statistics released from Google lately and was really happy to know that my university had the third highest number of GSoC students selected in the world :). Anyways, in this blog post I'll summarize my work for these past two weeks.
+
+## TLDR;
+Here's what I was upto last two weeks.
+
+- Implemented modules for representing information and extracting information.
+- Created upstream issues for some of the things, would be probably working on them on my own if time allows (stretch goals)
+- Added Appveyor continuous integration for windows.
+- Added Travis CI on my project.
+
+## What's next?
+
+In the upcoming weeks, I'll be working on writing extraction modules for extracting information of interest to coala from common kinds of meta-files. If you're wondering what these files are, well they are:
+- `package.json`
+- `Gruntfile.js`
+- `Gulpfile.js`
+- `Gemfile`
+- `.editorconfig`
+
+## A deeper dive into my work
+
+These 2 weeks have been a good learning experience to me. I got to learn more about Object oriented functionalities in python and I explored the world of hosted Continuous Integration and Delivery platforms in-depth.
+
+### Week 1
+
+The primary tasks for this week were to create a working prototype for the cEP (coala's Enhancement Proposal) that I proposed. Having a cEP in advance made it easier for me to take design specific decisions (I'm kinda starting to like "plan well before implement" stuff approach as opposed to the Hackathon-like approaches where I just dived into implementation and the see where it ends up). I wrote extensive tests for both of my modules, namely `Info` and `InfoExtctor`. Another important decision that I had to make was the directory structure and location of these modules (should these go into `coalib` or just remain in `quickstart`). After discussion with my mentors we agreed upon keeping them in quickstart's repo only.
+
+I already made a PR for my Week 1 and I expect to get it merged soon.
+
+### Week 2
+
+After weekly meeting of Week 1, we ended up modifying our proposed timeline. As suggested by one of the maintainers (John), we shifted the continuous Integration tasks from Phase 3 to Phase 1 and decided to push everything in the timeline downwards by 1 week. I believe that it was a good decision because it is better to catch and fix platform specific issues earlier during implementation rather than having them reported later (prevention is better than cure!).
+
+So in the second week, I worked on adding Continuous Integration platforms Appveyor and Travis CI to coala-quickstart similar to other existing coala repositiories. It turned out to more reigorous and complicated than I expected and I ended up making around ~90 attempts to get all of them working at once (that's probably due to my wrong approach of doing things the hit-and-trial way, I should have understood concepts first and then tried to build things from scratch, but nevermind, that's how you learn :P). Finally I ended up making them work successfully and I'm very happy about it (earlier I used to shy away from issues related to CI but I don't think now I'll ever do that).
+
+
+So after the first two weeks, I was able to set up a basic structure and CI system for my upcoming Tasks.
+
+That's all folks! Stay tuned for more updates...

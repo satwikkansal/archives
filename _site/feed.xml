@@ -1,5 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-05-21T01:05:30+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
-</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">Two weeks into Community Bonding</title><link href="http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding/" rel="alternate" type="text/html" title="Two weeks into Community Bonding" /><published>2017-05-20T05:51:36+05:30</published><updated>2017-05-20T05:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding/">&lt;p&gt;So it’s been more than two weeks into the Community bonding period, my examinations are about to get over (finally:sweat_smile:) and I’ve planned out my milestones with my mentors. Looks like I’ll be all set to code after 1 week.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-10T18:20:11+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">GSoC Update- Mid of Phase 1</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1/" rel="alternate" type="text/html" title="GSoC Update- Mid of Phase 1" /><published>2017-06-10T05:51:36+05:30</published><updated>2017-06-10T05:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1/">&lt;p&gt;Hey folks, hope everyone is doing great in this summer vaccation season. I saw statistics released from Google lately and was really happy to know that my university had the third highest number of GSoC students selected in the world :). Anyways, in this blog post I’ll summarize my work for these past two weeks.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;TLDR;&lt;/h2&gt;
+&lt;p&gt;Here’s what I was upto last two weeks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Implemented modules for representing information and extracting information.&lt;/li&gt;
+  &lt;li&gt;Created upstream issues for some of the things, would be probably working on them on my own if time allows (stretch goals)&lt;/li&gt;
+  &lt;li&gt;Added Appveyor continuous integration for windows.&lt;/li&gt;
+  &lt;li&gt;Added Travis CI on my project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;In the upcoming weeks, I’ll be working on writing extraction modules for extracting information of interest to coala from common kinds of meta-files. If you’re wondering what these files are, well they are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gruntfile.js&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gulpfile.js&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.editorconfig&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;a-deeper-dive-into-my-work&quot;&gt;A deeper dive into my work&lt;/h2&gt;
+
+&lt;p&gt;These 2 weeks have been a good learning experience to me. I got to learn more about Object oriented functionalities in python and I explored the world of hosted Continuous Integration and Delivery platforms in-depth.&lt;/p&gt;
+
+&lt;h3 id=&quot;week-1&quot;&gt;Week 1&lt;/h3&gt;
+
+&lt;p&gt;The primary tasks for this week were to create a working prototype for the cEP (coala’s Enhancement Proposal) that I proposed. Having a cEP in advance made it easier for me to take design specific decisions (I’m kinda starting to like “plan well before implement” stuff approach as opposed to the Hackathon-like approaches where I just dived into implementation and the see where it ends up). I wrote extensive tests for both of my modules, namely &lt;code class=&quot;highlighter-rouge&quot;&gt;Info&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;InfoExtctor&lt;/code&gt;. Another important decision that I had to make was the directory structure and location of these modules (should these go into &lt;code class=&quot;highlighter-rouge&quot;&gt;coalib&lt;/code&gt; or just remain in &lt;code class=&quot;highlighter-rouge&quot;&gt;quickstart&lt;/code&gt;). After discussion with my mentors we agreed upon keeping them in quickstart’s repo only.&lt;/p&gt;
+
+&lt;p&gt;I already made a PR for my Week 1 and I expect to get it merged soon.&lt;/p&gt;
+
+&lt;h3 id=&quot;week-2&quot;&gt;Week 2&lt;/h3&gt;
+
+&lt;p&gt;After weekly meeting of Week 1, we ended up modifying our proposed timeline. As suggested by one of the maintainers (John), we shifted the continuous Integration tasks from Phase 3 to Phase 1 and decided to push everything in the timeline downwards by 1 week. I believe that it was a good decision because it is better to catch and fix platform specific issues earlier during implementation rather than having them reported later (prevention is better than cure!).&lt;/p&gt;
+
+&lt;p&gt;So in the second week, I worked on adding Continuous Integration platforms Appveyor and Travis CI to coala-quickstart similar to other existing coala repositiories. It turned out to more reigorous and complicated than I expected and I ended up making around ~90 attempts to get all of them working at once (that’s probably due to my wrong approach of doing things the hit-and-trial way, I should have understood concepts first and then tried to build things from scratch, but nevermind, that’s how you learn :P). Finally I ended up making them work successfully and I’m very happy about it (earlier I used to shy away from issues related to CI but I don’t think now I’ll ever do that).&lt;/p&gt;
+
+&lt;p&gt;So after the first two weeks, I was able to set up a basic structure and CI system for my upcoming Tasks.&lt;/p&gt;
+
+&lt;p&gt;That’s all folks! Stay tuned for more updates…&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">Hey folks, hope everyone is doing great in this summer vaccation season. I saw statistics released from Google lately and was really happy to know that my university had the third highest number of GSoC students selected in the world :). Anyways, in this blog post I’ll summarize my work for these past two weeks.</summary></entry><entry><title type="html">Two weeks into Community Bonding</title><link href="http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding/" rel="alternate" type="text/html" title="Two weeks into Community Bonding" /><published>2017-05-20T05:51:36+05:30</published><updated>2017-05-20T05:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/two-weeks-into-community-bonding/">&lt;p&gt;So it’s been more than two weeks into the Community bonding period, my examinations are about to get over (finally:sweat_smile:) and I’ve planned out my milestones with my mentors. Looks like I’ll be all set to code after 1 week.&lt;/p&gt;
 
 &lt;p&gt;Here’s what I was upto past two weeks:&lt;/p&gt;
 
