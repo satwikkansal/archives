@@ -1,5 +1,125 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-10T18:20:11+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
-</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">GSoC Update- Mid of Phase 1</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1/" rel="alternate" type="text/html" title="GSoC Update- Mid of Phase 1" /><published>2017-06-10T05:51:36+05:30</published><updated>2017-06-10T05:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1/">&lt;p&gt;Hey folks, hope everyone is doing great in this summer vaccation season. I saw statistics released from Google lately and was really happy to know that my university had the third highest number of GSoC students selected in the world :). Anyways, in this blog post I’ll summarize my work for these past two weeks.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-23T01:56:48+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">Phase 1 Final Week</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-of-Phase-1/" rel="alternate" type="text/html" title="Phase 1 Final Week" /><published>2017-06-23T00:40:36+05:30</published><updated>2017-06-23T00:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Final-Week-of-Phase-1</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-of-Phase-1/">&lt;p&gt;Hey everyone! I hope you all are having a fantastic summer. The first phase of my GSoC project is about to end, and I’ll be soon filling up my evaluation. In this post, I’ll summarize my progress (like I’ve been doing in all my previous posts :p). Okay so here it goes.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;TLDR;&lt;/h2&gt;
+&lt;p&gt;Here’s my progress since my last blog post (almost 2 weeks ago)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reiterated on Appveyor and Travis PRs and got them merged.&lt;/li&gt;
+  &lt;li&gt;Went through multiple iterations of my Info Extraction framework’s PR, implemented some new cool features and got the PR merged : tada:&lt;/li&gt;
+  &lt;li&gt;Extracted information from the files:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.editorconfig&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h2&gt;
+
+&lt;p&gt;Phase 2, obviously! :P&lt;/p&gt;
+
+&lt;p&gt;As I pulled the Continuous Integration tasks from Phase 3 of my proposal to Phase 1, I had to push some of the tasks as stretch goals. I and my mentors will be discussing the future tasks to pursue in the upcoming weekly meeting, and we’ll adjust the timeline accordingly (don’t worry I’ll update everyone once we finalize the tasks :P)&lt;/p&gt;
+
+&lt;p&gt;The next Phase will majorly involve utilizing the information that I’ve been able to extract via my Info Extraction framework. It’s gonna be slightly tight as I’ve my campus placements upcoming (damn yes! days of anxiety are near) and I’ll have to prepare for them as well (fingers crossed :))&lt;/p&gt;
+
+&lt;h2 id=&quot;a-deeper-dive-into-my-work&quot;&gt;A deeper dive into my work&lt;/h2&gt;
+
+&lt;p&gt;These two weeks, I underwent multiple iterations of my previous week’s work until they were in perfect shape (Oh yes, getting the code merged is much more exhausting than writing the code).&lt;/p&gt;
+
+&lt;h3 id=&quot;travis-and-appveyor&quot;&gt;Travis and Appveyor&lt;/h3&gt;
+
+&lt;p&gt;Finally, I was able to figure out the mysteries of Travis, CircleCI, and Appveyor. Now we have Travis, Circle CI, and Appveyor integrated into the &lt;code class=&quot;highlighter-rouge&quot;&gt;coala-quickstart&lt;/code&gt; repository. This is a very useful step as I’ll be able to make sure my solution works flawlessly across different Operating Systems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Here’s how the tree looks like now&lt;/strong&gt;
+&lt;img src=&quot;https://s9.postimg.org/5ui96fyjj/Screenshot_from_2017-06-23_00-55-16.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I remember when I joined this Open Source world I used to consider these CI checks as “annoying mystery systems”:sweat_smile:, but later I realized their importance and appreciate the services they offer for free to the open source projects.&lt;/p&gt;
+
+&lt;p&gt;It was disappointing the Travis builds for OSX took a crazy long time to start and I eventually ending up removing them from the configuration. I’m planning to try some other CI service for OSX if I finish early with my GSoC tasks.&lt;/p&gt;
+
+&lt;p&gt;Special thanks to &lt;a href=&quot;http://enwp.org/User:Jayvdb&quot;&gt;John&lt;/a&gt; (@jayvdb) for helping me out with all this.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-information-extraction-framework&quot;&gt;The Information Extraction Framework&lt;/h3&gt;
+
+&lt;p&gt;After making several iterations to my basic version of cEP-0009, we ended up with a pretty robust module with some cool features, one of them being the “type signature” based information value validation. If you are wondering what that means, let me demonstrate with some examples:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;def assert_type_signature(value, type_signature, argname):
+    &quot;&quot;&quot;
+    Validates the value with the type_signature recursively. The type
+    signature is either a single type object, or a collection of type
+    objects or allowed values or type signatures.
+
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature(3, int, &quot;var&quot;)
+    True
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature(3, (3,), &quot;var&quot;)
+    True
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature([3,4], ([int],), &quot;var&quot;)
+    True
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature([3.0 ,4], ([int, float],), &quot;var&quot;)
+    True
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature([3,4], ([1, 2, 3, 4],), &quot;var&quot;)
+    True
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature([&quot;foo&quot;, 420], [[str, int]], &quot;var&quot;)
+    True
+    &amp;gt;&amp;gt;&amp;gt; assert_type_signature(&quot;tab&quot;, {&quot;tab&quot;, &quot;space&quot;}, &quot;var&quot;)
+    True
+
+    :param value:          Object to be validated against ``type_signature``.
+    :param type_signature: Object that describes allowed types and values for
+                           the ``value``.
+    &quot;&quot;&quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;^^ I was bit lazy and ended up copy-pasting the inline documentation :P The main idea being it will be able to enforce constraints on the possible values an &lt;code class=&quot;highlighter-rouge&quot;&gt;Info&lt;/code&gt; class can take in my framework. It’s very flexible, and you can give complicated type signatures like&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;type_signature = ([str, int, 9.5], &quot;Hello&quot;, &quot;coala!&quot;, [[classA], [int]])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Hmm, so let’s see what all values match the above type signature:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;9.5&lt;/li&gt;
+  &lt;li&gt;[“some string”]&lt;/li&gt;
+  &lt;li&gt;[4, 5, “another string”]&lt;/li&gt;
+  &lt;li&gt;“Hello”&lt;/li&gt;
+  &lt;li&gt;[[4,2,1]]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And what doesn’t match&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;“Foo”&lt;/li&gt;
+  &lt;li&gt;5.7&lt;/li&gt;
+  &lt;li&gt;[2, 2.3]&lt;/li&gt;
+  &lt;li&gt;[[“some string”]]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; The outer tuple is just a container of multiple possible type signatures and has no role in type matching.&lt;/p&gt;
+
+&lt;p&gt;It was easy, isn’t it?&lt;/p&gt;
+
+&lt;p&gt;Okay, so after some iterations, I was finally able to get the concerned PR merged : tada:&lt;/p&gt;
+
+&lt;h3 id=&quot;implementing-infoextractor-classes&quot;&gt;Implementing &lt;code class=&quot;highlighter-rouge&quot;&gt;InfoExtractor&lt;/code&gt; classes&lt;/h3&gt;
+
+&lt;p&gt;For the first phase, the files we ended up picking were&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;package.json&lt;/li&gt;
+  &lt;li&gt;Gemfile&lt;/li&gt;
+  &lt;li&gt;.editorconfig&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After the implementation of the Information Extraction Framework, the only tasks that I need to focus on are:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Parsing the file.&lt;/li&gt;
+  &lt;li&gt;Finding information from the parsed file.
+Rest everything (locating files, storing information, validating information, validating filenames, representing information, etc.) is taken care by the &lt;code class=&quot;highlighter-rouge&quot;&gt;Info&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;InfoExtraction&lt;/code&gt; classes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I was lucky to find the Gemfile parser on PyPI, but for &lt;code class=&quot;highlighter-rouge&quot;&gt;.editorconfig&lt;/code&gt; We decided to make and use a custom parser derived from their “editorconfig-core-py” repository. Somehow I was able to make everything work together and make PRs of all three of them in a good-shape.&lt;/p&gt;
+
+&lt;p&gt;That’s all folks! I’m not gonna bore you guys more (brevity is a dying art :P). Stay tuned for more updates…&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">Hey everyone! I hope you all are having a fantastic summer. The first phase of my GSoC project is about to end, and I’ll be soon filling up my evaluation. In this post, I’ll summarize my progress (like I’ve been doing in all my previous posts :p). Okay so here it goes.</summary></entry><entry><title type="html">GSoC Update- Mid of Phase 1</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1/" rel="alternate" type="text/html" title="GSoC Update- Mid of Phase 1" /><published>2017-06-10T05:51:36+05:30</published><updated>2017-06-10T05:51:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Update-Mid-of-Phase-1/">&lt;p&gt;Hey folks, hope everyone is doing great in this summer vaccation season. I saw statistics released from Google lately and was really happy to know that my university had the third highest number of GSoC students selected in the world :). Anyways, in this blog post I’ll summarize my work for these past two weeks.&lt;/p&gt;
 
 &lt;h2 id=&quot;tldr&quot;&gt;TLDR;&lt;/h2&gt;
 &lt;p&gt;Here’s what I was upto last two weeks.&lt;/p&gt;

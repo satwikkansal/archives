@@ -1,0 +1,121 @@
+---
+title: GSoC Phase 1 Final Week
+date: 2017-06-23 00:40:36 +05:30
+categories:
+- personal
+- gsoc
+tags:
+- coala
+layout: single
+---
+
+Hey everyone! I hope you all are having a fantastic summer. The first phase of my GSoC project is about to end, and I'll be soon filling up my evaluation. In this post, I'll summarize my progress (like I've been doing in all my previous posts :p). Okay so here it goes.
+
+## TLDR;
+Here's my progress since my last blog post (almost 2 weeks ago)
+
+- Reiterated on Appveyor and Travis PRs and got them merged.
+- Went through multiple iterations of my Info Extraction framework's PR, implemented some new cool features and got the PR merged : tada:
+- Extracted information from the files:
+    + `package.json`
+    + `Gemfile`
+    + `.editorconfig`
+
+## What's next?
+
+Phase 2, obviously! :P
+
+As I pulled the Continuous Integration tasks from Phase 3 of my proposal to Phase 1, I had to push some of the tasks as stretch goals. I and my mentors will be discussing the future tasks to pursue in the upcoming weekly meeting, and we'll adjust the timeline accordingly (don't worry I'll update everyone once we finalize the tasks :P)
+
+The next Phase will majorly involve utilizing the information that I've been able to extract via my Info Extraction framework. It's gonna be slightly tight as I've my campus placements upcoming (damn yes! days of anxiety are near) and I'll have to prepare for them as well (fingers crossed :))
+
+## A deeper dive into my work
+
+These two weeks, I underwent multiple iterations of my previous week's work until they were in perfect shape (Oh yes, getting the code merged is much more exhausting than writing the code).
+
+### Travis and Appveyor
+
+Finally, I was able to figure out the mysteries of Travis, CircleCI, and Appveyor. Now we have Travis, Circle CI, and Appveyor integrated into the `coala-quickstart` repository. This is a very useful step as I'll be able to make sure my solution works flawlessly across different Operating Systems.
+
+**Here's how the tree looks like now**
+<img src="https://s9.postimg.org/5ui96fyjj/Screenshot_from_2017-06-23_00-55-16.png" alt="">
+
+I remember when I joined this Open Source world I used to consider these CI checks as "annoying mystery systems":sweat_smile:, but later I realized their importance and appreciate the services they offer for free to the open source projects.
+
+It was disappointing the Travis builds for OSX took a crazy long time to start and I eventually ending up removing them from the configuration. I'm planning to try some other CI service for OSX if I finish early with my GSoC tasks.
+
+Special thanks to [John](http://enwp.org/User:Jayvdb) (@jayvdb) for helping me out with all this.
+
+### The Information Extraction Framework
+
+After making several iterations to my basic version of cEP-0009, we ended up with a pretty robust module with some cool features, one of them being the "type signature" based information value validation. If you are wondering what that means, let me demonstrate with some examples:
+
+```
+def assert_type_signature(value, type_signature, argname):
+    """
+    Validates the value with the type_signature recursively. The type
+    signature is either a single type object, or a collection of type
+    objects or allowed values or type signatures.
+
+    >>> assert_type_signature(3, int, "var")
+    True
+    >>> assert_type_signature(3, (3,), "var")
+    True
+    >>> assert_type_signature([3,4], ([int],), "var")
+    True
+    >>> assert_type_signature([3.0 ,4], ([int, float],), "var")
+    True
+    >>> assert_type_signature([3,4], ([1, 2, 3, 4],), "var")
+    True
+    >>> assert_type_signature(["foo", 420], [[str, int]], "var")
+    True
+    >>> assert_type_signature("tab", {"tab", "space"}, "var")
+    True
+
+    :param value:          Object to be validated against ``type_signature``.
+    :param type_signature: Object that describes allowed types and values for
+                           the ``value``.
+    """
+```
+
+^^ I was bit lazy and ended up copy-pasting the inline documentation :P The main idea being it will be able to enforce constraints on the possible values an `Info` class can take in my framework. It's very flexible, and you can give complicated type signatures like
+```
+type_signature = ([str, int, 9.5], "Hello", "coala!", [[classA], [int]])
+```
+Hmm, so let's see what all values match the above type signature:
+- 9.5
+- ["some string"]
+- [4, 5, "another string"]
+- "Hello"
+- [[4,2,1]]
+
+And what doesn't match
+- "Foo"
+- 5.7
+- [2, 2.3]
+- [["some string"]]
+
+**Note:** The outer tuple is just a container of multiple possible type signatures and has no role in type matching.
+
+It was easy, isn't it?
+
+
+Okay, so after some iterations, I was finally able to get the concerned PR merged : tada:
+
+
+### Implementing `InfoExtractor` classes
+
+For the first phase, the files we ended up picking were
+
+- package.json
+- Gemfile
+- .editorconfig
+
+After the implementation of the Information Extraction Framework, the only tasks that I need to focus on are:
+- Parsing the file.
+- Finding information from the parsed file.
+Rest everything (locating files, storing information, validating information, validating filenames, representing information, etc.) is taken care by the `Info` and `InfoExtraction` classes.
+
+I was lucky to find the Gemfile parser on PyPI, but for `.editorconfig` We decided to make and use a custom parser derived from their "editorconfig-core-py" repository. Somehow I was able to make everything work together and make PRs of all three of them in a good-shape.
+
+That's all folks! I'm not gonna bore you guys more (brevity is a dying art :P). Stay tuned for more updates...
