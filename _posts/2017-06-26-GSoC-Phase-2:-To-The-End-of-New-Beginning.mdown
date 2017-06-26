@@ -1,0 +1,36 @@
+---
+title: Marking the end of Phase 1
+date: 2017-06-26 23:40:36 +05:30
+categories:
+- personal
+- gsoc
+tags:
+- coala
+layout: single
+---
+So the first phase is finally over, and I managed to complete all my tasks in time :tada:, I'm a 1/3rd GSoCer now. Excited, as always, I filled up my First Evaluation on Google Summer Of Code's site, and probably my mentors have completed theirs as well (I had to write four long 2k word size answers in the evaluation form :P)
+
+<img src="https://s21.postimg.org/juvvk2k6v/Screenshot_from_2017-06-26_22-51-41.png" alt="">
+
+Thanks a ton to my mentors [Adhityaa](http://github.com/adtac/) and [Adrian](https://github.com/Adrianzatreanu) for helping me with my doubts in the weekly meetings, and reviewing and merging all my stuff. The meetings were fun (yeah, some sarcastic jokes when both of them were around :P) as well as informative. It helped all of us align on the same page at the end of every week. This week I had a quite rigorous discussion with Adhityaa regarding future tasks which went on till 2 hrs.
+
+Also, credits to finish my tasks in time goes to the admins who kept us pushing to complete all our milestones in time.
+
+After phase 1, this is how my burndown chart looks like
+
+<img src="https://s17.postimg.org/6a4n7cjzj/Screenshot_from_2017-06-26_22-52-38.png" alt="">
+
+Please checkout https://gitlab.com/coala/GSoC-2017/milestones/20 to see what all tasks I worked upon during the First Phase.
+
+This time I was more disciplined as compared to the bonding phase (the burndown chart reflects this as well :P)
+
+
+### So what's next?
+
+We planned to get a cEP (coala's Enhancement Proposal) proposed by the end of this week and try to make a PR for `GruntfileInfoExtractor`, a module that extracts useful information from `Gruntfile.js` in projects.
+
+As everything in this Phase needs to be designed intensively, we are planning to work on multiple tasks every week so that we keep in mind the bigger picture of how everything is going to work together at the end of the day, and reducing our chances of reaching a dead end because of immature design.
+
+Thanks everyone for reading the post. I'm delighted to finish the first phase of my GSoC journey.
+
+Stay tuned for more updates...

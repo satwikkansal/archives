@@ -1,5 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-23T01:56:48+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
-</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">Phase 1 Final Week</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-of-Phase-1/" rel="alternate" type="text/html" title="Phase 1 Final Week" /><published>2017-06-23T00:40:36+05:30</published><updated>2017-06-23T00:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Final-Week-of-Phase-1</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-of-Phase-1/">&lt;p&gt;Hey everyone! I hope you all are having a fantastic summer. The first phase of my GSoC project is about to end, and I’ll be soon filling up my evaluation. In this post, I’ll summarize my progress (like I’ve been doing in all my previous posts :p). Okay so here it goes.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-27T00:03:53+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">Marking the end of Phase 1</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2-To-The-End-of-New-Beginning/" rel="alternate" type="text/html" title="Marking the end of Phase 1" /><published>2017-06-26T23:40:36+05:30</published><updated>2017-06-26T23:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2:-To-The-End-of-New-Beginning</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2-To-The-End-of-New-Beginning/">&lt;p&gt;So the first phase is finally over, and I managed to complete all my tasks in time :tada:, I’m a 1/3rd GSoCer now. Excited, as always, I filled up my First Evaluation on Google Summer Of Code’s site, and probably my mentors have completed theirs as well (I had to write four long 2k word size answers in the evaluation form :P)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s21.postimg.org/juvvk2k6v/Screenshot_from_2017-06-26_22-51-41.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks a ton to my mentors &lt;a href=&quot;http://github.com/adtac/&quot;&gt;Adhityaa&lt;/a&gt; and &lt;a href=&quot;https://github.com/Adrianzatreanu&quot;&gt;Adrian&lt;/a&gt; for helping me with my doubts in the weekly meetings, and reviewing and merging all my stuff. The meetings were fun (yeah, some sarcastic jokes when both of them were around :P) as well as informative. It helped all of us align on the same page at the end of every week. This week I had a quite rigorous discussion with Adhityaa regarding future tasks which went on till 2 hrs.&lt;/p&gt;
+
+&lt;p&gt;Also, credits to finish my tasks in time goes to the admins who kept us pushing to complete all our milestones in time.&lt;/p&gt;
+
+&lt;p&gt;After phase 1, this is how my burndown chart looks like&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s17.postimg.org/6a4n7cjzj/Screenshot_from_2017-06-26_22-52-38.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please checkout https://gitlab.com/coala/GSoC-2017/milestones/20 to see what all tasks I worked upon during the First Phase.&lt;/p&gt;
+
+&lt;p&gt;This time I was more disciplined as compared to the bonding phase (the burndown chart reflects this as well :P)&lt;/p&gt;
+
+&lt;h3 id=&quot;so-whats-next&quot;&gt;So what’s next?&lt;/h3&gt;
+
+&lt;p&gt;We planned to get a cEP (coala’s Enhancement Proposal) proposed by the end of this week and try to make a PR for &lt;code class=&quot;highlighter-rouge&quot;&gt;GruntfileInfoExtractor&lt;/code&gt;, a module that extracts useful information from &lt;code class=&quot;highlighter-rouge&quot;&gt;Gruntfile.js&lt;/code&gt; in projects.&lt;/p&gt;
+
+&lt;p&gt;As everything in this Phase needs to be designed intensively, we are planning to work on multiple tasks every week so that we keep in mind the bigger picture of how everything is going to work together at the end of the day, and reducing our chances of reaching a dead end because of immature design.&lt;/p&gt;
+
+&lt;p&gt;Thanks everyone for reading the post. I’m delighted to finish the first phase of my GSoC journey.&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for more updates…&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">So the first phase is finally over, and I managed to complete all my tasks in time :tada:, I’m a 1/3rd GSoCer now. Excited, as always, I filled up my First Evaluation on Google Summer Of Code’s site, and probably my mentors have completed theirs as well (I had to write four long 2k word size answers in the evaluation form :P)</summary></entry><entry><title type="html">GSoC Phase 1 Final Week</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-of-Phase-1/" rel="alternate" type="text/html" title="GSoC Phase 1 Final Week" /><published>2017-06-23T00:40:36+05:30</published><updated>2017-06-23T00:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Final-Week-of-Phase-1</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-of-Phase-1/">&lt;p&gt;Hey everyone! I hope you all are having a fantastic summer. The first phase of my GSoC project is about to end, and I’ll be soon filling up my evaluation. In this post, I’ll summarize my progress (like I’ve been doing in all my previous posts :p). Okay so here it goes.&lt;/p&gt;
 
 &lt;h2 id=&quot;tldr&quot;&gt;TLDR;&lt;/h2&gt;
 &lt;p&gt;Here’s my progress since my last blog post (almost 2 weeks ago)&lt;/p&gt;
@@ -868,130 +892,4 @@ Similar to buttons there are predefined templates provided by Facebook like ‘G
 
 &lt;p&gt;For more details, It’d be easier for you to now check out and follow along Facebook’s documentation for &lt;a href=&quot;https://developers.facebook.com/docs/messenger-platform/send-api-reference&quot;&gt;Send API&lt;/a&gt; in messenger for all the available choices and all the customization that you can do with the templates.&lt;/p&gt;
 
-&lt;p&gt;PS: I’m currently working on developing a Python-SDK for messenger platform that would simplify the development process of messenger bots to a great extent. If you’d like to collaborate or have any ideas, please ping me.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="messenger" /><category term="python" /><category term="chatbot" /><category term="tutorial" /><summary type="html">This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.</summary></entry><entry><title type="html">Scraping in Python for beginners</title><link href="http://localhost:4000/blog/posts/python/scraping-in-python-for-beginners/" rel="alternate" type="text/html" title="Scraping in Python for beginners" /><published>2016-08-02T18:53:53+05:30</published><updated>2016-08-02T18:53:53+05:30</updated><id>http://localhost:4000/blog/posts/python/scraping-in-python-for-beginners</id><content type="html" xml:base="http://localhost:4000/blog/posts/python/scraping-in-python-for-beginners/">&lt;p&gt;In this post, I’ll try to cover basic concepts required to scrape content from website in Python using &lt;code class=&quot;highlighter-rouge&quot;&gt;BeautifulSoup&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;python-requests&lt;/code&gt;.
- &lt;!--more--&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;what-exactly-is-web-scraping&quot;&gt;What exactly is Web Scraping?&lt;/h3&gt;
-
-&lt;p&gt;Web scraping is a technique to extract data from websites whereby the data is extracted and saved to a local file on your computer. The data can be used for several purposes like displaying on your own website and application, performing data analysis or for any other reason.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-scrape-instead-of-using-apis&quot;&gt;Why scrape instead of using APIs?&lt;/h3&gt;
-
-&lt;p&gt;First of all, not every site has an API and secondly if the site does have an API, then the API may not provide the information you seek.&lt;/p&gt;
-
-&lt;h3 id=&quot;how-web-scraping-is-done&quot;&gt;How Web Scraping is done?&lt;/h3&gt;
-
-&lt;p&gt;Broadly speaking, it’s a Three Step Process&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Getting the content (in most cases HTML)&lt;/li&gt;
-  &lt;li&gt;Parsing the response.&lt;/li&gt;
-  &lt;li&gt;Optimizing/Improving the process and preserving the data.Problem Statement&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;We are going to fetch the title, author, and upvotes for all the proposals for &lt;a href=&quot;https://in.pycon.org/cfp/2016/proposals/&quot;&gt;Pycon India 2016. &lt;/a&gt;Here you can see the proposals list is ordered by the date they were added. We’d like to see the proposals sorted on the basis of upvotes. As you can see there’s no way to do this on the website. So we’ll scrape the proposals and store them in a python list and then sort that list on the basis of the number of upvotes for each proposal.&lt;/p&gt;
-
-&lt;h3 id=&quot;getting-the-content&quot;&gt;Getting the content&lt;/h3&gt;
-
-&lt;p&gt;Most of the times you will be only interested in getting the HTML content. In python, provided the link, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;urllib2&lt;/code&gt; to get the HTML contents of the page but this turns out to be a lot of code which is kind of fragile in typical cases. So I’d suggest you use the wonderful library &lt;a href=&quot;http://docs.python-requests.org/en/master/&quot;&gt;Requests&lt;/a&gt; which in fact is “HTTP for humans”. Have a look at &lt;a href=&quot;https://gist.github.com/kennethreitz/973705&quot;&gt;this&lt;/a&gt; simple example. We are going to use Requests to do a GET or POST request to the server and store the response received in return. Here’s the code snippet for it&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;requests&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;response&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://in.pycon.org/cfp/2016/proposals/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;status_code&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Fetched the page sucessfully&quot;&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;html_doc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;h3 id=&quot;parsing-the-response&quot;&gt;Parsing the response&lt;/h3&gt;
-
-&lt;p&gt;Now that we have the response, we need a way to extract the information we need. The &lt;code class=&quot;highlighter-rouge&quot;&gt;response.text&lt;/code&gt; will be a string and we can find all the required content from HTML using regular expressions and basic python but that’s very complex. Instead, we will use third party libraries. Some of the popular libraries are &lt;code class=&quot;highlighter-rouge&quot;&gt;BeautifulSoup4&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;lxml&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;HTMLParser&lt;/code&gt;. These libraries employ different techniques of parsing underneath, so they differ in performance and ease. We’ll be using &lt;code class=&quot;highlighter-rouge&quot;&gt;BeautifulSoup&lt;/code&gt; here as it is more popular and user-friendly among the three. Creating the soup object&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;bs4&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt; 
-&lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;BeautifulSoup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html_doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'html.parser'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;prettify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;So let’s see what is going on in these three lines. First of all, we import the Beautiful soup module in the first line. Then we create a soup object passing in the response we received and then we specify which parser to use (html.parser is the default parser anyway). You can also use lxml here. A parser offers an interface for programmers to easily access and modify various parts of the HTML string code. &lt;a href=&quot;http://www.ianbicking.org/blog/2008/03/python-html-parser-performance.html&quot;&gt; Here’s &lt;/a&gt; a link to a popular blog post comparing various parsers’ performance Another useful link in Beautiful Soup documentation). In the last line, we are printing out the HTML. &lt;code class=&quot;highlighter-rouge&quot;&gt;soup.prettify()&lt;/code&gt; is just a way for formatting the HTML in human readable form before printing.&lt;/p&gt;
-
-&lt;h3 id=&quot;finding-the-content-required&quot;&gt;Finding the content required&lt;/h3&gt;
-
-&lt;p&gt;Now that we have the soup object we can call various methods on it and easily extract the data we want from the HTML. In general, there are three ways of going at this&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Specifying elements&lt;/li&gt;
-  &lt;li&gt;Matching attributes of elements (class, id, etc)&lt;/li&gt;
-  &lt;li&gt;Using Xpath&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;The first two ways are achieved with the help of &lt;a href=&quot;http://www.w3schools.com/cssref/css_selectors.asp&quot;&gt;CSS Selectors&lt;/a&gt;. The other way around is using &lt;code class=&quot;highlighter-rouge&quot;&gt;Xpath&lt;/code&gt;. Note that beautifulsoup does not support xpath so we’ll have to stick with CSS Selector syntax. There are libraries like &lt;code class=&quot;highlighter-rouge&quot;&gt;Scrapy&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Selenium&lt;/code&gt; which support Xpath. Let’s just quickly brush through some common useful stuff that we can perform on our &lt;code class=&quot;highlighter-rouge&quot;&gt;soup&lt;/code&gt; object. BeautifulSoup already has very awesome&lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start&quot;&gt; Documentation&lt;/a&gt;, so please go through just the “Quick Start” section once before moving ahead.&lt;/p&gt;
-
-&lt;h3 id=&quot;observing-the-page-structure&quot;&gt;Observing the page structure&lt;/h3&gt;
-
-&lt;p&gt;Now comes the important part. You’ve to understand the HTML page structure in order to get the desired content. We are interested in getting the following for values for all the proposals on the page of the site of Pycon India 2016:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;The number of votes.&lt;/li&gt;
-  &lt;li&gt;The number of comments.&lt;/li&gt;
-  &lt;li&gt;Title&lt;/li&gt;
-  &lt;li&gt;Link to the description&lt;/li&gt;
-  &lt;li&gt;The author of the proposal&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Here’s how we proceed Looking at the HTML structure we come to know that every proposal is contained within a &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; of class &lt;code class=&quot;highlighter-rouge&quot;&gt;user-proposals&lt;/code&gt; So first of all, we’d want to get all the &lt;code class=&quot;highlighter-rouge&quot;&gt;div&lt;/code&gt; with class &lt;code class=&quot;highlighter-rouge&quot;&gt;user-proposals &lt;/code&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user-proposals&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://satwikkansal.files.wordpress.com/2016/04/scrape-1.png&quot; alt=&quot;scrape-1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Now we know locate where the required data is stored inside this &lt;code class=&quot;highlighter-rouge&quot;&gt;user-proposal&lt;/code&gt; div. A quick way to do this is to simply go to the element and click on &lt;code class=&quot;highlighter-rouge&quot;&gt;Inspect element&lt;/code&gt;. For example, If I am looking for the element containing author then I simply right-click over any author name and select ‘Inspect element’ on it.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://satwikkansal.files.wordpress.com/2016/04/screenshot-from-2016-06-18-23-05-55-1.png&quot; alt=&quot;Screenshot from 2016-06-18 23-05-55-1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Careful observation leads us to the following useful conclusions:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Number of votes&lt;/code&gt; are placed in the only html tag of the div with the class panel-body.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Number of comments&lt;/code&gt; are placed in the only span tag just after the i tag with class fa fa-comments-o. &lt;code class=&quot;highlighter-rouge&quot;&gt;Note&lt;/code&gt; : It could also have been the only span tag   of the div with the class space-on-top. But I’m just trying to cover different possible ways.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Title&lt;/code&gt; of the proposal is placed in the a tag with class proposal–title.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Link&lt;/code&gt; to the description of the proposal is placed inside the href attribute of the a tag with class proposal–title. So now just take a look at the code to extract all of this.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;soup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find_all&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;div&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;user-proposals&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'No. of proposals'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;results&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_divs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;#Initialize an empty dictionary to store all the data&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;#Using CSS Selectors to get the Number of votes&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'votes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;select&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'.panel-body &amp;amp;gt; h4'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;#Using chained find methods to get the number of comments&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'comments'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'div'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;class_&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'space-on-top'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'span'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;# We can also pass other attributes to the find method inside a dictionary&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;proposal_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'name'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;proposal_div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'h3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'class'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'proposal--title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'a'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="scraping" /><category term="BeautifulSoup" /><category term="python-requests" /><summary type="html">In this post, I’ll try to cover basic concepts required to scrape content from website in Python using BeautifulSoup and python-requests.</summary></entry></feed>
+&lt;p&gt;PS: I’m currently working on developing a Python-SDK for messenger platform that would simplify the development process of messenger bots to a great extent. If you’d like to collaborate or have any ideas, please ping me.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="messenger" /><category term="python" /><category term="chatbot" /><category term="tutorial" /><summary type="html">This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.</summary></entry></feed>
