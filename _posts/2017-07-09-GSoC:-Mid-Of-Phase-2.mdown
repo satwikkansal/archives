@@ -1,0 +1,41 @@
+---
+title: GSoC - Mid of phase 2
+date: 2017-06-26 21:40:36 +05:30
+categories:
+- personal
+- gsoc
+tags:
+- coala
+layout: single
+---
+Hello world! I'm back with another post of my GSoC journey. Last week, I received an email from "Google Summer Of Code" and guess what? I passed my first evaluation : tada:.
+
+<img src="https://s13.postimg.org/6zjnxw42v/hello.png" alt="">
+
+My mentors were very happy with my performance so far, and I'm really thankful for their support. Without wasting any time, I started working on the Phase 2 tasks just after submitting the Phase 1 evaluation, so coming back to my work here's what I've done in the past two weeks:
+
+### TLDR;
+
+- Proposed a cEP (coala's Enhancement Proposal) for Information utilization process.
+- Implemented and proposed a PR for `GruntfileInfoExtractor` (for those who have not been following up my posts recently, an `InfoExtractor` class mechanism to extract useful information from files)
+
+### Diving into the details
+
+As I mentioned in one of my previous posts that we shifted the integration of CI from phase 2 to phase 1, so the first thing that we decided to do in this phase was to complete the remaining tasks of phase 1, i.e. `GruntfileInfoExtractor`. Unlike other `InfoExtractor` classes implemented so far, the `GruntfileInfoExtractor` turned out to be a bit complicated as:
+- There's no direct implementation of "Gruntfile.js" parser, so I had to make use of parse tree generated from [`pyjsparser`], a pypi package for parsing JS files.
+- The "Gruntfile.js" has very rich API, if we were to take into consideration every possible functionality offered by "Gruntfile.js", it'd have easily taken more than two weeks to complete it. So we tried to follow the 80-20 principle and covered the most common usage for now.
+Anyways, the PR is in a good state now, and I'm expecting it to get merged by the coming week after 1-2 review iterations by my mentor.
+
+Also, we decided to dedicate some time to plan the complete bear selection and filtering framework (which, no doubt is the core of my entire GSoC project), so I tried to thoroughly document my approach in the cEP and get it validate by my mentors. This will definitely make the review process much easier both for me and my mentors.
+
+Both Pull Requests got slightly big (~750 lines), so some decent amount of reviewing work to do by my mentor in the upcoming days.
+
+### What's next?
+
+This week I'll be working to actually implement the approach discussed in the proposed cEP with proper tests and documentation and hopefully, by the end of next week, I'll have a PR ready for the core of my GSoC project which will make us to advance a step closer to making "coala-quickstart" great again! Until then, have fun and enjoy summers!
+
+PS: This week a lot of coala members will be meeting up at EuroPython 2017, and I really regret not being able to make it due to my campus placements coming up and some financial constraints (I spent a lot in previous Hackathons like MHacks). I still don't know if I made a good decision or not as this event would have been an amazing learning experience for me as well, but anyways, I hope I'll get another chance to meet the coala members in real life and a chance to speak in such a big conference very soon :)
+
+### Some nice links
+
+The cEP I proposed - https://github.com/coala/cEPs/blob/master/cEP-0014.md
