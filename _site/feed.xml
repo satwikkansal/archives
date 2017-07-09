@@ -1,5 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-06-27T00:03:53+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
-</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">Marking the end of Phase 1</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2-To-The-End-of-New-Beginning/" rel="alternate" type="text/html" title="Marking the end of Phase 1" /><published>2017-06-26T23:40:36+05:30</published><updated>2017-06-26T23:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2:-To-The-End-of-New-Beginning</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2-To-The-End-of-New-Beginning/">&lt;p&gt;So the first phase is finally over, and I managed to complete all my tasks in time :tada:, I’m a 1/3rd GSoCer now. Excited, as always, I filled up my First Evaluation on Google Summer Of Code’s site, and probably my mentors have completed theirs as well (I had to write four long 2k word size answers in the evaluation form :P)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-07-09T22:47:41+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">GSoC - Mid of phase 2</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Mid-Of-Phase-2/" rel="alternate" type="text/html" title="GSoC - Mid of phase 2" /><published>2017-07-09T21:40:36+05:30</published><updated>2017-07-09T21:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Mid-Of-Phase-2</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Mid-Of-Phase-2/">&lt;p&gt;Hello world! I’m back with another post of my GSoC journey. Last week, I received an email from “Google Summer Of Code” and guess what? I passed my first evaluation : tada:.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s13.postimg.org/6zjnxw42v/hello.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My mentors were very happy with my performance so far, and I’m really thankful for their support. Without wasting any time, I started working on the Phase 2 tasks just after submitting the Phase 1 evaluation, so coming back to my work here’s what I’ve done in the past two weeks:&lt;/p&gt;
+
+&lt;h3 id=&quot;tldr&quot;&gt;TLDR;&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Proposed a cEP (coala’s Enhancement Proposal) for Information utilization process.&lt;/li&gt;
+  &lt;li&gt;Implemented and proposed a PR for &lt;code class=&quot;highlighter-rouge&quot;&gt;GruntfileInfoExtractor&lt;/code&gt; (for those who have not been following up my posts recently, an &lt;code class=&quot;highlighter-rouge&quot;&gt;InfoExtractor&lt;/code&gt; class mechanism to extract useful information from files)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;diving-into-the-details&quot;&gt;Diving into the details&lt;/h3&gt;
+
+&lt;p&gt;As I mentioned in one of my previous posts that we shifted the integration of CI from phase 2 to phase 1, so the first thing that we decided to do in this phase was to complete the remaining tasks of phase 1, i.e. &lt;code class=&quot;highlighter-rouge&quot;&gt;GruntfileInfoExtractor&lt;/code&gt;. Unlike other &lt;code class=&quot;highlighter-rouge&quot;&gt;InfoExtractor&lt;/code&gt; classes implemented so far, the &lt;code class=&quot;highlighter-rouge&quot;&gt;GruntfileInfoExtractor&lt;/code&gt; turned out to be a bit complicated as:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;There’s no direct implementation of “Gruntfile.js” parser, so I had to make use of parse tree generated from [&lt;code class=&quot;highlighter-rouge&quot;&gt;pyjsparser&lt;/code&gt;], a pypi package for parsing JS files.&lt;/li&gt;
+  &lt;li&gt;The “Gruntfile.js” has very rich API, if we were to take into consideration every possible functionality offered by “Gruntfile.js”, it’d have easily taken more than two weeks to complete it. So we tried to follow the 80-20 principle and covered the most common usage for now.
+Anyways, the PR is in a good state now, and I’m expecting it to get merged by the coming week after 1-2 review iterations by my mentor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also, we decided to dedicate some time to plan the complete bear selection and filtering framework (which, no doubt is the core of my entire GSoC project), so I tried to thoroughly document my approach in the cEP and get it validate by my mentors. This will definitely make the review process much easier both for me and my mentors.&lt;/p&gt;
+
+&lt;p&gt;Both Pull Requests got slightly big (~750 lines), so some decent amount of reviewing work to do by my mentor in the upcoming days.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h3&gt;
+
+&lt;p&gt;This week I’ll be working to actually implement the approach discussed in the proposed cEP with proper tests and documentation and hopefully, by the end of next week, I’ll have a PR ready for the core of my GSoC project which will make us to advance a step closer to making “coala-quickstart” great again! Until then, have fun and enjoy summers!&lt;/p&gt;
+
+&lt;p&gt;PS: This week a lot of coala members will be meeting up at EuroPython 2017, and I really regret not being able to make it due to my campus placements coming up and some financial constraints (I spent a lot in previous Hackathons like MHacks). I still don’t know if I made a good decision or not as this event would have been an amazing learning experience for me as well, but anyways, I hope I’ll get another chance to meet the coala members in real life and a chance to speak in such a big conference very soon :)&lt;/p&gt;
+
+&lt;h3 id=&quot;some-nice-links&quot;&gt;Some nice links&lt;/h3&gt;
+
+&lt;p&gt;The cEP I proposed - https://github.com/coala/cEPs/blob/master/cEP-0014.md&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">Hello world! I’m back with another post of my GSoC journey. Last week, I received an email from “Google Summer Of Code” and guess what? I passed my first evaluation : tada:.</summary></entry><entry><title type="html">Marking the end of Phase 1</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2-To-The-End-of-New-Beginning/" rel="alternate" type="text/html" title="Marking the end of Phase 1" /><published>2017-06-26T23:40:36+05:30</published><updated>2017-06-26T23:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2:-To-The-End-of-New-Beginning</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Phase-2-To-The-End-of-New-Beginning/">&lt;p&gt;So the first phase is finally over, and I managed to complete all my tasks in time :tada:, I’m a 1/3rd GSoCer now. Excited, as always, I filled up my First Evaluation on Google Summer Of Code’s site, and probably my mentors have completed theirs as well (I had to write four long 2k word size answers in the evaluation form :P)&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://s21.postimg.org/juvvk2k6v/Screenshot_from_2017-06-26_22-51-41.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -700,196 +734,4 @@ a &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; aardvark, b &lt;span class=&quo
 
 &lt;p&gt;I’m very thankful to the authors of the resources that I’ve mentioned in this blog post so far and I don’t claim any ownership of the content. My only intention was to provide access to all these wonderful resources at a single to place to make it easy for others to learn and prepare themselves.&lt;/p&gt;
 
-&lt;p&gt;I’ve tried to cover a lot of Python-related topics that are commonly discussed in interviews. If I’ve skipped something important please do mention in the comments.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="interview" /><category term="questions" /><summary type="html">This blog post will cover some of the typical Python questions asked in Interviews when you’re  applying for a Python related job.</summary></entry><entry><title type="html">Adding Menu and Buttons to your messenger bot</title><link href="http://localhost:4000/blog/posts/messenger/adding-menu-buttons-to-your-messenger-bot/" rel="alternate" type="text/html" title="Adding  Menu and Buttons to your messenger bot" /><published>2016-08-25T05:52:03+05:30</published><updated>2016-08-25T05:52:03+05:30</updated><id>http://localhost:4000/blog/posts/messenger/adding-menu-buttons-to-your-messenger-bot</id><content type="html" xml:base="http://localhost:4000/blog/posts/messenger/adding-menu-buttons-to-your-messenger-bot/">&lt;p&gt;This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.
- &lt;!--more--&gt;
-Messenger provides plenty of handy templates to make your bot visually appealing and “app-like” rather that just a text processing and replying script (well, just my opinion, some people would prefer a truly conversational chat-bot but we’re still far from achieving this with high accuracy).
-Let’s see how to add some of the visual features to any messenger bot&lt;/p&gt;
-
-&lt;h2&gt;Adding persistent menu and buttons to Your Messenger Bot&lt;/h2&gt;
-
-&lt;h4&gt;What is Persistent Menu?&lt;/h4&gt;
-
-&lt;p&gt;The Persistent Menu is a menu that is always available to the user (a 3-caret icon in the bottom-left of the message box). This menu should &lt;!--more Keep on reading!--&gt;contain important actions that users can select at any point. Having a persistent menu quickly communicates the core capabilities of your bot for first-time and returning users.&lt;/p&gt;
-
-&lt;h4&gt;How to add Persistent Menu?&lt;/h4&gt;
-
-&lt;p&gt;The method of adding Persistent Menu is pretty straightforward. You just have to do it once. It took some time for me to figure it out, so I decided to write a blog post to save your time. The code at your webhook endpoint server has nothing to do with the menu. We can make a separate POST request to our bot with the PAGE_ACCESS_TOKEN to make this it work.&lt;/p&gt;
-
-&lt;p&gt;Sample Request&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;curl -X POST -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
- &quot;setting_type&quot; : &quot;call_to_actions&quot;,
- &quot;thread_state&quot; : &quot;existing_thread&quot;,
- &quot;call_to_actions&quot;:[
- {
- &quot;type&quot;:&quot;postback&quot;,
- &quot;title&quot;:&quot;Help&quot;,
- &quot;payload&quot;:&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_HELP&quot;
- },
- {
- &quot;type&quot;:&quot;postback&quot;,
- &quot;title&quot;:&quot;Start a New Order&quot;,
- &quot;payload&quot;:&quot;DEVELOPER_DEFINED_PAYLOAD_FOR_START_ORDER&quot;
- },
- {
- &quot;type&quot;:&quot;web_url&quot;,
- &quot;title&quot;:&quot;View Website&quot;,
- &quot;url&quot;:&quot;http://petersapparel.parseapp.com/&quot;
- }
- ]
- }'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;So basically, in the above JSON, call_to_actions contains an array of menu_item objects which are of two types:&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;web_url&lt;/li&gt;
-  &lt;li&gt;postback
-For web_url buttons, we need to have an URL value in the JSON. This URL is opened in a mobile browser when the button is tapped.
-For postback buttons instead of URL, we have payloads. The payload contains data useful to that menu button. For postback buttons, this data will be sent back to you via webhook.
-You can have a maximum of 5 buttons in the persistent menu.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So, How does Facebook determine which bot we are referring to? Its given by the value PAGE_ACCESS_TOKEN parameter in the URL to which we are making this post request.&lt;/p&gt;
-
-&lt;p&gt;To delete the Persistent Menu send a DELETE request:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt; curl -X DELETE -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
- &quot;setting_type&quot;:&quot;call_to_actions&quot;,
- &quot;thread_state&quot;:&quot;existing_thread&quot;
- }'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt; &lt;/p&gt;
-
-&lt;p&gt;And to update or change the Persistent Menu options, simply send another POST request.&lt;/p&gt;
-
-&lt;h2&gt;Adding a “GET STARTED” Button to your messenger bot&lt;/h2&gt;
-
-&lt;h4&gt;What is a GET STARTED button in Messenger?&lt;/h4&gt;
-
-&lt;p&gt;The Welcome Screen can display a Get Started button. When this button is tapped, a postback received callback is triggered along with the person’s page-scoped ID (PSID). You can then present a personalized message to greet the user or present buttons to prompt him or her to take action.
-The process is very much similar, but here you’re not allowed any ‘title’ attribute in the JSON. The button will always be named as ‘GET STARTED’.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;curl -X POST -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
-                       &quot;setting_type&quot;:&quot;call_to_actions&quot;,
-                       &quot;thread_state&quot;:&quot;new_thread&quot;,
-                       &quot;call_to_actions&quot;:[
-                                             { }
-]
-}'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt; &lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;Adding Greeting Text to your messenger bot&lt;/h2&gt;
-
-&lt;p&gt;One common way is to combine “GREETING TEXTS” with “GETTING STARTED” button. You can set a greeting for new conversations. This can be used to communicate your bot’s functionality.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;curl -X POST -H &lt;span class=&quot;s2&quot;&gt;&quot;Content-Type: application/json&quot;&lt;/span&gt; -d &lt;span class=&quot;s1&quot;&gt;'{
-                       &quot;setting_type&quot;:&quot;greeting&quot;,
-                       &quot;greeting&quot;:{
-                                     &quot;text&quot;:&quot;Welcome to My Company!&quot;
-                             }
-}'&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;https://graph.facebook.com/v2.6/me/thread_settings?access_token=PAGE_ACCESS_TOKEN&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;Making your messenger bot perform an action when the button is pressed?&lt;/h2&gt;
-
-&lt;p&gt;Well, now we have the menu. Let’s see how to make the buttons “do something” when invoked by the users.&lt;/p&gt;
-
-&lt;h3&gt;Handling POSTBACK requests from Persistent Menu buttons in messenger&lt;/h3&gt;
-
-&lt;p&gt;We’ll have to look for the POSTBACK event in the request that we’re receiving at our webhook endpoint. For example, here’s how you’ll handle it in python&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nd&quot;&gt;@app.route&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'/'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;methods&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;webook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-	&lt;span class=&quot;c&quot;&gt;# endpoint for processing incoming messaging events&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get_json&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-
-	&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;page&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-		&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;entry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-			&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;entry&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;messaging&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
-				&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;postback&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-					&lt;span class=&quot;c&quot;&gt;# user clicked/tapped &quot;postback&quot; button in earlier message&lt;/span&gt;
-					&lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;postback&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;payload&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-					
-					&lt;span class=&quot;c&quot;&gt;# the button's payload&lt;/span&gt;
-					&lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lower&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-					&lt;span class=&quot;n&quot;&gt;sender_id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;messaging_event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;sender&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-					&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;message_text&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;SOME_PAYLOAD_WE_DEFINED&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-						&lt;span class=&quot;n&quot;&gt;send_message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sender_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Yay! This button works!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;So basically, in request JSON, we look for&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;object&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;page&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;entry&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;messaging&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;][&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;postback&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;If it exists, then a button has been tapped, and then we can handle it whatever way we want to.&lt;/p&gt;
-
-&lt;p&gt;All of the above POST requests I covered are one-time requests, i.e., you don’t need to send them over and over again. But for interactive buttons in the messages, you’ll have to dynamically generate similar POST request depending on the user’s input from your webhook endpoint (You’ll have to handle this on your server).
-Similar to buttons there are predefined templates provided by Facebook like ‘Generic Template,’ ‘Receipt Template,’ ‘Airline Template,’ etc.&lt;/p&gt;
-
-&lt;p&gt;For more details, It’d be easier for you to now check out and follow along Facebook’s documentation for &lt;a href=&quot;https://developers.facebook.com/docs/messenger-platform/send-api-reference&quot;&gt;Send API&lt;/a&gt; in messenger for all the available choices and all the customization that you can do with the templates.&lt;/p&gt;
-
-&lt;p&gt;PS: I’m currently working on developing a Python-SDK for messenger platform that would simplify the development process of messenger bots to a great extent. If you’d like to collaborate or have any ideas, please ping me.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="messenger" /><category term="python" /><category term="chatbot" /><category term="tutorial" /><summary type="html">This blog post demonstrates the process of adding buttons, message templates, and persistent menu to your messenger bot.</summary></entry></feed>
+&lt;p&gt;I’ve tried to cover a lot of Python-related topics that are commonly discussed in interviews. If I’ve skipped something important please do mention in the comments.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="interview" /><category term="questions" /><summary type="html">This blog post will cover some of the typical Python questions asked in Interviews when you’re  applying for a Python related job.</summary></entry></feed>
