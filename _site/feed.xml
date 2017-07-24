@@ -1,5 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-07-09T22:47:41+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
-</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">GSoC - Mid of phase 2</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Mid-Of-Phase-2/" rel="alternate" type="text/html" title="GSoC - Mid of phase 2" /><published>2017-07-09T21:40:36+05:30</published><updated>2017-07-09T21:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Mid-Of-Phase-2</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Mid-Of-Phase-2/">&lt;p&gt;Hello world! I’m back with another post of my GSoC journey. Last week, I received an email from “Google Summer Of Code” and guess what? I passed my first evaluation : tada:.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2017-07-24T15:11:38+05:30</updated><id>http://localhost:4000/blog/</id><title type="html">Satwik Kansal’s blog</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science and Web Development.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">GSoC - Final Week Of Phase 2</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-Of-Phase-2/" rel="alternate" type="text/html" title="GSoC - Final Week Of Phase 2" /><published>2017-07-24T14:40:36+05:30</published><updated>2017-07-24T14:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Final-Week-Of-Phase-2</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Final-Week-Of-Phase-2/">&lt;p&gt;Hello world! I’m back with another post of my GSoC journey. I’m into my final week of Phase 2 and will be filling out the evaluations very soon (&lt;strong&gt;excited!&lt;/strong&gt;). This phase was essentially the &lt;strong&gt;core&lt;/strong&gt; of my GSoC project. Here’s what I’ve done in past two weeks since my last update.&lt;/p&gt;
+
+&lt;h3 id=&quot;tldr&quot;&gt;TLDR;&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Got the cEP (coala’s Enhancement Proposal) merged after review by my mentor.&lt;/li&gt;
+  &lt;li&gt;Performed a couple more iterations of my &lt;code class=&quot;highlighter-rouge&quot;&gt;GruntfileInfoExtractor&lt;/code&gt; PR and got it merged after reviews from my mentors and fellow GSoCers.&lt;/li&gt;
+  &lt;li&gt;Submitted a &lt;strong&gt;very long&lt;/strong&gt; PR for the actual implementation of my cEP and managed to get it merged after heavy reviews.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here’s my burndown chart&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s1.postimg.org/zelq6z8tb/burndown.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s pretty erratic this time because we decided to work on multiple issues a week so that we have a fair idea in mind of how everything is going to line up together to work in sync, and this is what I ended up with&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s4.postimg.org/i4c9u9swd/Screenshot_from_2017-07-23_22-34-20.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;PS: I realized that it’s better to manage 3-4 short PRs than one giant PR and had hard time in making changes to PR, maintaining logical order of commits, and having the all the CI services to successfully build the project with updated changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;diving-into-the-details&quot;&gt;Diving into the details&lt;/h3&gt;
+
+&lt;p&gt;I mentioned that &lt;code class=&quot;highlighter-rouge&quot;&gt;GruntfileInfoExtractor&lt;/code&gt; PR is in good shape in my previous post, but it wasn’t! I had some silly mistakes and some code which had very high complexity be it be time complexity or cyclomatic complexity. I spent some more time to refine it after reviews and got it merged. &lt;code class=&quot;highlighter-rouge&quot;&gt;Gruntfile.js&lt;/code&gt; has lot of metadata that can be useful for coala-quickstart to generate enhanced configuration file (&lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt;) for coala.&lt;/p&gt;
+
+&lt;p&gt;My cEP implementation can be seen broadly in terms of following 3 tasks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Autofilling values for settings of sections in the &lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; generated by coala-quickstart. Currently we use files like &lt;code class=&quot;highlighter-rouge&quot;&gt;.editorconfig&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Gruntfile.js&lt;/code&gt; to achieve this. Also, coala-quickstart is now able to detect inconsistency in the various configurations across such files.&lt;/li&gt;
+  &lt;li&gt;Use information from dependency files (like &lt;code class=&quot;highlighter-rouge&quot;&gt;package.json&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;requirements.txt&lt;/code&gt;) to suggest relevant information for bears.&lt;/li&gt;
+  &lt;li&gt;Ask users explicitly for capabilities they want for their bears and filter bears accordingly.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The ultimate goal of coala-quickstart is “To do all the boilerplate work for coala and generate a highly relevant &lt;code class=&quot;highlighter-rouge&quot;&gt;.coafile&lt;/code&gt; without minimum possible user involvement(or no inovolvement at all in the ideal case)”. After all the above three mentioned tasks implemented, we get a step closer to achieve high automation and accuracy with quickstart.&lt;/p&gt;
+
+&lt;p&gt;Also, coala-quickstart now works online! To try it out, go to https://coala.io/#!/coalaonline , and just enter your repository url (credits to &lt;a href=&quot;https://github.com/hemangsk&quot;&gt;Hemang&lt;/a&gt;). It’s in beta right now, so if you experience any glitches, feel free to report it &lt;a href=&quot;https://gitlab.com/coala/landing/issues/new?issue&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;whats-next&quot;&gt;What’s next?&lt;/h3&gt;
+
+&lt;p&gt;We have two choices now, either to go ahead with my proposal and make improvements to CLI and pursue some stretch goals if time allows, or to further refine my work in Phase 2 and focus on “recommending relevant and useful Bears” to the users. We’ll be discussing this in next weekly meeting which is gonna happen very soon.&lt;/p&gt;
+
+&lt;p&gt;Thanks to &lt;a href=&quot;https://github.com/adtac&quot;&gt;Adhityaa&lt;/a&gt; (my primary mentor) for managing out sufficient time for the project even after his internship. Also, he has now completed his internship and he’ll be available to help me more, but on the flip side, I’ve my campus placements starting from next week so a lot of my time will get into studying and preparing for interviews for different companies. So it’s gonna be a big month ahead for me!!!&lt;/p&gt;
+
+&lt;p&gt;Anyways, I know I’ll manage it somehow, and keep you guys updated. Stay tuned for updates…&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">Hello world! I’m back with another post of my GSoC journey. I’m into my final week of Phase 2 and will be filling out the evaluations very soon (excited!). This phase was essentially the core of my GSoC project. Here’s what I’ve done in past two weeks since my last update.</summary></entry><entry><title type="html">GSoC - Mid of phase 2</title><link href="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Mid-Of-Phase-2/" rel="alternate" type="text/html" title="GSoC - Mid of phase 2" /><published>2017-07-09T21:40:36+05:30</published><updated>2017-07-09T21:40:36+05:30</updated><id>http://localhost:4000/blog/posts/personal/gsoc/GSoC:-Mid-Of-Phase-2</id><content type="html" xml:base="http://localhost:4000/blog/posts/personal/gsoc/GSoC-Mid-Of-Phase-2/">&lt;p&gt;Hello world! I’m back with another post of my GSoC journey. Last week, I received an email from “Google Summer Of Code” and guess what? I passed my first evaluation : tada:.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://s13.postimg.org/6zjnxw42v/hello.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
@@ -386,352 +427,4 @@ users have no control over it. Memory management in Python involves a private h
   &lt;li&gt;Don’t ask for help on the channel before trying to help yourself. coalians are not dependent on someone else, they solve their problems on their own. I mean we should do some research on our end before posting a question/error. I realized that a simple mistake on my end could waste a lot of valuable time of someone else.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;And if you didn’t noticed that I spelled coala with an Uppercase ‘C’ in the 4th point, it’s okay! Next time you’ll never miss this. Have fun :)&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="oss" /><category term="coala" /><summary type="html">So this New Year, I started seriously contributing to Open Source. After going through tons of organizations I shortlisted a few of 3-5 based on my interests, skills, and several other factors (I like some maths and analysis!). But I soon discovered keeping up with several organizations is more pain and less gain for me. So now I’m down to only 1 organization that I’d put my best efforts into. coala is a user-friendly language independent code analysis tool built mostly using Python. It’s been exactly 2 weeks contributing to coala. Following are some of the things that I found interesting about coala: coala starts with a lower case ‘c’ and not ‘C’. coala is vast! There are many coala projects on Gitlab as well. There are around 10 gitter rooms, and tons of other communication channels for coala apart from Gitter. Check this People here are fun. Well at least much more fun than other organizations I’ve tried to contribute and failed (I guess that’s the reason I decided to just stick this time) Try using coala in your projects as well. It’s fun and made me realize how badly I disregarded PEP8 earlier :P Contributing to Coala is helping me be more disciplined as a programmer like writing cleaner code, good commit practices and much more. Don’t tag @sils unnecessarily in gitter. Yeah, this topic often comes up in the channel. He’s a nice guy but he has other works as well. Other maintainers like @jayvdb, @udayan, @makman2, @fneu, @adrianzatreanu, @mixih, @adtac and many quality developers there to help out if one get’s stuck. Review other people’s code, or at least try to see how they approached solving the issue. Code reviewing is as important as creating a Pull Request. I’m now trying to improve my capabilities to find functionality related bugs in the code. Don’t ask for help on the channel before trying to help yourself. coalians are not dependent on someone else, they solve their problems on their own. I mean we should do some research on our end before posting a question/error. I realized that a simple mistake on my end could waste a lot of valuable time of someone else. And if you didn’t noticed that I spelled coala with an Uppercase ‘C’ in the 4th point, it’s okay! Next time you’ll never miss this. Have fun :)</summary></entry><entry><title type="html">Popular Python Interview Questions</title><link href="http://localhost:4000/blog/posts/python/common-python-interview-questions/" rel="alternate" type="text/html" title="Popular Python Interview Questions" /><published>2016-12-24T09:09:06+05:30</published><updated>2016-12-24T09:09:06+05:30</updated><id>http://localhost:4000/blog/posts/python/common-python-interview-questions</id><content type="html" xml:base="http://localhost:4000/blog/posts/python/common-python-interview-questions/">&lt;p&gt;This blog post will cover some of the typical Python questions asked in Interviews when you’re  applying for a Python related job. &lt;!--more--&gt; I assume that you’ve basic knowledge of Python and can write programs in python easily.&lt;/p&gt;
-
-&lt;p&gt;I would try to put all the content and links in this post that I’ve gathered from various sources on the internet including Stack Overflow, Code Mentor, Learn python the Hard Way and many other resources.&lt;/p&gt;
-
-&lt;p&gt;So without wasting much time, Let’s dive in!&lt;/p&gt;
-
-&lt;!--more Keep on reading!--&gt;
-
-&lt;h2&gt;How is Python different from other languages like C++, Java, etc?&lt;/h2&gt;
-
-&lt;p&gt;Python is an interpreted language. That means that, unlike languages like &lt;i&gt;C&lt;/i&gt; and its variants, Python does not need to be compiled before it is run. Other interpreted languages include &lt;i&gt;PHP&lt;/i&gt; and &lt;i&gt;Ruby&lt;/i&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Python is dynamically typed, this means that you don't need to state the types of variables when you declare them or anything like that. You can do things like x=111 and then x=&quot;I'm a string&quot; without error&lt;/li&gt;
-    &lt;li&gt;Python is well suited to object orientated programming in that it allows the definition of classes along with composition and inheritance. Python does not have access specifiers (like C++'s public, private), the justification for this point is given as &quot;we are all adults here&quot;&lt;/li&gt;
-    &lt;li&gt;In Python, functions are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects&lt;/li&gt;
-    &lt;li&gt;Writing Python code is quick but running it is often slower than compiled languages. Fortunately， Python allows the inclusion of C-based extensions so bottlenecks can be optimized away and often are. The numpy package is a good example of this, it's really quite quick because a lot of the number crunching it does isn't actually done by Python&lt;/li&gt;
-    &lt;li&gt;Python finds use in many spheres - web applications, automation, scientific modeling, big data applications and much more. It's also often used as &quot;glue&quot; code to get other languages and components to play nice.&lt;/li&gt;
-    &lt;li&gt;Python makes difficult things easy so programmers can focus on overriding algorithms and structures rather than nitty-gritty low-level details.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Python has five standard data types −&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Numbers&lt;/li&gt;
-    &lt;li&gt;String&lt;/li&gt;
-    &lt;li&gt;List&lt;/li&gt;
-    &lt;li&gt;Tuple&lt;/li&gt;
-    &lt;li&gt;Dictionary&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;How is Python 2 different from Python 3?&lt;/h2&gt;
-
-&lt;p&gt;Definitely, Python 3.x is an improvement over Python 2.x, but there are reasons to continue to use Python 2.x or to write code in such a way that it’s compatible with both the versions because most of the third-party libraries and frameworks that are still written for Python 2.x.&lt;/p&gt;
-
-&lt;p&gt;Please go through &lt;a href=&quot;http://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html&quot;&gt;this&lt;/a&gt; wonderful comparison blog post by Sebastian Raschka as this question is often asked in the interviews related to Python.&lt;/p&gt;
-
-&lt;h2&gt;How does multithreading works in Python?&lt;/h2&gt;
-
-&lt;p&gt;Python doesn’t allow multi-threading in the truest sense of the word. It has a&lt;a href=&quot;https://docs.python.org/2/library/threading.html&quot;&gt; multi-threading package&lt;/a&gt; (threading.py) but if you want to multi-thread to speed your code up, then it’s usually not a good idea to use it. Python has a construct called the &lt;b&gt;Global Interpreter Lock (GIL).&lt;/b&gt; The GIL makes sure that &lt;i&gt;only one of your ‘threads’ can execute at any one time.&lt;/i&gt; A thread acquires the GIL, does a little work, then passes the GIL onto the next thread. This happens very quickly so to the human eye it may seem like &lt;b&gt;your threads are&lt;/b&gt; executing in parallel, but they are really just &lt;b&gt;taking turns using the same CPU core&lt;/b&gt;. All this GIL passing &lt;b&gt;adds overhead to execution&lt;/b&gt;. This means that if you want to make your code run faster then using the threading package often isn’t a good idea.&lt;/p&gt;
-
-&lt;p&gt;There are reasons to use Python’s threading package. &lt;i&gt;If you want to run some things simultaneously, and efficiency is not a concern, then it’s totally fine and convenient&lt;/i&gt;. Or if you are running code that needs to wait for something (like some IO) then it could make a lot of sense. &lt;b&gt;But the threading library won’t let you use extra CPU cores.&lt;/b&gt;&lt;/p&gt;
-
-&lt;p&gt;Multi-threading &lt;b&gt;can be outsourced&lt;/b&gt; to:-&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;The operating system (by doing multi-processing)&lt;/li&gt;
-    &lt;li&gt;Some external application that calls your Python code (eg, Spark or Hadoop)&lt;/li&gt;
-    &lt;li&gt;Some code that your Python code calls (eg: you could have your Python code call a C function that does the expensive multi-threaded stuff).&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To achieve actual parallelization in Python, you might have a look at &lt;a href=&quot;https://docs.python.org/2/library/multiprocessing.html&quot;&gt;multiprocessing &lt;/a&gt;module of Python. A few snaps from Stackoverflow regarding this:-&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-227&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image05.png&quot; alt=&quot;image05&quot; width=&quot;1323&quot; height=&quot;403&quot; /&gt;&lt;img class=&quot;alignnone size-full wp-image-228&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image00.png&quot; alt=&quot;image00&quot; width=&quot;1014&quot; height=&quot;920&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, it’s good to know difference detailed difference between Multithreading and Multiprocessing.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-233&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/threading_vs_processing.png&quot; alt=&quot;threading_vs_processing.png&quot; width=&quot;726&quot; height=&quot;966&quot; /&gt;&lt;/p&gt;
-
-&lt;h2&gt;How does call by reference or call by value work in Python?&lt;/h2&gt;
-
-&lt;p&gt;When asked whether Python function calling model is “call-by-value” or “call-by-reference”, the correct answer is: &lt;strong&gt;neither&lt;/strong&gt;. Instead, in Python arguments are &lt;a href=&quot;http://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference&quot; rel=&quot;nofollow noreferrer&quot;&gt;passed by assignment&lt;/a&gt;. The rationale behind this is twofold:&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;the parameter passed in is actually a &lt;em&gt;reference&lt;/em&gt; to an object (but the reference is passed by value)&lt;/li&gt;
-    &lt;li&gt;some data types are mutable, but others aren't&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;So:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;If you pass a &lt;em&gt;mutable&lt;/em&gt; object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object.&lt;/li&gt;
-    &lt;li&gt;If you pass an &lt;em&gt;immutable&lt;/em&gt; object to a method, you still can't rebind the outer reference, and you can't even mutate the object.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you still don’t get this, Please check &lt;a href=&quot;https://jeffknupp.com/blog/2012/11/13/is-python-callbyvalue-or-callbyreference-neither/&quot;&gt;this&lt;/a&gt; blog-post by Jeff Knupp.&lt;/p&gt;
-
-&lt;p&gt;Here’s a small demonstration by code&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;n&quot;&gt;l_mem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l_mem&lt;/span&gt;           &lt;span class=&quot;c&quot;&gt;# the first call&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;            &lt;span class=&quot;c&quot;&gt;# [0, 1]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;         &lt;span class=&quot;c&quot;&gt;# the second call&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;            &lt;span class=&quot;c&quot;&gt;# [3, 2, 1, 0, 1, 4]&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;l_mem&lt;/span&gt;           &lt;span class=&quot;c&quot;&gt;# the third call&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-     &lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;            &lt;span class=&quot;c&quot;&gt;# [0, 1, 0, 1, 4]&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The first function call should be fairly obvious, the loop appends 0 and then 1 to the empty list, l. l is a name for a variable that points to a list stored in memory. The second call starts off by creating a new list in a new block of memory. l then refers to this new list. It then appends 0, 1 and 4 to this new list. So that’s great.&lt;/p&gt;
-
-&lt;p&gt;The third function call is the weird one. It uses the original list stored in the original memory block. That is why it starts off with 0 and 1.&lt;/p&gt;
-
-&lt;p&gt;A cool “Balloon analogy” that I found on some Stackoverflow thread can be helpful:&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-253&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-13-14-51.png&quot; alt=&quot;screenshot-from-2016-12-24-13-14-51&quot; width=&quot;1151&quot; height=&quot;513&quot; /&gt;&lt;img class=&quot;alignnone size-full wp-image-252&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-13-15-07.png&quot; alt=&quot;screenshot-from-2016-12-24-13-15-07&quot; width=&quot;1095&quot; height=&quot;904&quot; /&gt;&lt;/p&gt;
-
-&lt;h2&gt;How does Inheritance works in Python?&lt;/h2&gt;
-
-&lt;p&gt;Being an Object Oriented Language, Python supports Inheritance and Multi-Inheritance as well. You must read this very good Chapter on Inheritance by Zed Shaw, author of the famous book “Learn Python the Hard way”. It advises you to avoid Multiple Inheritance at all costs and use Composition instead.&lt;/p&gt;
-
-&lt;h2&gt;Decorators in Python&lt;/h2&gt;
-
-&lt;p&gt;A decorator is a special kind of function that either takes a function and returns a function or takes a class and returns a class. The &lt;code class=&quot;highlighter-rouge&quot;&gt;@&lt;/code&gt; symbol is just syntactic sugar that allows you to decorate something in a way that’s easy to read.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nd&quot;&gt;@my_decorator&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;my_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-     &lt;span class=&quot;n&quot;&gt;do_things&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;##Is equivalent to&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;my_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stuff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-     &lt;span class=&quot;n&quot;&gt;do_things&lt;/span&gt;
-
-&lt;span class=&quot;n&quot;&gt;my_func&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my_decorator&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;my_func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Decorators are tough to understand initially, but the effort is worth it. There are various concepts like passing arguments, nesting, etc that can be the topics for advanced Python questions. You can find a tutorial on how decorators in general work&lt;a href=&quot;https://www.codementor.io/python/tutorial/introduction-to-decorators&quot;&gt; here.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Also, you must be aware of &lt;code class=&quot;highlighter-rouge&quot;&gt;@classmethod&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;@staticmethod&lt;/code&gt; decorators in Python.&lt;/p&gt;
-
-&lt;div class=&quot;post-text&quot;&gt;
-
-  &lt;p&gt;&lt;code&gt;@classmethod&lt;/code&gt; means: when this method is called, we pass the class as the first argument instead of the instance of that class (as we normally do with methods). This means you can use the class and its properties inside that method rather than a particular instance.&lt;/p&gt;
-
-  &lt;p&gt;&lt;code&gt;@staticmethod&lt;/code&gt; means: when this method is called, we don’t pass an instance of the class to it (as we normally do with methods). This means you can put a function inside a class but you can’t access the instance of that class (this is useful when your method does not use the instance). This demonstration in Stackoverflow may be helpful to you&lt;/p&gt;
-
-  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-341&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/staticvsclass.png&quot; alt=&quot;staticvsclass.png&quot; width=&quot;756&quot; height=&quot;1700&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;Also, there is &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;k&quot;&gt;@property&lt;/span&gt;&lt;/code&gt;  which is the pythonic way of using getters and setters. If interested, you can read about it from &lt;a href=&quot;https://www.programiz.com/python-programming/property&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-  &lt;h2&gt;List comprehension&lt;/h2&gt;
-  &lt;p&gt;If you’ve some experience with Python you may find it pretty straightforward but it’s generally a common topic for interviewers to ask for. Make sure you understand the reasoning behind all of the below statements and their expected output.&lt;/p&gt;
-
-  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-379&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-18-21-22.png&quot; alt=&quot;screenshot-from-2016-12-24-18-21-22&quot; width=&quot;1123&quot; height=&quot;276&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-378&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/screenshot-from-2016-12-24-18-21-38.png&quot; alt=&quot;screenshot-from-2016-12-24-18-21-38&quot; width=&quot;1108&quot; height=&quot;311&quot; /&gt;&lt;/p&gt;
-  &lt;h2&gt;Using *args, **kwargs and default parameters&lt;/h2&gt;
-  &lt;p&gt;The names and&lt;code&gt;*args&lt;/code&gt; &lt;code&gt;**kwargs&lt;/code&gt; are only by convention but there’s no hard requirement to use them. You would use &lt;code&gt;*args&lt;/code&gt; when you’re not sure how many arguments might be passed to your function, i.e. it allows you pass an arbitrary number of arguments to your function. For example:&lt;/p&gt;
-
-  &lt;figure class=&quot;highlight&quot;&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;def print_everything&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;args&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
-        &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;count, thing &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;enumerate&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;args&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
-...         print &lt;span class=&quot;s1&quot;&gt;'{0}. {1}'&lt;/span&gt;.format&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;count, thing&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-...
-&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;print_everything&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'apple'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'banana'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'cabbage'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-0. apple
-1. banana
-2. cabbage&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;Similarly, &lt;code&gt;**kwargs&lt;/code&gt; allows you to handle named arguments that you have not defined in advance:&lt;/p&gt;
-
-  &lt;figure class=&quot;highlight&quot;&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;def table_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
-...     &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;name, value &lt;span class=&quot;k&quot;&gt;in &lt;/span&gt;kwargs.items&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;:
-...         print &lt;span class=&quot;s1&quot;&gt;'{0} = {1}'&lt;/span&gt;.format&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;name, value&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-...
-&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;table_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;apple &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'fruit'&lt;/span&gt;, cabbage &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'vegetable'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-cabbage &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; vegetable
-apple &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; fruit&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;You can use these along with named arguments too. The explicit arguments get values first and then everything else is passed to &lt;code&gt;*args&lt;/code&gt; and &lt;code&gt;**kwargs&lt;/code&gt;. The named arguments come first in the list. For example:&lt;/p&gt;
-
-  &lt;figure class=&quot;highlight&quot;&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;def table_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;titlestring, &lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;kwargs&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;You can also use both in the same function definition but &lt;code&gt;*args&lt;/code&gt; must occur before &lt;code&gt;**kwargs&lt;/code&gt;.&lt;/p&gt;
-
-  &lt;figure class=&quot;highlight&quot;&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;You can also use the &amp;lt;code&amp;gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;&amp;lt;/code&amp;gt; and &amp;lt;code&amp;gt;&lt;span class=&quot;k&quot;&gt;**&lt;/span&gt;&amp;lt;/code&amp;gt; syntax when calling a &lt;span class=&quot;k&quot;&gt;function&lt;/span&gt;. For example:
-&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;def print_three_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;a, b, c&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
-...     print &lt;span class=&quot;s1&quot;&gt;'a = {0}, b = {1}, c = {2}'&lt;/span&gt;.format&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;a,b,c&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-...
-&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;mylist &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'aardvark'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'baboon'&lt;/span&gt;, &lt;span class=&quot;s1&quot;&gt;'cat'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;
-&lt;span class=&quot;gp&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;/span&gt;print_three_things&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;mylist&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-a &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; aardvark, b &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; baboon, c &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; cat&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-  &lt;/figure&gt;
-
-  &lt;p&gt;As you can see in this case it takes the list (or tuple) of items and unpacks it. By this, it matches them to the arguments in the function. Of course, you could have a &lt;code&gt;*&lt;/code&gt; both in the function definition and in the function call.&lt;/p&gt;
-
-  &lt;p&gt;Make sure you understand all the statements below before moving forward.&lt;/p&gt;
-
-  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-377&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image08.png&quot; alt=&quot;image08&quot; width=&quot;975&quot; height=&quot;582&quot; /&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-376&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image01.png&quot; alt=&quot;image01&quot; width=&quot;982&quot; height=&quot;421&quot; /&gt;&lt;/p&gt;
-
-&lt;/div&gt;
-
-&lt;h2&gt;The OS module&lt;/h2&gt;
-
-&lt;p&gt;The OS module can come in very handy time to time, it often helps to go through some of the most commonly use cases of this module. For example, for accessing directory contents in python :&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;alignnone size-full wp-image-273&quot; src=&quot;https://satwikkansal.files.wordpress.com/2016/12/image04.png&quot; alt=&quot;image04.png&quot; width=&quot;1283&quot; height=&quot;941&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Check &lt;a href=&quot;http://www.thomas-cokelaer.info/tutorials/python/module_os.html&quot;&gt;this&lt;/a&gt; blog post by Thomas Cokelaer for detailed functionalities of the OS module in Python.&lt;/p&gt;
-
-&lt;h2&gt;Why do we use &lt;code class=&quot;highlighter-rouge&quot;&gt;if  __name__ == &quot;__main__&quot;&lt;/code&gt; ?&lt;/h2&gt;
-
-&lt;p&gt;When the Python interpreter reads a source file (due to import or due to commands from terminals), it executes all of the code found in it.&lt;/p&gt;
-
-&lt;p&gt;Before executing the code, it will define a few special variables. For example, if the python interpreter is running that module (the source file) as the main program, it sets the special &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; variable to have a value &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;. If this file is being imported from another module, &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; will be set to the module’s name.&lt;/p&gt;
-
-&lt;p&gt;In the case of your script, let’s assume that it’s executing as the main function, e.g. you said something like&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;
-  &lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;python example.py&lt;span class=&quot;w&quot;&gt;
-&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;on the command line.&lt;/p&gt;
-
-&lt;p&gt;After setting up the special variables, it will execute the import statement and load those modules. It will then evaluate the def block, creating a function object and creating a variable called myfunction that points to the function object. It will then read the if statement and see that &lt;code class=&quot;highlighter-rouge&quot;&gt;name&lt;/code&gt; does equal &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt;, so it will execute the block shown there.&lt;/p&gt;
-
-&lt;p&gt;One of the reasons for doing this is that sometimes you write a module (a .py file) where it can be executed directly. Alternatively, it can also be imported and used in another module. By doing the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.&lt;/p&gt;
-
-&lt;h2&gt;Generators and the &lt;code class=&quot;highlighter-rouge&quot;&gt;yield&lt;/code&gt; keyword&lt;/h2&gt;
-
-&lt;p&gt;Generators may seem complicated at once but they are very easy and useful. Please read &lt;a href=&quot;https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/&quot;&gt;this&lt;/a&gt; awesome blog post by Jeff Knupp to understand the concept in depth.&lt;/p&gt;
-
-&lt;h2&gt;Something about PEP&lt;/h2&gt;
-
-&lt;p&gt;PEP stands for Python Enhancement Proposal. A PEP is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment. The PEP should provide a concise technical specification of the feature and a rationale for the feature. PEPs are intended to be the primary mechanisms for proposing major new features, for collecting community input on an issue, and for documenting the design decisions that have gone into Python. The PEP author is responsible for building consensus within the community and documenting dissenting opinions. Some popular PEPs are:&lt;/p&gt;
-
-&lt;ol&gt;
-    &lt;li&gt;&lt;a href=&quot;https://www.google.co.in/url?sa=t&amp;amp;rct=j&amp;amp;q=&amp;amp;esrc=s&amp;amp;source=web&amp;amp;cd=1&amp;amp;cad=rja&amp;amp;uact=8&amp;amp;ved=0ahUKEwjrotTosYzRAhWIv48KHejlCtAQFggbMAA&amp;amp;url=https%3A%2F%2Fwww.python.org%2Fdev%2Fpeps%2Fpep-0008%2F&amp;amp;usg=AFQjCNEQyknQxbzAV5m487Aq_waOwGNgag&amp;amp;sig2=YOKznIETqWWFNRaFsEVnoQ&quot;&gt;PEP 8&lt;/a&gt;,  Python's style guide. It's a set of rules for how to format your Python code to maximize its readability. Writing code to a specification helps to make large code bases, with lots of writers, more uniform and predictable, too.&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;http://www.python.org/dev/peps/pep-0020/&quot;&gt;Pep 20&lt;/a&gt;: The Zen of Python&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2&gt;Package management in Python&lt;/h2&gt;
-
-&lt;p&gt;Although the interviewer doesn’t expect you to know nitty-gritty details of the Package management mechanism of Python, but it’s a good chance to show how much you care about the trends and development in the language. Here’s the timeline of how the Packaging in Python is evolved over time.&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;b&gt;Distutils&lt;/b&gt; is still the standard tool for packaging in Python. It is included in the standard library (Python 2 and Python 3.0 to 3.4). It is useful for simple Python distributions but lacks features. It introduces the distutils Python package that can be imported in your setup.py script.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;b&gt;Setuptools&lt;/b&gt; was developed to overcome Distutils' limitations and is not included in the standard library. It introduced a command-line utility called &lt;code&gt;easy_install&lt;/code&gt;. It also introduced the setuptools Python package that can be imported in your setup.py script, and the pkg_resources Python package that can be imported in your code to locate data files installed with a distribution. One of its gotchas is that it monkey-patches the distutils Python package. It should work well with pip.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;&lt;b&gt;Distribute&lt;/b&gt; was a fork of Setuptools. It shared the same namespace, so if you had Distribute installed, import setuptools would actually import the package distributed with Distribute. &lt;b&gt;&lt;i&gt;Distribute was merged back into Setuptools 0.7&lt;/i&gt;&lt;/b&gt;, so you don't need to use Distribute any more. In fact, the version on PyPI is just a compatibility layer that installs Setuptools&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Packages built and distributed using setuptools look to the user like ordinary Python packages based on the distutils. Your users don’t need to install or even know about setuptools in order to use them, and you don’t have to include the entire setuptools package in your distributions. By including just a single&lt;a href=&quot;https://bootstrap.pypa.io/ez_setup.py&quot;&gt; bootstrap module&lt;/a&gt; (a 12K .py file), your package will automatically download and install setuptools if the user is building your package from source and doesn’t have a suitable version already installed.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;easy_install&lt;/code&gt; was released in 2004, as part of&lt;a href=&quot;https://packaging.python.org/key_projects/#setuptools&quot;&gt; setuptools&lt;/a&gt;. It was notable at the time for installing&lt;a href=&quot;https://packaging.python.org/glossary/#term-distribution-package&quot;&gt; packages&lt;/a&gt; from&lt;a href=&quot;https://packaging.python.org/glossary/#term-python-package-index-pypi&quot;&gt; PyPI&lt;/a&gt; using requirement specifiers, and automatically installing dependencies.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt; was originally written to improve on &lt;code&gt;easy_install&lt;/code&gt; in the following ways:&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;All packages are downloaded before installation. Partially-completed installation doesn’t occur as a result.&lt;/li&gt;`
-    &lt;li&gt;Care is taken to present useful output on the console.&lt;/li&gt;
-    &lt;li&gt;The reasons for actions are kept track of. For instance, if a package is being installed, pip keeps track of why that package was required.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Error messages should be useful.&lt;/li&gt;
-    &lt;li&gt;The code is relatively concise and cohesive, making it easier to use programmatically.&lt;/li&gt;
-    &lt;li&gt;Packages don’t have to be installed as egg archives, they can be installed flat (while keeping the egg metadata).&lt;/li&gt;
-    &lt;li&gt;Native support for other version control systems (Git, Mercurial, and Bazaar)&lt;/li&gt;
-    &lt;li&gt;Uninstallation of packages.&lt;/li&gt;
-    &lt;li&gt;Simple to define fixed sets of requirements and reliably reproduce a set of packages.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;The current state of things:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-    &lt;li&gt;Binary packages are now distributed as wheels (`.whl` files)—not just on PyPI, but in third-party repositories like&lt;a href=&quot;http://www.lfd.uci.edu/%7Egohlke/pythonlibs/&quot;&gt; Christoph Gohlke's Extension Packages for Windows&lt;/a&gt;. pip can handle wheels; &lt;code&gt;easy_install&lt;/code&gt; cannot.&lt;/li&gt;
-    &lt;li&gt;Virtual environments (which come built-in with 3.4, or can be added to 2.6+/3.1+ with&lt;a href=&quot;https://pypi.python.org/pypi/virtualenv&quot;&gt; virtualenv&lt;/a&gt;) have become a very important and prominent tool (and recommended in&lt;a href=&quot;https://docs.python.org/3/installing/index.html&quot;&gt; the official docs&lt;/a&gt;); they include pip out of the box, but don't even work properly with &lt;code&gt;easy_install&lt;/code&gt;.&lt;/li&gt;
-    &lt;li&gt;The distribute package that included &lt;code&gt;easy_install&lt;/code&gt; is no longer maintained. Its improvements over setuptools got merged back into setuptools. Trying to install distribute will just install setuptools instead.&lt;/li&gt;
-    &lt;li&gt;&lt;code&gt;easy_install&lt;/code&gt; itself is only quasi-maintained.&lt;/li&gt;
-    &lt;li&gt;pip comes with the official Python 2.7 and 3.4+ packages from python.org, and a pip bootstrap is included by default if you build from source.&lt;/li&gt;
-    &lt;li&gt;The various incomplete bits of documentation on installing, using, and building packages have been replaced by the&lt;a href=&quot;https://packaging.pypa.io/&quot;&gt; Python Packaging User Guide&lt;/a&gt;. Python's own documentation on&lt;a href=&quot;https://docs.python.org/3/installing/index.html&quot;&gt; Installing Python Modules&lt;/a&gt; now defers to this user guide, and explicitly calls out pip as &quot;the preferred installer program&quot;.&lt;/li&gt;
-    &lt;li&gt;Other new features have been added to pip over the years that will never be in &lt;code&gt;easy_install&lt;/code&gt;. For example, pip makes it easy to clone your site-packages by building a requirements file and then installing it with a single command on each side. Or to convert your requirements file to a local repo to use for in-house development. And so on.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;References&lt;/h2&gt;
-
-&lt;p&gt;I’m very thankful to the authors of the resources that I’ve mentioned in this blog post so far and I don’t claim any ownership of the content. My only intention was to provide access to all these wonderful resources at a single to place to make it easy for others to learn and prepare themselves.&lt;/p&gt;
-
-&lt;p&gt;I’ve tried to cover a lot of Python-related topics that are commonly discussed in interviews. If I’ve skipped something important please do mention in the comments.&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="interview" /><category term="questions" /><summary type="html">This blog post will cover some of the typical Python questions asked in Interviews when you’re  applying for a Python related job.</summary></entry></feed>
+&lt;p&gt;And if you didn’t noticed that I spelled coala with an Uppercase ‘C’ in the 4th point, it’s okay! Next time you’ll never miss this. Have fun :)&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="python" /><category term="oss" /><category term="coala" /><summary type="html">So this New Year, I started seriously contributing to Open Source. After going through tons of organizations I shortlisted a few of 3-5 based on my interests, skills, and several other factors (I like some maths and analysis!). But I soon discovered keeping up with several organizations is more pain and less gain for me. So now I’m down to only 1 organization that I’d put my best efforts into. coala is a user-friendly language independent code analysis tool built mostly using Python. It’s been exactly 2 weeks contributing to coala. Following are some of the things that I found interesting about coala: coala starts with a lower case ‘c’ and not ‘C’. coala is vast! There are many coala projects on Gitlab as well. There are around 10 gitter rooms, and tons of other communication channels for coala apart from Gitter. Check this People here are fun. Well at least much more fun than other organizations I’ve tried to contribute and failed (I guess that’s the reason I decided to just stick this time) Try using coala in your projects as well. It’s fun and made me realize how badly I disregarded PEP8 earlier :P Contributing to Coala is helping me be more disciplined as a programmer like writing cleaner code, good commit practices and much more. Don’t tag @sils unnecessarily in gitter. Yeah, this topic often comes up in the channel. He’s a nice guy but he has other works as well. Other maintainers like @jayvdb, @udayan, @makman2, @fneu, @adrianzatreanu, @mixih, @adtac and many quality developers there to help out if one get’s stuck. Review other people’s code, or at least try to see how they approached solving the issue. Code reviewing is as important as creating a Pull Request. I’m now trying to improve my capabilities to find functionality related bugs in the code. Don’t ask for help on the channel before trying to help yourself. coalians are not dependent on someone else, they solve their problems on their own. I mean we should do some research on our end before posting a question/error. I realized that a simple mistake on my end could waste a lot of valuable time of someone else. And if you didn’t noticed that I spelled coala with an Uppercase ‘C’ in the 4th point, it’s okay! Next time you’ll never miss this. Have fun :)</summary></entry></feed>
