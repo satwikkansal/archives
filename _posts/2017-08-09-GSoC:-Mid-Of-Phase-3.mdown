@@ -1,0 +1,26 @@
+---
+title: GSoC - Mid of Phase 3
+date: 2017-08-09 14:40:36 +05:30
+categories:
+- personal
+- gsoc
+tags:
+- coala
+
+layout: single
+---
+Hey everyone! I'm back with another post describing my GSoC journey so far since the last update (released in the final week of Phase 2). Here's all that happened since then:
+
+- coala-quickstart broke due to some changes in the public API of coalib just before 1 day of the evaluation deadline. Thanks to John for pointing it out and reverting the changes :)
+- I passed my second evaluation (yay!)
+- coala-quickstart's CLI was overwhelmed with errors related to logging and a lot of irrelevant warnings (mostly fixed now :))
+- Me and Adhityaa finalized and prioritized tasks for the third phase.
+- The tree became red!!! (Appveyor builds were failing due to upstream issues with lxml dependency)
+- I made couple of PRs to fix un-necessary errors and warnings on the CLI.
+- I made a PR adding some CLI improvements to quickstart:
+    - coala-quickstart will now support input validation for setting values entered by users.
+    - coala-quickstart now doesn't ask users for `language` setting values reducing the amount of information the users have to input.
+    - Users can now enter different strings for boolean setting values. Example, coala-quickstart now will recongnize strings like "Hell yeah!!!", "Nope", "Definitely", etc.
+- Initiated a PR for a terminal-like autocomplete feature in quickstart's CLI for filesystem paths.
+
+As I mentioned in my previous post, this phase involves improvements in existing interface of coala-quickstart. I'm trying to finish all the tasks mentioned in my proposal as soon as possible and manage some time to complete some stretch goals and finally make a release of coala-quickstart :tada:
