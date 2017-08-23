@@ -25,6 +25,6 @@ With all that done.. I was able to complete my project in time and everyone woul
 
 ## What's next for coala-quickstart?
 
-There's still a long way to go for coala-quickstart and the most important thing to watch out for is the [aspects] project which will simplify the things for the users to a lot extent and will eventually open us a lot of opportunity for us to show some `coala-quickstart` magic.
+There's still a long way to go for coala-quickstart and the most important thing to watch out for is the [aspects](https://github.com/coala/cEPs/blob/master/cEP-0005.md) project which will simplify the things for the users to a lot extent and will eventually open us a lot of opportunity for us to show some `coala-quickstart` magic.
 
 PS: Another blog-post walking through my whole GSoC journey in brief will be coming soon and I'm trying to make it an interesting one. So until next time...
