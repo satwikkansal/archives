@@ -1,5 +1,5 @@
 ---
-title: The final week!
+title: GSoC- The final week!
 date: 2017-08-22 14:40:36 +05:30
 categories:
 - personal
@@ -9,8 +9,6 @@ tags:
 
 layout: single
 ---
-2017-08-22-The-Final-Week.md
-
 Hey everyone! I'm back with another post regarding my GSoC journey so far. This is my final week into the GSoC and I'm really glad that I made it till the end.
 
 First of all, here's a list of things that have done since my previous mid-phase post.
