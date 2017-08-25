@@ -1,13 +1,13 @@
 # Site Settings
 locale                   : "en"
-title                    : "Satwik Kansal's blog"
+title                    : "Satwik Kansal's Archives"
 title_separator          : "-"
 name                     : &my_name "Satwik Kansal"
 description              : >
   Freelance Software Developer and Open Source enthusiast
-  experienced in Data Science and Web Development.
-url                      : "http://satwikkansal.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/blog" # the subpath of your site, e.g. "/blog"
+  experienced in Data Science, Web Development and Decentralized Applications.
+url                      : "https://satwikkansal.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/archives" # the subpath of your site, e.g. "/blog"
 repository               : "satwikkansal/satwikkansal.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -79,7 +79,7 @@ author:
   avatar           : "https://www.gravatar.com/avatar/763a2074e6b54615855a13656f2cb717" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              :  >
     A Freelance Software Developer actively involved in Open Source, 
-    experienced in Data Science and Web Development.
+    experienced in Data Science, Web Development and Decentralized Applications.
   location         : "New Delhi, India"
   email            : "satwikkansal@gmail.com"
   uri              : "http://satwikkansal.xyz"
