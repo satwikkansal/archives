@@ -18,7 +18,5 @@ Till then you might checkout my old [website](http://www.satwikkansal.xyz)
 
 
 Made with :heart: and no :coffee:
->>>>>>> Add readme
-=======
 An attempt to put my posts on the internet at a single page.
->>>>>>> Update README.md
+
