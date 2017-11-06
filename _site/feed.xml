@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/archives/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/archives/" rel="alternate" type="text/html" /><updated>2017-08-25T17:36:03+05:30</updated><id>http://localhost:4000/archives/</id><title type="html">Satwik Kansal’s Archives</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science, Web Development and Decentralized Applications.
-</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">GSoC- The final week!</title><link href="http://localhost:4000/archives/posts/personal/gsoc/The-final-week/" rel="alternate" type="text/html" title="GSoC- The final week!" /><published>2017-08-22T14:40:36+05:30</published><updated>2017-08-22T14:40:36+05:30</updated><id>http://localhost:4000/archives/posts/personal/gsoc/The-final-week</id><content type="html" xml:base="http://localhost:4000/archives/posts/personal/gsoc/The-final-week/">&lt;p&gt;Hey everyone! I’m back with another post regarding my GSoC journey so far. This is my final week into the GSoC and I’m really glad that I made it till the end.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/archives/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/archives/" rel="alternate" type="text/html" /><updated>2017-11-06T14:50:16+05:30</updated><id>http://localhost:4000/archives/</id><title type="html">Satwik Kansal’s Archives</title><subtitle>Freelance Software Developer and Open Source enthusiast experienced in Data Science, Web Development and Decentralized Applications.
+</subtitle><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><entry><title type="html">The PyCon Weekend</title><link href="http://localhost:4000/archives/posts/personal/python/The-PyCon-Weekend/" rel="alternate" type="text/html" title="The PyCon Weekend" /><published>2017-11-06T12:40:36+05:30</published><updated>2017-11-06T12:40:36+05:30</updated><id>http://localhost:4000/archives/posts/personal/python/The-PyCon-Weekend</id><content type="html" xml:base="http://localhost:4000/archives/posts/personal/python/The-PyCon-Weekend/">&lt;p&gt;Hey everyone! It’s been quite a while since my last post. A lot has happened till then, but this post is just gonna be about the amazing experience that I had at PyCon India 2017. I’ve been buying Pycon ticket since the last 2 years, and ending up transferring it to someone else due to my university exams. But this time, I somehow managed to attend it :tada:&lt;/p&gt;
+
+&lt;p&gt;Here’s what all I did,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Lead the Dev sprint for “First Open Source Contribution at coala”.
+I was very excited about this. However due to some technical glitches, and non-functional internet at the spot, it didn’t go as well as expected. Anyways, we still managed to get a decent amount of newcomers onboard. And yeah, I got a chance to speak at PyCon. I also prepared a lightning talk for What the f**k Python?, but unfortunately my talk wasn’t picked in the lottery system. But anyways, I ended up partnering with @rj722 for the lightning talk about coala!&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://s1.postimg.org/4onq13f5v3/photo_2017-11-06_02-07-59.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Met with the awesome coalians (The coala contributors)
+There were 9 people from coala. We had a fabulous community dinner at a barbecque place (Thanks to @sils and @damngamerz for arranging it), spent time discussing a lot of things at the coalaBnb, organized open spaces, distributed a hell lot of coala swags, gave lightning talks. It seemed like Pycon turned into coalaCon.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://s1.postimg.org/23441l17yn/photo_2017-11-06_13-44-08.jpg&quot; /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;https://s1.postimg.org/4zaju8tykv/photo_2017-11-06_02-10-36.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Didn’t attend even a single talk.
+Well, this may seem crazy. I did attend one by fellow coalian @rj722 about Dead code removal using Vulture, but that’s all I attended. Instead, I spent time preparing slides for the Lightning talk, organizing open spaces for coala, having lunch (:p), and just hanging around with coala people.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Well, that’s all I had to share for now. I hope the next PyCon event is going to be even more fun and learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://s1.postimg.org/43e2eskxa7/photo_2017-11-06_02-07-50.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;^^ The coala gang!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;PS: The past three months after GSoC have been like a roller coaster for me. I’ll soon be sharing a long blog post about them which you mayS find informative as well. Until then, Goodbye!&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html">Hey everyone! It’s been quite a while since my last post. A lot has happened till then, but this post is just gonna be about the amazing experience that I had at PyCon India 2017. I’ve been buying Pycon ticket since the last 2 years, and ending up transferring it to someone else due to my university exams. But this time, I somehow managed to attend it :tada:</summary></entry><entry><title type="html">GSoC- The final week!</title><link href="http://localhost:4000/archives/posts/personal/gsoc/The-final-week/" rel="alternate" type="text/html" title="GSoC- The final week!" /><published>2017-08-22T14:40:36+05:30</published><updated>2017-08-22T14:40:36+05:30</updated><id>http://localhost:4000/archives/posts/personal/gsoc/The-final-week</id><content type="html" xml:base="http://localhost:4000/archives/posts/personal/gsoc/The-final-week/">&lt;p&gt;Hey everyone! I’m back with another post regarding my GSoC journey so far. This is my final week into the GSoC and I’m really glad that I made it till the end.&lt;/p&gt;
 
 &lt;p&gt;First of all, here’s a list of things that have done since my previous mid-phase post.&lt;/p&gt;
 &lt;ul&gt;
@@ -340,21 +373,4 @@ Rest everything (locating files, storing information, validating information, va
 
 &lt;p&gt;This month is officialy a “community-bonding-period”. As I’m already familiar with the community as well as the codebase of &lt;code class=&quot;highlighter-rouge&quot;&gt;coala-quickstart&lt;/code&gt;, I plan to do extensive research about implementation of my project in this period so that I don’t face much difficulties during the upcoming “coding-phases”&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt; There’s gonna be &lt;strong&gt;lot&lt;/strong&gt; of upcoming blog-posts regarding my GSoC journey and the new things that I learn on my way. Stay tuned…&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html"></summary></entry><entry><title type="html">A fresh start with my little web-space</title><link href="http://localhost:4000/archives/posts/personal/a-fresh-start/" rel="alternate" type="text/html" title="A fresh start with my little web-space" /><published>2017-05-02T06:51:36+05:30</published><updated>2017-05-02T06:51:36+05:30</updated><id>http://localhost:4000/archives/posts/personal/a-fresh-start</id><content type="html" xml:base="http://localhost:4000/archives/posts/personal/a-fresh-start/">&lt;p&gt;After mashing up 3-4 jekyll themes and doing few modifications over the past month, I ended up with the new design of my &lt;a href=&quot;http://www.satwikkansal.xyz&quot;&gt;website&lt;/a&gt; ,shifted my blog from &lt;a href=&quot;https://www.satwikkansal.wordpress.com&quot;&gt;wordpress&lt;/a&gt; to &lt;a href=&quot;http://satwikkansal.xyz/blog&quot;&gt;jekyll&lt;/a&gt;, and created a &lt;a href=&quot;http://satwikkansal.xyz/projects&quot;&gt;portfolio&lt;/a&gt; to share my projects. All of this was a long overdue (and still a lot of stuff to implement) but I think the basic structure is ready right now.&lt;/p&gt;
-
-&lt;p&gt;The reason I called this post a “Fresh Beginning” is &lt;!--more--&gt; there are lots of things that I’m planning to do (&lt;strong&gt;strictly&lt;/strong&gt; :sweat_smile:) from next month onwards. Few of them are:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Blog often&lt;/strong&gt; : I don’t have any followers though, but blogging actually is a good practice to understand things in detail and present them in the simplest way possible. Also, it would help me to track my progress so far as a developer.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Try different platforms&lt;/strong&gt;: Would like to spend more time on Twitter, Medium, Reddit and Quora and stay as away as I could from Facebook. Facebook is all messed up these days, even the messenger app is bloated with all kinds of messaging-app features that exist on earth.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Work on serious projects&lt;/strong&gt;: I’ve few good ideas to implement which I’d like to focus on and pursue till the completion (making something that is usable by others). Would also try to find some new “collaborator-friends” who have similar skillset as mine to work on large but cool projects.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Try and explore more technologies:&lt;/strong&gt; Augmented Reality and few Machine Learning fields (Genrative Adversarial Networks, Reinforcement Learning) are on my list. Let’s see if I’m able to come up with some interesting applications of these technologies.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="website" /><category term="goals" /><summary type="html">After mashing up 3-4 jekyll themes and doing few modifications over the past month, I ended up with the new design of my website ,shifted my blog from wordpress to jekyll, and created a portfolio to share my projects. All of this was a long overdue (and still a lot of stuff to implement) but I think the basic structure is ready right now. The reason I called this post a “Fresh Beginning” is</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt; There’s gonna be &lt;strong&gt;lot&lt;/strong&gt; of upcoming blog-posts regarding my GSoC journey and the new things that I learn on my way. Stay tuned…&lt;/p&gt;</content><author><name>Satwik Kansal</name><email>satwikkansal@gmail.com</email><uri>http://satwikkansal.xyz</uri></author><category term="coala" /><summary type="html"></summary></entry></feed>
