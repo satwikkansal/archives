@@ -1,11 +1,10 @@
 # Site Settings
 locale                   : "en"
-title                    : "Satwik Kansal's Archives"
+title                    : "My Wayback Archives"
 title_separator          : "-"
 name                     : &my_name "Satwik Kansal"
 description              : >
-  Freelance Software Developer and Open Source enthusiast
-  experienced in Data Science, Web Development and Decentralized Applications.
+  Freelance Developer experienced in Data Science and Decentralized Applications.
 url                      : "https://satwikkansal.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/archives" # the subpath of your site, e.g. "/blog"
 repository               : "satwikkansal/satwikkansal.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
