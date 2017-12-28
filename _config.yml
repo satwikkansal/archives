@@ -1,3 +1,12 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 # Site Settings
 locale                   : "en"
 title                    : "My Wayback Archives"
@@ -10,7 +19,7 @@ baseurl                  : "/archives" # the subpath of your site, e.g. "/blog"
 repository               : "satwikkansal/satwikkansal.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 150
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -40,19 +49,23 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+reCaptcha:
+  siteKey                :
+  secret                 :
+search                   : true #false (default)
 
 # SEO Related
-google_site_verification : "IoC_F49PVEB-g10hvzr5RTmjxW1LIYldwrNcAKrFiPA"
+google_site_verification :
 bing_site_verification   :
-alexa_site_verification  :
 yandex_site_verification :
+naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : "satwikkansal"
+  username               :
 facebook:
-  username               : "satwikkansal"
-  app_id                 : "296348977464170"
+  username               :
+  app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
@@ -60,29 +73,23 @@ og_image                 : # Open Graph/Twitter default site image
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to  social media profiles
-    - "https://www.linkedin.com/in/satwikkansal"
-    - "https://www.facebook.com/satwikkansal"
-    - "https://plus.google.com/u/0/100516829514193489870"
+  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-69269552-4"
+    tracking_id          :
 
 
 # Site Author
 author:
-  name             : *my_name
+  name             : "Satwik Kansal"
   avatar           : "https://www.gravatar.com/avatar/763a2074e6b54615855a13656f2cb717" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :  >
-    A Freelance Software Developer actively involved in Open Source, 
-    experienced in Data Science, Web Development and Decentralized Applications.
+  bio              : "Freelance Developer experienced in Data Science and Decentralized Applications."
   location         : "New Delhi, India"
   email            : "satwikkansal@gmail.com"
   uri              : "http://satwikkansal.xyz"
-  bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
@@ -91,7 +98,7 @@ author:
   github           : "satwikkansal"
   google_plus      :
   keybase          :
-  instagram        : 
+  instagram        :
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/satwikkansal"
   pinterest        :
@@ -105,7 +112,6 @@ author:
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
   quora            : "Satwik-Kansal-1"
-
 
 # Reading Files
 include:
@@ -173,13 +179,13 @@ sass:
 
 # Outputting
 permalink: /posts/:categories/:title/
-paginate: 4  # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: "Asia/Kolkata" # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Asia/Kolkata" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
-# Plugins
-gems:
+# Plugins (previously gems:)
+plugins_dir:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-sitemap
@@ -206,30 +212,38 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-
 tag_archive:
   type: liquid
   path: /tags/
 category_archive:
-  type: liquid
-  path: /categories/
-
+  type: jekyll-archives
+  path: /
+# # https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive-taxonomy
+  permalinks:
+    category: /:name/
+# category_archive:
+#   type: jekyll-archives
+#   path: /categories/
 # tag_archive:
 #   type: jekyll-archives
 #   path: /tags/
-# category_archive:
-#   type: jekyll-archives
-#   path: /
 # jekyll-archives:
 #   enabled:
 #     - categories
 #     - tags
+#   layout: archive-taxonomy
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
 #   permalinks:
-#     category: /:name/
+#     category: /categories/:name/
 #     tag: /tags/:name/
+#     year: /year-archive/:year
+
 
 
 # HTML Compression
@@ -238,6 +252,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
 
 # Defaults
 defaults:
@@ -251,4 +266,4 @@ defaults:
       read_time: true
       comments: true
       share: true
-      related: true
+related: true
