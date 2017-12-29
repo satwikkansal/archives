@@ -33,7 +33,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
+  branch                 : "master"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -212,19 +212,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
-tag_archive:
-  type: liquid
-  path: /tags/
 category_archive:
   type: liquid
-  path: /
-# # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive-taxonomy
-  permalinks:
-    category: /:name/
+  path: /categories/
+tag_archive:
+  type: liquid
+path: /tags/
 # category_archive:
 #   type: jekyll-archives
 #   path: /categories/
