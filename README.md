@@ -10,13 +10,3 @@
 
 </pre>
         
-Hang on! This site is under construction.
-
-Till then you might checkout my old [website](http://www.satwikkansal.xyz)
-
-
-
-
-Made with :heart: and no :coffee:
-An attempt to put my posts on the internet at a single page.
-
