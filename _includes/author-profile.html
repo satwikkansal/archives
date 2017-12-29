@@ -5,7 +5,7 @@
 {% endif %}
 
 <div itemscope itemtype="http://schema.org/Person">
-
+  {% assign domain = site.url | append: site.baseurl %}
   {% if author.avatar %}
     <div class="author__avatar">
       {% if author.avatar contains "://" %}
@@ -21,10 +21,10 @@
           {% assign author_link = author.home | absolute_url %}
         {% endif %}
         <a href="{{ author_link }}">
-          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image" href="{{domain}}/about">
         </a>
       {% else %}
-        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image" href="{{domain}}/about">
       {% endif %}
     </div>
   {% endif %}
