@@ -185,7 +185,7 @@ timezone: "Asia/Kolkata" # https://en.wikipedia.org/wiki/List_of_tz_database_tim
 
 
 # Plugins (previously gems:)
-plugins_dir:
+gems:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-sitemap
