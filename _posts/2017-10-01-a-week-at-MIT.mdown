@@ -6,9 +6,10 @@ categories:
 tags:
 
 layout: single
+excerpt_separator: "<!--more-->"
 ---
 
-Couple of weeks ago, I went "all-in" on my GSoC stipend for the love of hackathons to attend HackMIT at Massachusetts Institute of Technology. I was uncertain if I should be going (because I had already been to Detroit for MHacks last year and ended up destroying all my freelance earnings and Hackathon winnings), but then, this time it was **MIT**! Looking back 2 years from now, I'd never have imagined that one day I'll get a chance to visit MIT. So I made my decision, to go all-in and give it a shot.
+Couple of weeks ago, I went "all-in" on my GSoC stipend for the love of hackathons to attend HackMIT at Massachusetts Institute of Technology. I was uncertain if I should be going (because I had already been to Detroit for MHacks last year and ended up destroying all my freelance earnings and Hackathon winnings), but then, this time it was **MIT**! Looking back 2 years from now, I'd never have imagined that one day I'll get a chance to visit MIT. So I made my decision, to go all-in and give it a shot. <!--more-->
 
 This time it was just me and Gautam who were shortlisted for the event. The flight was smooth, and I slept throughout the flight waking up just to eat. It felt like I was hibernating.
 

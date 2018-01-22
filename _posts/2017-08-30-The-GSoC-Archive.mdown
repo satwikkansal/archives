@@ -8,9 +8,10 @@ tags:
 - coala
 
 layout: single
+excerpt_separator: "<!--more-->"
 ---
 
-As a part of Google Summer of Code program, I was supposed to write biweekly work updates, which kinda made by archives a bit of cluttered. So, one fine morning, I decided to compile all of them into a single post to clean things up. Doing it manually seemed daunting, so I decided to make a script which took me even more time :p
+As a part of Google Summer of Code program, I was supposed to write biweekly work updates, which kinda made by archives a bit of cluttered. So, one fine morning, I decided to compile all of them into a single post to clean things up. Doing it manually seemed daunting, so I decided to make a script which took me even more time :p <!--more-->
 
 Anyways, the following post contains all my GSoC blog updates in chronological order. The final offical report for my GSoC project [here](https://summerofcode.withgoogle.com/archive/2017/projects/6208607959908352/) and [here](https://gist.github.com/satwikkansal/b72265a0d0ec678b9291ea8e21a398ec).
 

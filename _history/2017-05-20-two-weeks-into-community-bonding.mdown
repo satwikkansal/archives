@@ -22,13 +22,13 @@ Here's what I was upto past two weeks:
 
 **Some nice links:**
 
-- My post in mailing list - [https://groups.google.com/forum/#!topic/coala-devel/0A_Wz3pyWgk](https://groups.google.com/forum/#!topic/coala-devel/0A_Wz3pyWgk)
+- My post in mailing list - https://groups.google.com/forum/#!topic/coala-devel/0A_Wz3pyWgk
 - The cEP I proposed - [here](https://github.com/satwikkansal/cEPs/blob/f5f7ac61d263de759be47414fe6a210fae1c84c0/cEP-0009.md)
-- Description of my project - [http://projects.coala.io/#/projects?project=enhance_coala-quickstart](http://projects.coala.io/#/projects?project=enhance_coala-quickstart)
+- Description of my project - http://projects.coala.io/#/projects?project=enhance_coala-quickstart
 - My project milestones -
-    - [BONDING](https://gitlab.com/coala/GSoC-2017/milestones/6)
-    - [PHASE 1](https://gitlab.com/coala/GSoC-2017/milestones/20)
-    - [PHASE 2](https://gitlab.com/coala/GSoC-2017/milestones/21)
-    - [PHASE 3](https://gitlab.com/coala/GSoC-2017/milestones/22)
-    - [STRETCH GOALS](https://gitlab.com/coala/GSoC-2017/milestones/41)
+    - [BONDING] https://gitlab.com/coala/GSoC-2017/milestones/6
+    - [PHASE 1] https://gitlab.com/coala/GSoC-2017/milestones/20
+    - [PHASE 2] https://gitlab.com/coala/GSoC-2017/milestones/21
+    - [PHASE 3] https://gitlab.com/coala/GSoC-2017/milestones/22
+    - [STRETCH GOALS] https://gitlab.com/coala/GSoC-2017/milestones/41
 
