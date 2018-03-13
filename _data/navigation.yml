@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "Website"
-    url: http://www.satwikkansal.xyz
+    url: https://www.satwikkansal.xyz
   - title: "About Me"
-    url: /about/
+    url: http://www.satwikkansal.xyz/about
   - title: "Posts"
     url: /categories/
   - title: "Projects"
