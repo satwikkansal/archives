@@ -41,3 +41,7 @@ I applied for full-time positions at a few companies, but wasn’t able to get m
 Meanwhile, I read a lot of Python’s documentation, and after a month’s effort, I tried to come up with next major release of “What the f*ck Python!”. And with that, I became the top Python Github developer in entire India (I wanted to shout out so bad about this on social media, but I somehow managed to keep it to myself, until now :p)
 
 Well, that sums up my last 6 months in brief. I don’t know what I’m gonna do next, probably more of traveling, writing, and getting out a crypto project I’m working upon.
+
+**Update April 2018:**
+
+I successfully published a couple of articles for IBM developerWorks (yay! first article as a "professional" tech writer) and recently was second runners-up at Times App Search Contest 2018 for my crypto project! :tada:
