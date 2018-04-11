@@ -15,6 +15,8 @@ Hey everyone! So here's an attempt to aggregate of all my posts related to Pytho
 
 | Title                                                                  | Source                                                                                                                |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Develop a blockchain application from scratch in Python | https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html |
+| Simplifying tasks with metaprogramming in Python | https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html?ca=drs- |
 | Do you really think you know strings in Python?                        | [https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha](https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha)                       |
 | Python practices for Efficient code:  Performance, Memory and Usablity | [https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65](https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65) |
 | Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
