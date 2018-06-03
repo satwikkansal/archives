@@ -1,6 +1,7 @@
 ---
 title: My Python Archives
 date: 2018-01-20 12:40:36 +05:30
+visible: True
 categories:
 - python
 tags:

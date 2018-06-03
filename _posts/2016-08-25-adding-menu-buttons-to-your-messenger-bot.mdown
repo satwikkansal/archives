@@ -1,6 +1,7 @@
 ---
 title: Adding  Menu and Buttons to your messenger bot
 date: 2016-08-25 05:52:03 +05:30
+visible: True
 categories:
 - messenger
 tags:

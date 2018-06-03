@@ -1,6 +1,7 @@
 ---
 title: My GSoC Archive!
 date: 2017-09-10 14:40:36 +05:30
+visible: True
 categories:
 - personal
 - gsoc

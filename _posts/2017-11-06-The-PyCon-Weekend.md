@@ -1,6 +1,7 @@
 ---
 title: The PyCon Weekend
 date: 2017-11-06 12:40:36 +05:30
+visible: True
 categories:
 - personal
 - python
