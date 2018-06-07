@@ -168,7 +168,7 @@ These two weeks, I underwent multiple iterations of my previous week's work unti
 Finally, I was able to figure out the mysteries of Travis, CircleCI, and Appveyor. Now we have Travis, Circle CI, and Appveyor integrated into the `coala-quickstart` repository. This is a very useful step as I'll be able to make sure my solution works flawlessly across different Operating Systems.
 
 **Here's how the tree looks like now**
-<img src="https://s9.postimg.org/5ui96fyjj/Screenshot_from_2017-06-23_00-55-16.png" alt="">
+<img src="https://s9.postimg.cc/5ui96fyjj/Screenshot_from_2017-06-23_00-55-16.png" alt="">
 
 I remember when I joined this Open Source world I used to consider these CI checks as "annoying mystery systems":sweat_smile:, but later I realized their importance and appreciate the services they offer for free to the open source projects.
 
@@ -259,7 +259,7 @@ That's all folks! I'm not gonna bore you guys more (brevity is a dying art :P). 
 
 So the first phase is finally over, and I managed to complete all my tasks in time :tada:, I'm a 1/3rd GSoCer now. Excited, as always, I filled up my First Evaluation on Google Summer Of Code's site, and probably my mentors have completed theirs as well (I had to write four long 2k word size answers in the evaluation form :P)
 
-<img src="https://s21.postimg.org/juvvk2k6v/Screenshot_from_2017-06-26_22-51-41.png" alt="">
+<img src="https://s21.postimg.cc/juvvk2k6v/Screenshot_from_2017-06-26_22-51-41.png" alt="">
 
 Thanks a ton to my mentors [Adhityaa](http://github.com/adtac/) and [Adrian](https://github.com/Adrianzatreanu) for helping me with my doubts in the weekly meetings, and reviewing and merging all my stuff. The meetings were fun (yeah, some sarcastic jokes when both of them were around :P) as well as informative. It helped all of us align on the same page at the end of every week. This week I had a quite rigorous discussion with Adhityaa regarding future tasks which went on till 2 hrs.
 
@@ -267,7 +267,7 @@ Also, credits to finish my tasks in time goes to the admins who kept us pushing 
 
 After phase 1, this is how my burndown chart looks like
 
-<img src="https://s17.postimg.org/6a4n7cjzj/Screenshot_from_2017-06-26_22-52-38.png" alt="">
+<img src="https://s17.postimg.cc/6a4n7cjzj/Screenshot_from_2017-06-26_22-52-38.png" alt="">
 
 Please checkout https://gitlab.com/coala/GSoC-2017/milestones/20 to see what all tasks I worked upon during the First Phase.
 
@@ -292,7 +292,7 @@ Stay tuned for more updates...
 
 Hello world! I'm back with another post of my GSoC journey. Last week, I received an email from "Google Summer Of Code" and guess what? I passed my first evaluation : tada:.
 
-<img src="https://s13.postimg.org/6zjnxw42v/hello.png" alt="">
+<img src="https://s13.postimg.cc/6zjnxw42v/hello.png" alt="">
 
 My mentors were very happy with my performance so far, and I'm really thankful for their support. Without wasting any time, I started working on the Phase 2 tasks just after submitting the Phase 1 evaluation, so coming back to my work here's what I've done in the past two weeks:
 
@@ -339,11 +339,11 @@ Hello world! I'm back with another post of my GSoC journey. I'm into my final we
 
 Here's my burndown chart
 
-<img src="https://s1.postimg.org/zelq6z8tb/burndown.png" alt="">
+<img src="https://s1.postimg.cc/zelq6z8tb/burndown.png" alt="">
 
 It's pretty erratic this time because we decided to work on multiple issues a week so that we have a fair idea in mind of how everything is going to line up together to work in sync, and this is what I ended up with
 
-<img src="https://s4.postimg.org/i4c9u9swd/Screenshot_from_2017-07-23_22-34-20.png" alt="">
+<img src="https://s4.postimg.cc/i4c9u9swd/Screenshot_from_2017-07-23_22-34-20.png" alt="">
 
 PS: I realized that it's better to manage 3-4 short PRs than one giant PR and had hard time in making changes to PR, maintaining logical order of commits, and having the all the CI services to successfully build the project with updated changes.
 

@@ -18,14 +18,14 @@ Here's what all I did,
 1. Lead the Dev sprint for "First Open Source Contribution at coala".
    I was very excited about this. However due to some technical glitches, and non-functional internet at the spot, it didn't go as well as expected. Anyways, we still managed to get a decent amount of newcomers onboard. And yeah, I got a chance to speak at PyCon. I also prepared a lightning talk for What the f**k Python?, but unfortunately my talk wasn't picked in the lottery system. But anyways, I ended up partnering with @rj722 for the lightning talk about coala!
 
-   <img src="https://s1.postimg.org/4onq13f5v3/photo_2017-11-06_02-07-59.jpg" alt="">
+   <img src="https://s1.postimg.cc/4onq13f5v3/photo_2017-11-06_02-07-59.jpg" alt="">
 
 2. Met with the awesome coalians (The coala contributors)
    There were 9 people from coala. We had a fabulous community dinner at a barbecque place (Thanks to @sils and @damngamerz for arranging it), spent time discussing a lot of things at the coalaBnb, organized open spaces, distributed a hell lot of coala swags, gave lightning talks. It seemed like Pycon turned into coalaCon.
 
-   <img src="https://s1.postimg.org/23441l17yn/photo_2017-11-06_13-44-08.jpg">
+   <img src="https://s1.postimg.cc/23441l17yn/photo_2017-11-06_13-44-08.jpg">
 
-   <img src="https://s1.postimg.org/4zaju8tykv/photo_2017-11-06_02-10-36.jpg" alt="">
+   <img src="https://s1.postimg.cc/4zaju8tykv/photo_2017-11-06_02-10-36.jpg" alt="">
 
 
 3. Didn't attend even a single talk.
@@ -33,7 +33,7 @@ Here's what all I did,
 
 Well, that's all I had to share for now. I hope the next PyCon event is going to be even more fun and learning.
 
-<img src="https://s1.postimg.org/43e2eskxa7/photo_2017-11-06_02-07-50.jpg" alt="">
+<img src="https://s1.postimg.cc/43e2eskxa7/photo_2017-11-06_02-07-50.jpg" alt="">
 
 **^^ The coala gang!**
 
