@@ -9,6 +9,7 @@ comment_status: open
 post_name: 7-things-i-learned-from-coala
 status: publish
 post_type: post
+----
 
 # 7 Things I learned from coala
 

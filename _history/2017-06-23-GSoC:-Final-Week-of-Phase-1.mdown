@@ -38,7 +38,7 @@ These two weeks, I underwent multiple iterations of my previous week's work unti
 Finally, I was able to figure out the mysteries of Travis, CircleCI, and Appveyor. Now we have Travis, Circle CI, and Appveyor integrated into the `coala-quickstart` repository. This is a very useful step as I'll be able to make sure my solution works flawlessly across different Operating Systems.
 
 **Here's how the tree looks like now**
-<img src="https://s9.postimg.org/5ui96fyjj/Screenshot_from_2017-06-23_00-55-16.png" alt="">
+<img src="https://s9.postimg.cc/5ui96fyjj/Screenshot_from_2017-06-23_00-55-16.png" alt="">
 
 I remember when I joined this Open Source world I used to consider these CI checks as "annoying mystery systems":sweat_smile:, but later I realized their importance and appreciate the services they offer for free to the open source projects.
 

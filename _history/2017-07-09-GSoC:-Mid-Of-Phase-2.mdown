@@ -10,7 +10,7 @@ layout: single
 ---
 Hello world! I'm back with another post of my GSoC journey. Last week, I received an email from "Google Summer Of Code" and guess what? I passed my first evaluation : tada:.
 
-<img src="https://s13.postimg.org/6zjnxw42v/hello.png" alt="">
+<img src="https://s13.postimg.cc/6zjnxw42v/hello.png" alt="">
 
 My mentors were very happy with my performance so far, and I'm really thankful for their support. Without wasting any time, I started working on the Phase 2 tasks just after submitting the Phase 1 evaluation, so coming back to my work here's what I've done in the past two weeks:
 

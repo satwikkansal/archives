@@ -9,6 +9,8 @@ tags:
 layout: single
 ---
 
+Well, for me they suck most of the times.
+
 Imagine we meet some day and I say “Hey, I just read this XYZ book, it’s so great that it would change your life”. During my 6-month long book reading journey so far, I frequently threw such humble brags at my friends.
 
 And I know, the inner-response of most people would be along the lines of, “Who the hell are you to recommend me books? Do you even know what my problems are? My life is good already, and even if it’s not, I could figure out on my own what I’ve to read”. They don’t say it to my face obviously, but there reluctance and negligence says it all.

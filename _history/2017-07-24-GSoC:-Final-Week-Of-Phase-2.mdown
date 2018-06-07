@@ -19,11 +19,11 @@ Hello world! I'm back with another post of my GSoC journey. I'm into my final we
 
 Here's my burndown chart
 
-<img src="https://s1.postimg.org/zelq6z8tb/burndown.png" alt="">
+<img src="https://s1.postimg.cc/zelq6z8tb/burndown.png" alt="">
 
 It's pretty erratic this time because we decided to work on multiple issues a week so that we have a fair idea in mind of how everything is going to line up together to work in sync, and this is what I ended up with
 
-<img src="https://s4.postimg.org/i4c9u9swd/Screenshot_from_2017-07-23_22-34-20.png" alt="">
+<img src="https://s4.postimg.cc/i4c9u9swd/Screenshot_from_2017-07-23_22-34-20.png" alt="">
 
 PS: I realized that it's better to manage 3-4 short PRs than one giant PR and had hard time in making changes to PR, maintaining logical order of commits, and having the all the CI services to successfully build the project with updated changes.
 
