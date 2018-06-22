@@ -8,6 +8,8 @@ categories:
 tags:
 - coala
 
+read_time: False
+
 layout: single
 excerpt_separator: "<!--more-->"
 ---

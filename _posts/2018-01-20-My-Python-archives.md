@@ -9,6 +9,8 @@ tags:
 - optimization
 - efficency
 
+read_time: False
+
 layout: single
 ---
 

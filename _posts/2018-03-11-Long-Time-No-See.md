@@ -3,7 +3,6 @@ title: Long time, No see?
 date: 2018-03-11 12:40:36 +05:30
 categories:
 - personal
-tags:
 
 layout: single
 ---
