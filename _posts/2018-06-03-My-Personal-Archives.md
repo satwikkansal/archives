@@ -19,7 +19,8 @@ From now onwards, this is where I'd try to share my updates (every sometimes). A
 
 | Title             | Published on | Source                                             |
 |-------------------|--------------|----------------------------------------------------|
-| That was it!      | 2018-05-25   | [Link](/archives/posts/personal/That-was-it/)      |
+| The Digital debt!      | 2018-06-22   | [Link](archives/posts/personal/the-digital-debt/)      |
+| That was it...      | 2018-05-25   | [Link](/archives/posts/personal/That-was-it/)      |
 | Why advices suck sometimes      | 2018-04-23   | [Link](/archives/posts/personal/why-advices-suck-sometimes/)      |
 | Long Time no see! | 2018-03-11   | [Link](/archives/posts/personal/Long-Time-No-See/) |
 

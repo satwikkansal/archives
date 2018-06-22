@@ -1,7 +1,6 @@
 ---
 title: Why advices suck sometimes
 date: 2018-05-25 12:40:36 +05:30
-visible: true
 categories:
 - personal
 tags:
