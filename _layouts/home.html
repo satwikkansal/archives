@@ -4,10 +4,10 @@ layout: archive
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
 
-{% for post in paginator.posts %}
-  {% if post.visible %}
+{% assign posts = paginator.posts | sort:"weight" | where: "visible", true %}
+
+{% for post in posts %}
   	{% include archive-single.html %}
-  {% endif %}
 {% endfor %}
 
 {% include paginator.html %}
