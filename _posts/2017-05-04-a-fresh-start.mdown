@@ -1,7 +1,6 @@
 ---
 title: A fresh start with my little web-space
 date: 2017-05-02 06:51:36 +05:30
-visible: True
 categories:
 - personal
 tags:

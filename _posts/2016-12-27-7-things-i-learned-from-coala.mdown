@@ -1,7 +1,6 @@
 ---
 title: 7 things I learnt from coala
 date: 2016-12-27 06:51:36 +05:30
-visible: True
 categories:
 - oss
 tags:

@@ -1,8 +1,9 @@
 ---
-title: My Python Talks and Archives
-date: 2018-01-20 12:40:36 +05:30
+title: My technical Talks and Write-ups
+date: 2018-10-20 12:40:36 +05:30
 visible: True
 categories:
+- programming
 - python
 tags:
 - python
@@ -14,12 +15,13 @@ read_time: False
 layout: single
 ---
 
-Hey everyone! So here's an attempt to aggregate of all my talks/posts related to Python till date. Till now I had been maintaining a separate copy for blog posts here at my blog, but I guess just providing the link to the original post is much better (DRY!).
+Here's an attempt to aggregate of all my Computer Science related talks/posts till date.
 
 ## Articles
 
 | Title                                                                  | Source                                                                                                                |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
 | Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html) |
 | Simplifying tasks with metaprogramming in Python | [https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html](https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html) |
 | Do you really think you know strings in Python?                        | [https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha](https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha)                       |
@@ -28,6 +30,8 @@ Hey everyone! So here's an attempt to aggregate of all my talks/posts related to
 | Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
 | Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)                                      |
 |  Reinforcement Q-Learning from Scratch in Python with OpenAI Gym                           | [https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/)                                      |
+| Adding menu buttons to your messenger bot | [Link](/archives/posts/messenger/adding-menu-buttons-to-your-messenger-bot/)|
+
 
 
 ## Talks
