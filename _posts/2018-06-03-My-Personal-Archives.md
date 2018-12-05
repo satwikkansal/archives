@@ -15,7 +15,7 @@ Here are few of my posts (ordered by recency),
 
 | Title             | Published on | Source                                             |
 |-------------------|--------------|----------------------------------------------------|
-| A small celebration? | 2018-12-05 | [Link](/archives/posts/personal/A-small-celebration/)
+| A small celebration? | 2018-12-05 | [Link](/archives/posts/personal/python/A-small-celebration/)
 | Things to know about the rising pollution in Delhi-NCR | 2018-11-08 | [Link](https://medium.com/the-gullible-indian/things-to-know-about-rising-pollution-in-delhi-ncr-3b9474ef518a) |
 | Story of the last few months... | 2018-10-22 | [Link](/archives/posts/personal/story-of-last-few-months/)
 | When you almost make it!      | 2018-07-30   | [Link](/archives/posts/personal/when-you-almost-make-it/)      |
