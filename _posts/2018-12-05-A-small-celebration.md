@@ -6,6 +6,8 @@ categories:
 - python
 tags:
 
+visible: true
+
 layout: single
 excerpt_separator: "<!--more-->"
 ---
