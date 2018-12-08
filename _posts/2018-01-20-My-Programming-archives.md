@@ -15,12 +15,27 @@ read_time: False
 layout: single
 ---
 
-Here's an attempt to aggregate of all my Computer Science related talks/posts till date.
+Here's an attempt to aggregate of all talks/posts/tutorials till date.
+
+## Talks
+
+| Title                                                                 | Event                                                                                 | Content                                                                                                                                   |
+|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Your fist Open Source contribution at coala                           | [Pycon India 2017](https://in.pycon.org/2017/)                                        | [Link](https://in.pycon.org/cfp/dev-sprint-2017/proposals/your-first-open-source-contribution-at-coala~elE1a/)                            |
+| Blockchain, Cryptocurrencies, Decentralized Applications, and beyond! | [IWD-Delhi 2018](https://www.meetup.com/GDGNewDelhi/events/248254135/)                | [Speaker Deck](https://speakerdeck.com/satwikkansal/blockchain-cryptocurrencies-decentralized-applications-and-beyond)                    |
+| Do you really think you know strings in Python?                       | [PyDelhi](https://www.meetup.com/pydelhi/events/248955397/)                           | [Speaker Deck](https://speakerdeck.com/satwikkansal/do-you-really-think-you-know-strings-in-python)                                       |
+| Developing a self-learning snake game in Python                       | [EuroPython 2017](https://ep2017.europython.eu/en/)                                   | [Link](https://ep2017.europython.eu/conference/talks/developing-a-self-learning-snake-game-using-reinforcement-learning) Undelivered :( |
+|   GSoC, Open Source,  and Python                                      | [DTU Open Source Software Development SIG](https://www.facebook.com/groups/dtuosssig) | [Slides and Resources](https://gist.github.com/satwikkansal/f63068423f5e76d57c0c077ca822d7ff)                                            |
+
+## Tutorials
+
+Video-course: [Hands-on Reinforcement Learning with Tensorflow](https://www.packtpub.com/application-development/hands-reinforcement-learning-tensorflow-video)
 
 ## Articles
 
 | Title                                                                  | Source                                                                                                                |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Scalablity challenges to the existing blockchain | [https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej](https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej) |
 | Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
 | Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html) |
 | Simplifying tasks with metaprogramming in Python | [https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html](https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html) |
@@ -33,15 +48,4 @@ Here's an attempt to aggregate of all my Computer Science related talks/posts ti
 | Adding menu buttons to your messenger bot | [Link](/archives/posts/messenger/adding-menu-buttons-to-your-messenger-bot/)|
 
 
-
-## Talks
-
-| Title                                                                 | Event                                                                                 | Content                                                                                                                                   |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Your fist Open Source contribution at coala                           | [Pycon India 2017](https://in.pycon.org/2017/)                                        | [Link](https://in.pycon.org/cfp/dev-sprint-2017/proposals/your-first-open-source-contribution-at-coala~elE1a/)                            |
-| Blockchain, Cryptocurrencies, Decentralized Applications, and beyond! | [IWD-Delhi 2018](https://www.meetup.com/GDGNewDelhi/events/248254135/)                | [Speaker Deck](https://speakerdeck.com/satwikkansal/blockchain-cryptocurrencies-decentralized-applications-and-beyond)                    |
-| Do you really think you know strings in Python?                       | [PyDelhi](https://www.meetup.com/pydelhi/events/248955397/)                           | [Speaker Deck](https://speakerdeck.com/satwikkansal/do-you-really-think-you-know-strings-in-python)                                       |
-| Developing a self-learning snake game in Python                       | [EuroPython 2017](https://ep2017.europython.eu/en/)                                   | [Link](https://ep2017.europython.eu/conference/talks/developing-a-self-learning-snake-game-using-reinforcement-learning) Undelivered :( |
-|   GSoC, Open Source,  and Python                                      | [DTU Open Source Software Development SIG](https://www.facebook.com/groups/dtuosssig) | [Slides and Resources](https://gist.github.com/satwikkansal/f63068423f5e76d57c0c077ca822d7ff)                                            |
-
-And yes, please don't forget the giant [What the f*ck Python!](https://github.com/satwikkansal/wtfpython).
+And yes, please don't forget the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
