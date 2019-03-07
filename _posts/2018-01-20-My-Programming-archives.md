@@ -1,5 +1,5 @@
 ---
-title: My technical Talks and Write-ups
+title: Talks and publications
 date: 2018-10-20 12:40:36 +05:30
 visible: True
 categories:
@@ -15,7 +15,26 @@ read_time: False
 layout: single
 ---
 
-Here's an attempt to aggregate of all talks/posts/tutorials till date.
+Here's an attempt to aggregate of all talks/posts till date.
+
+## Articles
+
+| Title                                                                  | Source                                                                                                                |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Scalablity challenges to the existing blockchain | [https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej](https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej) |
+| Automating your development workflow | [https://www.skysilk.com/blog/2019/automating-development-workflow-python/](https://www.skysilk.com/blog/2019/automating-development-workflow-python/) |
+| Advanced scraping in Python | [https://www.codementor.io/blog/python-web-scraping-63l2v9sf2q](https://www.codementor.io/blog/python-web-scraping-63l2v9sf2q) |
+| Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
+| Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html) |
+| Simplifying tasks with metaprogramming in Python | [https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html](https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html) |
+| Do you really think you know strings in Python?                        | [https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha](https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha)                       |
+| Python practices for Efficient code:  Performance, Memory and Usablity | [https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65](https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65) |
+| Can Python Make you fly?                               | [https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu](https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu)                              |
+| Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
+| Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)                                      |
+|  Reinforcement Q-Learning from Scratch in Python with OpenAI Gym                           | [https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/)                                      |
+| Adding menu buttons to your messenger bot | [Link](/archives/posts/messenger/adding-menu-buttons-to-your-messenger-bot/)|
+
 
 ## Talks
 
@@ -31,21 +50,6 @@ Here's an attempt to aggregate of all talks/posts/tutorials till date.
 
 Video-course: [Hands-on Reinforcement Learning with Tensorflow](https://www.packtpub.com/application-development/hands-reinforcement-learning-tensorflow-video)
 
-## Articles
-
-| Title                                                                  | Source                                                                                                                |
-|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| Scalablity challenges to the existing blockchain | [https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej](https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej) |
-| Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
-| Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html) |
-| Simplifying tasks with metaprogramming in Python | [https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html](https://www.ibm.com/developerworks/analytics/library/ba-metaprogramming-python/index.html) |
-| Do you really think you know strings in Python?                        | [https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha](https://www.codementor.io/satwikkansal/do-you-really-think-you-know-strings-in-python-fnxh8mtha)                       |
-| Python practices for Efficient code:  Performance, Memory and Usablity | [https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65](https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65) |
-| Can Python Make you fly?                               | [https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu](https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu)                              |
-| Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
-| Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)                                      |
-|  Reinforcement Q-Learning from Scratch in Python with OpenAI Gym                           | [https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/)                                      |
-| Adding menu buttons to your messenger bot | [Link](/archives/posts/messenger/adding-menu-buttons-to-your-messenger-bot/)|
 
 
 And yes, please don't forget the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
