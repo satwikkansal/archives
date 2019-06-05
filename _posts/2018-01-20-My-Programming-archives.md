@@ -22,7 +22,9 @@ Here's an attempt to aggregate of all talks/posts till date.
 | Title                                                                  | Source                                                                                                                |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Scalablity challenges to the existing blockchain | [https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej](https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej) |
+| Distributed Machine Learning using PySpark | [https://scoutapm.com/blog/distributed-machine-learning-with-pyspark](https://scoutapm.com/blog/distributed-machine-learning-with-pyspark)
 | Automating your development workflow | [https://www.skysilk.com/blog/2019/automating-development-workflow-python/](https://www.skysilk.com/blog/2019/automating-development-workflow-python/) |
+| Machine learning at Scale | [https://www.codementor.io/blog/scaling-ml-6ruo1wykxf](https://www.codementor.io/blog/scaling-ml-6ruo1wykxf)
 | Advanced scraping in Python | [https://www.codementor.io/blog/python-web-scraping-63l2v9sf2q](https://www.codementor.io/blog/python-web-scraping-63l2v9sf2q) |
 | Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
 | Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html) |
