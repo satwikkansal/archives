@@ -50,8 +50,7 @@ Here's an attempt to aggregate of all talks/posts till date.
 
 ## Tutorials
 
-Video-course: [Hands-on Reinforcement Learning with Tensorflow](https://www.packtpub.com/application-development/hands-reinforcement-learning-tensorflow-video)
-
+Video-course: Hands-on Reinforcement Learning with Tensorflow [O'Reilly link](https://www.oreilly.com/search/?query=Satwik%20Kansal&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&include_collections=true&is_academic_institution_account=false&sort=relevance&facet_json=true&field=authors&page=0)
 
 
 And yes, please don't forget the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
