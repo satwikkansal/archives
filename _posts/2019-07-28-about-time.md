@@ -3,14 +3,13 @@ title: About time
 date: 2019-07-28 01:51:36 +05:30
 categories:
 - personal
-visible: true
 
 layout: single
 ---
 
 Hi.
 
-It's been almost eight months since my last post (which seems kind of egoistic now on reflecting back), and a lot has actually changed in last 2 months, I felt an urge (and managed the time) to pen down how I feel.
+It's been almost eight months since my last post (which seems kind of egoistic now on reflecting back). A lot has actually changed in last 2 months, so I felt an urge to pen down how I feel.
 
 Early 2019 was smooth, I became comfortable with my job, started watching a TV suites regularly (finally!), did some guest-blogging, did some cooking (also became vegan for two weeks, lol) a couple of road trips, a couple of family events (fortunate and unfortunate ones) and a wonderful Langkawi-Singapore trip (my first completely unsponsored trip in fact :p). No hackathons, no application to conferences to talk (I became so lazy I even declined an invitation to speak at one of the popular Indian tech conf). In short, I stopped buying into self-improvement story for a while, and just wanted to enjoy life as is with "let the life flow" like attitude.
 
@@ -20,7 +19,7 @@ Despite all of this, I just wanted to "stick" to it in a wish my opinions might 
 
 I don't like to plan things more than a year ahead (because that's just too much uncertainty, and a lot can change). And after considering all of my past experiences and how I felt about them, going in the direction of entrepreneurship seemed like an option. I have experienced the early-stage startup stints during my college days, developed a bunch of PoCs in hackathons, had a lot of ideas which I felt were cool (like everyone), and I loved fiddling around with cutting-edge technologies in general. So it all felt logical to give entrepreneurship a shot! The only concern was the logistics of it. I knew that if I'm about to get on to this path, I should have enough savings to survive for a year and smart connections (friends, colleagues or long acquaintances) who are willing to go through the grinding journey of a startup with me. For the savings path, I tried to pull-off some passive income stuff (t-shirt design selling, video courses, reselling of products or even domain, and whatnot), but I realized it was all too distracting and somewhat not possible in a little free time I get during the job. The only option was to wait for a few months more and save money and give myself a hard deadline to make the shift. 
 
-That's exactly what happened, and l also got to know about EF during that time, which I felt can solve that co-founder problem to some extent. And luckily, I got into it, and all dots seemed to connect. 
+That's exactly what happened, and l also got to know about EF (Entrepreneur First) during that time, which I felt can solve that co-founder problem to some extent. They have a slightly contrarian approach to entreprenuership, which I feel has its pros and sets them apart. And luckily, I got selected (:tada:), and all dots seemed to connect. My full-time job stint ended this Friday, and all negatives aside, I did meet a few amazing people there who made my journey smooth. I wish we stay in touch, and I'd get a chance to work with them again. 
 
 Few things that I realized in last eight months,
 
