@@ -15,6 +15,7 @@ Here are few of my posts (ordered by recency),
 
 | Title             | Published on | Source                                             |
 |-------------------|--------------|----------------------------------------------------|
+| About time | 2019-07-28 | [Link]()
 | A small celebration? | 2018-12-05 | [Link](/archives/posts/personal/python/A-small-celebration/)
 | Things to know about the rising pollution in Delhi-NCR | 2018-11-08 | [Link](https://medium.com/the-gullible-indian/things-to-know-about-rising-pollution-in-delhi-ncr-3b9474ef518a) |
 | Story of the last few months... | 2018-10-22 | [Link](/archives/posts/personal/story-of-last-few-months/)
@@ -30,7 +31,7 @@ Here are few of my posts (ordered by recency),
 
 ## Background story
 
-I used to be a humble-bragging jerk on social media by sharing posts of my achievements/places traveled and seeking gratification/validation in return from them. When I look back at my posts in retrospection, it feels like I was trying to create a "exciting image" of mine (like most people), but... I have  given up my old habits. I decided not to share stuff that's self-centered and un-interesting to people who are "loosely connected" to me on Facebook (after all, if it's just about me and not helpful to you, it's downright annoying and I'm wasting valuable time of a lot of people).
+I used to be a humble-bragging guy on social media by sharing posts of my achievements/places traveled and seeking gratification/validation in return from them. When I look back at my posts in retrospection, it feels like I was trying to create a "exciting image" of mine (like most people), but... I have  given up my old habits. I decided not to share stuff that's self-centered and un-interesting to people who are "loosely connected" to me on Facebook (after all, if it's just about me and not helpful to you, it's downright annoying and I'm wasting time of a lot of people).
 
 So, here's the alternate plan...
 
