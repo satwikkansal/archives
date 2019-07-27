@@ -13,7 +13,7 @@ title                    : "My Wayback Archives"
 title_separator          : "-"
 name                     : &my_name "Satwik Kansal"
 description              : >
-  Freelance Developer experienced in Data Science and Decentralized Applications.
+  An aspiring creative technologist.
 url                      : "https://satwikkansal.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/archives" # the subpath of your site, e.g. "/blog"
 repository               : "satwikkansal/satwikkansal.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
