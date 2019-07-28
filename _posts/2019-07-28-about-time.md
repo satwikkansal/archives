@@ -24,7 +24,8 @@ That's exactly what happened, and l also got to know about EF (Entrepreneur Firs
 Few things that I realized in last eight months,
 
 - That not just your heart, even your mind knows what's best for you. And if you give it enough time and data-points of experiences, it becomes good at judging when to go by the guts and when to let things flow as is (which I feel is necessary as well for the stability of your lifestyle).
-- The dots connect in unimaginable ways and give lessons that you couldn't have learned otherwise. You never know what activity you will influence your career. I started out writing just for fun and curiosity. One thing led to another, and over time, I got exposed to a lot of cool opportunities due to it. It feels so good when people say my posts helped the platforms to provide more value to their users and improve their user metrics. 
+- The dots connect in unimaginable ways and give lessons that you couldn't have learned otherwise. You never know what activity you will influence your career. I started out writing just for fun and curiosity. One thing led to another, and over time, I got exposed to a lot of cool opportunities due to it. It feels so good when people say my posts helped the platforms to provide more value to their users and improve their user metrics.
+- On similar lines, almost everytime, things won't turn out how you expect them to be. I anticipated this moment of leaving my job for doing something independently from the very moment I joined it. I might have spent hundreds of hours playing these scenarios in mind, but the reality took an entirely differnt path.
 - I realized that having a degree is almost certainly not a mandatory thing to have for excelling in tech. Three professors reached out to me if they can use my material for teaching their students. And I learned all that stuff by crawling my way through the internet (documentation, blogs, StackExchange threads, Reddit, youtube, and what not). Of course, you can fast-pace the learning process in a well-designed course in a good environment, but not being able to access/afford that doesn't mean that it's impossible. I can relate this thing EF as well, I see it as an opportunity to fast-pace some of the aspects of entrepreneurship (finding co-founders, getting pre-seed investment, mentoring, etc.), but I'm also prepared for the hard(est) way as well.
 
 What's next?
@@ -34,4 +35,4 @@ What's next?
 - Better time management; I have abstained from social media and news for a long time now so that I could focus on a few things. I want to continue that. And I do realize that time's the thing I have to optimize my work for in the coming days. So not expecting any more blog posts during the EF (next three months).
 - Also, work sporadically on next wtfpython iteration (coming with a big surprise).
 
-Well, that's about all. Until next time...
+Well, that's about all. In short, I've temporarily burned all the bridges (job, guest-blogging, freelancing, mentoring) to just focus on EF. Let's see how it goes. Until next time...
