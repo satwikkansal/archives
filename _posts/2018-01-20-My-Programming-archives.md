@@ -11,7 +11,7 @@ tags:
 - data-science
 
 read_time: False
-skip_date: True
+show_date: False
 
 layout: single
 ---
@@ -44,12 +44,12 @@ Here's an attempt to aggregate of all talks/posts till date.
 
 | Title                                                                 | Event                                                                                 | Content                                                                                                                                   |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Distributed Machine Learning using Apache Spark (3 hrs)                           | [Pycon India 2019](https://in.pycon.org/2019/)                                        | [Link](https://in.pycon.org/cfp/workshops-2019/proposals/distributed-machine-learning-in-python-using-apache-spark~e5vBa/)                            |
 | Your fist Open Source contribution at coala                           | [Pycon India 2017](https://in.pycon.org/2017/)                                        | [Link](https://in.pycon.org/cfp/dev-sprint-2017/proposals/your-first-open-source-contribution-at-coala~elE1a/)                            |
 | Blockchain, Cryptocurrencies, Decentralized Applications, and beyond! | [IWD-Delhi 2018](https://www.meetup.com/GDGNewDelhi/events/248254135/)                | [Speaker Deck](https://speakerdeck.com/satwikkansal/blockchain-cryptocurrencies-decentralized-applications-and-beyond)                    |
 | Do you really think you know strings in Python?                       | [PyDelhi](https://www.meetup.com/pydelhi/events/248955397/)                           | [Speaker Deck](https://speakerdeck.com/satwikkansal/do-you-really-think-you-know-strings-in-python)                                       |
 | Developing a self-learning snake game in Python                       | [EuroPython 2017](https://ep2017.europython.eu/en/)                                   | [Link](https://ep2017.europython.eu/conference/talks/developing-a-self-learning-snake-game-using-reinforcement-learning) Undelivered :( |
 |   GSoC, Open Source,  and Python                                      | [DTU Open Source Software Development SIG](https://www.facebook.com/groups/dtuosssig) | [Slides and Resources](https://gist.github.com/satwikkansal/f63068423f5e76d57c0c077ca822d7ff)                                            |
+| Distributed Machine Learning using Apache Spark (3 hrs)                           | [Pycon India 2019](https://in.pycon.org/2019/)                                        | [Link](https://in.pycon.org/cfp/workshops-2019/proposals/distributed-machine-learning-in-python-using-apache-spark~e5vBa/)                            |
 
 ## Tutorials
 
