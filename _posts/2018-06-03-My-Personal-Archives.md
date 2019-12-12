@@ -1,10 +1,10 @@
 ---
-title: My Personal Archives!
-date: 2018-06-03 12:40:36 +05:30
+title: Personal Archives
 visible: True
 categories:
 - personal
 read_time: False
+skip_date: True
 
 layout: single
 ---
