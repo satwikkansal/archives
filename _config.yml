@@ -258,7 +258,7 @@ defaults:
       author_profile: true
       read_time: true
       show_date: true
-      comments: true
+      comments: false
       share: true
       weight: 1
 related: true
