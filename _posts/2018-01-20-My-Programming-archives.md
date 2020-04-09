@@ -16,12 +16,14 @@ show_date: False
 layout: single
 ---
 
-Here's an attempt to aggregate of all talks/posts till date.
+Here's an attempt to aggregate of all the talks/posts till date (in no particular order, updated once in a while).
 
 ## Articles
 
 | Title                                                                  | Source                                                                                                                |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+|  Reinforcement Q-Learning from Scratch in Python with OpenAI Gym                           | [https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) | 
+| Build an IoT system using an old smartphone and IBM Cloud                                     | [https://developer.ibm.com/tutorials/iot-lp201-build-door-monitoring-system/](https://developer.ibm.com/tutorials/iot-lp201-build-door-monitoring-system/)
 | Scalablity challenges to the existing blockchain | [https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej](https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej) |
 | Identifying bottlenecks and optimizing performance in a Python codebase | [https://scoutapm.com/blog/identifying-bottlenecks-and-optimizing-performance-in-a-python-codebase](https://scoutapm.com/blog/identifying-bottlenecks-and-optimizing-performance-in-a-python-codebase)
 | Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
@@ -37,8 +39,19 @@ Here's an attempt to aggregate of all talks/posts till date.
 | Can Python Make you fly?                               | [https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu](https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu)                              |
 | Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
 | Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)                                      |
-|  Reinforcement Q-Learning from Scratch in Python with OpenAI Gym                           | [https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/)                                      |
 | Adding menu buttons to your messenger bot | [Link](/archives/posts/messenger/adding-menu-buttons-to-your-messenger-bot/)|
+| Python versus Java: Attempt to compare two popular programming languages | [https://scoutapm.com/blog/python-vs-java](https://scoutapm.com/blog/python-vs-java)
+
+
+**The co-authored ones**
+
+
+| Title                                                                  | Source                                                                                                                |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| Top 10 IoT security challenges | [https://developer.ibm.com/articles/iot-top-10-iot-security-challenges/](https://developer.ibm.com/articles/iot-top-10-iot-security-challenges/) 
+| Managing your IoT devices | [https://developer.ibm.com/tutorials/iot-lp301-iot-device-management/](https://developer.ibm.com/tutorials/iot-lp301-iot-device-management/)
+| Making sense of IoT data | [https://developer.ibm.com/tutorials/iot-lp301-iot-manage-data/](https://developer.ibm.com/tutorials/iot-lp301-iot-manage-data/)
+| Simplify the development of your IoT solutions with IoT architectures | [https://developer.ibm.com/articles/iot-lp201-iot-architectures/](https://developer.ibm.com/articles/iot-lp201-iot-architectures/)
 
 
 ## Talks
@@ -52,7 +65,7 @@ Here's an attempt to aggregate of all talks/posts till date.
 |   GSoC, Open Source,  and Python                                      | [DTU Open Source Software Development SIG](https://www.facebook.com/groups/dtuosssig) | [Slides and Resources](https://gist.github.com/satwikkansal/f63068423f5e76d57c0c077ca822d7ff)                                            |
 | Distributed Machine Learning using Apache Spark (3 hrs)                           | [Pycon India 2019](https://in.pycon.org/2019/)                                        | [Link](https://in.pycon.org/cfp/workshops-2019/proposals/distributed-machine-learning-in-python-using-apache-spark~e5vBa/)                            |
 
-## Tutorials
+## Videos
 
 Video-course: Hands-on Reinforcement Learning with Tensorflow [O'Reilly link](https://www.oreilly.com/search/?query=Satwik%20Kansal&extended_publisher_data=true&highlight=true&include_assessments=false&include_case_studies=true&include_courses=true&include_orioles=true&include_playlists=true&include_collections=true&is_academic_institution_account=false&sort=relevance&facet_json=true&field=authors&page=0)
 
