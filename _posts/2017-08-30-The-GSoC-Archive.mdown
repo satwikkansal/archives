@@ -18,6 +18,9 @@ As a part of Google Summer of Code program, I was supposed to write biweekly wor
 
 Anyways, the following post contains all my GSoC blog updates in chronological order. The final offical report for my GSoC project [here](https://summerofcode.withgoogle.com/archive/2017/projects/6208607959908352/) and [here](https://gist.github.com/satwikkansal/b72265a0d0ec678b9291ea8e21a398ec).
 
+
+PS: *If you're a GSoC aspirant, this post will give you a gist of what it's like to go through the GSoC program, I'd also suggest you to read [What "NOT" to expect from GSoC](https://medium.com/@satwikkansal/what-not-to-expect-from-google-summer-of-code-b79034f24ecf)*
+
 Alright, here we go...
 
 - [My GSoC story begins](#My-GSoC-story-begins)
