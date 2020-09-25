@@ -4,7 +4,8 @@ main:
     url: https://www.satwikkansal.xyz
   - title: "About Me"
     url: http://www.satwikkansal.xyz/about
-  - title: "Projects"
-    url: https://github.com/satwikkansal
-  - title: "CV"
-    url: https://bit.ly/cvsatwik
+  - title: "Hire me"
+    url: http://www.satwikkansal.xyz/work-together
+
+# - title: "CV"
+#   url: https://bit.ly/cvsatwik
