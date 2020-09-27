@@ -18,6 +18,7 @@ layout: single
 
 Here's an attempt to aggregate of all the talks/posts till date (in no particular order, updated once in a while).
 
+
 ## Articles
 
 | Title                                                                  | Source                                                                                                                |
@@ -69,3 +70,6 @@ Here's an attempt to aggregate of all the talks/posts till date (in no particula
 
 
 And yes, please don't forget the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
+
+
+*PS: I create most of the content on Freelance basis. If you liked some of the content listed above, and would like to have content designed for your platform, you can check out [DevWriters](https://www.devwriters.com).*
