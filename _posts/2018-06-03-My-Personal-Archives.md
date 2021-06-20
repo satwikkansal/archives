@@ -1,20 +1,22 @@
 ---
 title: Personal Archives
 visible: True
-categories:
-- personal
 read_time: False
 skip_date: True
+
+last_modified_at: 2021-06-20
 
 layout: single
 ---
 
-Hi, this is my personal space where I share some of my experiences/learnings/rants as time passes by,
+This is where I share references to some of my experiences/perspectives/rants about modern life.
 
 Here are few of my posts (ordered by recency),
 
 | Title             | Published on | Source                                             |
 |-------------------|--------------|----------------------------------------------------|
+| The Itch | 2021-06-21 | [Link](/archives/personal/the-itch) | 
+| Don’t HODL the ₿ear! | 2021-06-19 | [Link](https://satwikkansal.medium.com/dont-hodl-the-ear-8636ee9ca2d0) | 
 | Can stealing digitally be a good strategy? | 2020-07-03 | [Link](https://medium.com/@satwikkansal/can-stealing-be-a-good-strategy-75e5dcb473ea) |
 | Reading, fast and slow| 2020-06-18 | [Link](https://medium.com/@satwikkansal/reading-fast-and-slow-f3b5c41d444d) |
 | The paradox of "choice" | 2020-01-29 | [Link](https://medium.com/@satwikkansal/the-paradox-of-choice-673ffc6271ce) |

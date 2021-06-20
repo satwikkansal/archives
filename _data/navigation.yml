@@ -1,11 +1,12 @@
 # main links
 main:
-  - title: "Website"
-    url: https://www.satwikkansal.xyz
-  - title: "About Me"
-    url: http://www.satwikkansal.xyz/about
-  - title: "Hire me"
-    url: http://www.satwikkansal.xyz/work-together
-
-# - title: "CV"
-#   url: https://bit.ly/cvsatwik
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

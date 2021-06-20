@@ -1,14 +1,7 @@
 ---
-title: Talks and publications
-date: 2019-07-08 12:40:36 +05:30
+title: Tech Archives
+date: 2020-09-18 12:40:36 +05:30
 visible: True
-categories:
-- programming
-tags:
-- python
-- optimization
-- blockchain
-- data-science
 
 read_time: False
 show_date: False
@@ -16,7 +9,7 @@ show_date: False
 layout: single
 ---
 
-Here's an attempt to aggregate of all the talks/posts till date (in no particular order, updated once in a while).
+Here's an attempt to aggregate of all the talks, guest-blogs, and personal posts related to technology (in no particular order, updated once in a while).
 
 
 ## Articles
@@ -72,4 +65,4 @@ Here's an attempt to aggregate of all the talks/posts till date (in no particula
 And yes, please don't forget the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
 
 
-*PS: I create most of the content on Freelance basis. If you liked some of the content listed above, and would like to have content designed for your platform, you can check out [DevWriters](https://www.devwriters.com).*
+*PS: I create most of the content on Freelance basis. You can check out [DevWriters](https://www.devwriters.com) to know more about how that works.*
