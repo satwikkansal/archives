@@ -15,6 +15,7 @@ Here are few of my posts (ordered by recency),
 
 | Title             | Published on | Source                                             |
 |-------------------|--------------|----------------------------------------------------|
+| Parting off 2021 | 2022-01-01 | [Link](https://www.satwikkansal.xyz/archives/personal/Parting-off-2021/) |
 | The Itch | 2021-06-21 | [Link](/archives/personal/the-itch) | 
 | Don’t HODL the ₿ear! | 2021-06-19 | [Link](https://satwikkansal.medium.com/dont-hodl-the-ear-8636ee9ca2d0) | 
 | Can stealing digitally be a good strategy? | 2020-07-03 | [Link](https://medium.com/@satwikkansal/can-stealing-be-a-good-strategy-75e5dcb473ea) |
