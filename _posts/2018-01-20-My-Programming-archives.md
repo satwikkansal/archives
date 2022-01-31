@@ -16,12 +16,14 @@ Here's an attempt to aggregate of all the talks, guest-blogs, and personal posts
 
 | Title                                                                  | Source                                                                                                                |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| A gentle introduction to Reinforcement Learning | [https://dev.to/satwikkansal/a-gentle-introduction-to-reinforcement-learning-75h](https://dev.to/satwikkansal/a-gentle-introduction-to-reinforcement-learning-75h) |
+| Get started developing IoT solutions by building a simple home automation system | [https://developer.ibm.com/tutorials/iot-lp101-get-started-develop-iot-home-automation/](https://developer.ibm.com/tutorials/iot-lp101-get-started-develop-iot-home-automation/) |
 |  Reinforcement Q-Learning from Scratch in Python with OpenAI Gym                           | [https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/](https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/) | 
-| Build an IoT system using an old smartphone and IBM Cloud                                     | [https://developer.ibm.com/tutorials/iot-lp201-build-door-monitoring-system/](https://developer.ibm.com/tutorials/iot-lp201-build-door-monitoring-system/)
+| Build an IoT system using an old smartphone and IBM Cloud                                     | [https://developer.ibm.com/tutorials/iot-lp201-build-door-monitoring-system/](https://web.archive.org/web/20210607001209/https://developer.ibm.com/tutorials/iot-lp201-build-door-monitoring-system/)
 | Scalablity challenges to the existing blockchain | [https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej](https://www.codementor.io/blog/blockchain-scalability-5rs5ra8eej) |
 | Identifying bottlenecks and optimizing performance in a Python codebase | [https://scoutapm.com/blog/identifying-bottlenecks-and-optimizing-performance-in-a-python-codebase](https://scoutapm.com/blog/identifying-bottlenecks-and-optimizing-performance-in-a-python-codebase)
 | Merkle Trees: What they are and the problems they solve | [https://www.codementor.io/blog/merkle-trees-5h9arzd3n8](https://www.codementor.io/blog/merkle-trees-5h9arzd3n8) |
-| Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html)|
+| Develop a blockchain application from scratch in Python | [https://www.ibm.com/developerworks/cloud/library/cl-develop-blockchain-app-in-python/index.html](https://github.com/satwikkansal/python_blockchain_app)|
 | Distributed Machine Learning using PySpark | [https://scoutapm.com/blog/distributed-machine-learning-with-pyspark](https://scoutapm.com/blog/distributed-machine-learning-with-pyspark)
 | Machine learning at Scale | [https://www.codementor.io/blog/scaling-ml-6ruo1wykxf](https://www.codementor.io/blog/scaling-ml-6ruo1wykxf)
 | Automating your development workflow | [https://www.skysilk.com/blog/2019/automating-development-workflow-python/](https://www.skysilk.com/blog/2019/automating-development-workflow-python/) |
@@ -32,12 +34,12 @@ Here's an attempt to aggregate of all the talks, guest-blogs, and personal posts
 | Python practices for Efficient code:  Performance, Memory and Usablity | [https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65](https://www.codementor.io/satwikkansal/python-practices-for-efficient-code-performance-memory-and-usability-aze6oiq65) |
 | Can Python Make you fly?                               | [https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu](https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu)                              |
 | Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
-| Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)                                      |
-| Adding menu buttons to your messenger bot | [Link](/archives/posts/messenger/adding-menu-buttons-to-your-messenger-bot/)|
 | Python versus Java: Attempt to compare two popular programming languages | [https://scoutapm.com/blog/python-vs-java](https://scoutapm.com/blog/python-vs-java) |
 | Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)              |
 | Extracting and Visualizing Your Shopify Data   | [https://www.xplenty.com/blog/extracting-visualizing-shopify-data-part-2/](https://www.xplenty.com/blog/extracting-visualizing-shopify-data-part-2/) |
 | Video-course: Hands-on Reinforcement Learning with Tensorflow | [https://github.com/PacktPublishing/-Hands-on-Reinforcement-Learning-with-TensorFlow](https://github.com/PacktPublishing/-Hands-on-Reinforcement-Learning-with-TensorFlow)
+
+
 
 **The co-authored ones**
 
@@ -62,7 +64,7 @@ Here's an attempt to aggregate of all the talks, guest-blogs, and personal posts
 | Distributed Machine Learning using Apache Spark (3 hrs)                           | [Pycon India 2019](https://in.pycon.org/2019/)                                        | [Link](https://www.linkedin.com/posts/satwikkansal_distributed-machine-learning-in-python-using-activity-6568734177905213440-Knr2)                            |
 
 
-And yes, please don't forget the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
+And of course, the giant **[What the f*ck Python!](https://github.com/satwikkansal/wtfpython)**.
 
 
-*PS: I create most of the content on Freelance basis. You can check out [DevWriters](https://www.devwriters.com) to know more about how that works.*
+*PS: I create most of the content on Freelance basis, which means I don't have any ownership rights. These companies may change their content strategies, so the linked content may keep changing. You can always find the original content on wayback machine. If you'd like to know more about how content creation collaboration works, you can check out [DevWriters](https://www.devwriters.com).*
