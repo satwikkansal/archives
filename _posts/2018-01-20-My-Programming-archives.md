@@ -35,7 +35,6 @@ Here's an attempt to aggregate of all the talks, guest-blogs, and personal posts
 | Can Python Make you fly?                               | [https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu](https://www.codementor.io/satwikkansal/can-python-make-you-fly-fuolx8uxu)                              |
 | Getting started with scraping in Python                                | [https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f](https://www.codementor.io/satwikkansal/getting-started-with-scraping-in-python-azebpcv0f)                              |
 | Python versus Java: Attempt to compare two popular programming languages | [https://scoutapm.com/blog/python-vs-java](https://scoutapm.com/blog/python-vs-java) |
-| Common Python interview questions                                      | [https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/](https://satwikkansal.wordpress.com/2016/12/24/common-python-interview-questions/)              |
 | Extracting and Visualizing Your Shopify Data   | [https://www.xplenty.com/blog/extracting-visualizing-shopify-data-part-2/](https://www.xplenty.com/blog/extracting-visualizing-shopify-data-part-2/) |
 | Video-course: Hands-on Reinforcement Learning with Tensorflow | [https://github.com/PacktPublishing/-Hands-on-Reinforcement-Learning-with-TensorFlow](https://github.com/PacktPublishing/-Hands-on-Reinforcement-Learning-with-TensorFlow)
 
