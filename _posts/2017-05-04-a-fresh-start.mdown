@@ -9,7 +9,7 @@ tags:
 layout: single
 excerpt_separator: "<!--more-->"
 ---
-After mashing up 3-4 jekyll themes and doing few modifications over the past month, I ended up with the new design of my [website](http://www.satwikkansal.xyz) ,shifted my blog from [wordpress](https://www.satwikkansal.wordpress.com) to [jekyll](http://satwikkansal.xyz/blog), and created a [portfolio](http://satwikkansal.xyz/projects) to share my projects. All of this was a long overdue (and still a lot of stuff to implement) but I think the basic structure is ready right now. 
+After mashing up 3-4 jekyll themes and doing few modifications over the past month, I ended up with the new design of my [website](http://www.github.io) ,shifted my blog from [wordpress](https://www.satwikkansal.wordpress.com) to [jekyll](http://satwikkansal.github.io/blog), and created a [portfolio](http://satwikkansal.github.io/projects) to share my projects. All of this was a long overdue (and still a lot of stuff to implement) but I think the basic structure is ready right now. 
 
 The reason I called this post a "Fresh Beginning" is <!--more--> there are lots of things that I'm planning to do (**strictly** :sweat_smile:) from next month onwards. Few of them are:
 
