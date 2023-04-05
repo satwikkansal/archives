@@ -115,6 +115,8 @@ These roads have several intersections, which makes it confusing to find the pat
 
 ---
 
-PS: This is an old post that was sitting incomplete for months. There's too much that can be said about money, a lot of which is mainstream knowledge these days, so it felt difficult to write something different. However, a half-baked post is still better than an abandoned one, so I decided to make changes here and there and publish it anyway. 
+**PS:** This is an old post that was sitting incomplete for months. There's too much that can be said about money, a lot of which is mainstream knowledge these days, so it felt difficult to write something different. However, a half-baked post is still better than an abandoned one, so I decided to make changes here and there and publish it anyway. 
 
-In hindsight, I think I'd summarize the takeaway as "sometimes the only thing that's between your portfolio and growth, is your always-improvising brain", I've found this to be true for most people I've discussed the topic with. That being said, I still actively trade, because a part of investing is about making predictions about the future, which is something I enjoy, hooking money to it (in limited amount) adds some sports like seriousness to it. There may be opportunities to make life-changing money, but my experiences chasing them have been futile, so that craving has stopped for me!
+In hindsight, I think I'd summarize the takeaway as "sometimes the only thing that's between your portfolio and growth, is your always-improvising brain", I've found this to be true for most people I've discussed the topic with. 
+
+That being said, I still actively trade, because a part of investing is about making predictions about the future, which is something I enjoy, hooking money to it (in LIMITED amounts) adds some sports like seriousness to it. There may be opportunities to make life-changing money, but my experiences chasing them have been futile, so that craving has finally stopped for me!
