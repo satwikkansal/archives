@@ -15,6 +15,8 @@ Here are few of my posts (ordered by recency),
 
 | Title             | Published on | Source                                             |
 |-------------------|--------------|----------------------------------------------------|
+| Outperforming Warren Buffet | 2023-04-05 | [Link](/personal/outperforming-warren-buffet/) |
+| The Itch | 2021-06-21 | [Link](/personal/the-itch) | 
 | Parting off 2021 | 2022-01-01 | [Link](/personal/Parting-off-2021/) |
 | The Itch | 2021-06-21 | [Link](/personal/the-itch) | 
 | Don’t HODL the ₿ear! | 2021-06-19 | [Link](https://satwikkansal.medium.com/dont-hodl-the-ear-8636ee9ca2d0) | 
