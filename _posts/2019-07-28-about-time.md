@@ -7,6 +7,8 @@ categories:
 layout: single
 ---
 
+**2023 Update:** I wrote this blog post when I left my first (and only) full-time job in 2019. I whined about the things I didn't like about my job (of which there were lot). After spending time hiring people, leading dev teams, distributing work to people, being responsible for lot of things at the same time, I realise how hard it is to get those things in place and ensure smooth functioning. Of course this is no excuse for not having the right work-environment and culture, but it now makes me have a deep appreciation for companies who have figured out how to do it. Anyways, back to the original post :)
+
 Hi.
 
 It's been almost eight months since my last post (which seems kind of egoistic now on reflecting back). A lot has actually changed in last 2 months, so I felt an urge to pen down how I feel.

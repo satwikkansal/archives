@@ -11,6 +11,9 @@ layout: single
 excerpt_separator: "<!--more-->"
 ---
 
+**2023 Update:** I was very proud when I wrote this post, so much so I might have humble-bragged a little too much :p For a long time, I beleived my Python and Writing skills were what led this project to be popular. But looking back now, I realise a lot of success of wtfpython can be attributed to me being the first one putting up such a project. That's not to discount the effort I put into it at the time, or that I don't know Python (to me it's a language I've been using everyday since 2016), but to acknowledge that the timing was the multiplier that made the project spread so quickly. I didn't get this luck again, at least so far :) 
+
+
 Hi there!
 
 Today calls for celebration for a couple of reasons. Firstly, it's my mom's birthday and secondly, one of my stupid little project just achieved 10k stars on Github.
