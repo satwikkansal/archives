@@ -6,7 +6,7 @@ categories:
 read_time: True
 layout: single
 excerpt_separator: "<!--more-->"
-visible: true
+visible: false
 ---
 
 If there's one thing that's very universal across humans, it's the desire to keep progressing. We want to keep getting better results. And I have the desire too, from as far back as I can remember. During childhood, I used to live in a locality where education wasn't the common goal, but at the same time, my well-educated parents made sure I get a good education. And as far as hobbies go, I just had one obsession, and that was playing cricket.
