@@ -152,3 +152,6 @@ In summary, I find the idea of converting your resources to someone else's luck 
 > "If everyone is moving forward together, then success takes care of itself." - Henry Ford
 
 > "No man is an island, entire of itself; every man is a piece of the continent." - John Donne
+
+
+PS: Goes without saying, the post is somewhat opinionated take on the topic. It's a current snapshot of my thoughts on the topic, and I'm sure it'll evolve over time. My intention with writing it down is to put it out there and get feedback. So yeah, if you feel anything can be added, updated or removed to make it better, let me know :)
